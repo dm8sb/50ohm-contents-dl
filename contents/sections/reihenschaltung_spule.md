@@ -1,11 +1,11 @@
 Bei einer Spule in Reihenschaltung addieren sich die Induktivitäten.
 
-$L_\text{G} = L_1 + L_2 + L_3 + ... + L_n$
+$L_\text{G} = L_1 + L_2 + L_3 + \dots$
 <margin>
 [photo:291:a_Spule mit Anzapfungen:Spule mit 14 Anzapfungen in einem selbstgebauten Antennenanpassgerät]
 Die Teilabschnitte zwischen den Anzapfungen können wie einzelne Spulen gesehen werden, deren Induktivität, durch Umschaltung der Anzapfungen,  in Schritten erhöht werden kann. Die Reihenschaltung aller Teilabschnitte ergibt dann die Induktivität der Gesamtspule.
 </margin>
-Mit der Gesamtinduktivität $L_\text{G}$, und den Einzelinduktivitäten $L_1$, $L_2$, $L_3$, ... bis $L_n$
+Mit der Gesamtinduktivität $L_\text{G}$, und den Einzelinduktivitäten $L_1, L_2, L_3, \dots$
 
 Veranschaulicht werden kann es dadurch, dass man sich einfach mehrere gleichartige Spulten hintereinander vorstellt. Dabei addieren sich die Windungen der Spule. Elektrisch wirkt die Kombination von zwei gleichen Spulen wie eine entsprechend längere Spule.
 

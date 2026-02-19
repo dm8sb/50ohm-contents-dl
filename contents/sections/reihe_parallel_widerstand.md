@@ -20,7 +20,7 @@ $R_{ges} = \frac{U_g}{I} = R_1 + R_2$, weil sich auf beiden Seiten der Gleichung
 
 Das Ganze funktioniert auch bei mehr als zwei Widerständen, wie in der Formelsammlung dargestellt:
 
-$R_{ges} = R_1 + R_2 + R_3 + R_4 + ...$
+$R_{ges} = R_1 + R_2 + R_3 + R_4 + \dots$
 
 ---
 
@@ -50,7 +50,7 @@ Der Kehrwert des Gesamtwiderstands ist also die Summe der Kehrwerte der Einzelwi
 
 Auch hier können wir die Berechnung für beliebig viele parallele Widerstände durchführen (vgl. Formelsammlung):
 
-$\dfrac{1}{R_{ges}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + ...$
+$\dfrac{1}{R_{ges}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + \dots$
 
 Den Ausdruck für zwei parallele Widerstände können wir nach den Regeln der Bruchrechnung auch schreiben als:
 

@@ -10,7 +10,7 @@ Durch die Paralelschaltung stehen sich mehr Platten gegenüber und somit erhöht
 
 Bei einer Parallelschaltung von gleich großen Kondensatoren verdoppelt sich die Kapazität, die Spannungsfestigkeit bleibt gleich. Selbstverständlich kann man die Gesamtkapazität berechnen. Die Formel finden wir in der Formelsammlung:
 
-$C_{G} = C_{1} + C_{2} + C_{3} + ...$
+$C_{G} = C_{1} + C_{2} + C_{3} + \dots$
 
 <tip>
 Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleinste Einzelkapazität.
