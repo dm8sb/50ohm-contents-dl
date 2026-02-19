@@ -6,7 +6,7 @@ Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu ze
 <margin>
 Wenn alle Widerstände gleich groß sind und durch $R_3$ ein Strom von 1mA fließt, dann muss durch $R_2$ auch der gleiche Strom fließen, also auch 1mA. Beide Ströme müssen in der Summe durch $R_1$ fließen.
 Alles klar?
-Wie komme ich nun auf die Gesamtspannung U?
+Wie komme ich nun auf die Gesamtspannung $U$?
 Diese Spannung muss so groß sein, dass durch den Gesamtwiderstand auch der Gesamtstrom fließen kann. Der Gesamtstrom entspricht dem Strom durch $R_1$.
 Eine kleine Formel hilft nun bei der Berechnung. $U = I \cdot R = \qty{2}{\milli\ampere} \cdot \qty{15}{\kilo\ohm}$
 </margin>
