@@ -10,7 +10,7 @@ Durch die Paralelschaltung stehen sich mehr Platten gegenüber und somit erhöht
 
 Bei einer Parallelschaltung von gleich großen Kondensatoren verdoppelt sich die Kapazität, die Spannungsfestigkeit bleibt gleich. Selbstverständlich kann man die Gesamtkapazität berechnen. Die Formel finden wir in der Formelsammlung:
 
-$C_{ G } = C_{ 1 } + C_{ 2 } + C_{ 3 } + ...$
+$C_{G} = C_{1} + C_{2} + C_{3} + ...$
 
 <tip>
 Die Gesamtkapazität ist bei der Parallelschaltung immer größer als die kleinste Einzelkapazität.
@@ -39,7 +39,7 @@ Als Verständnistest kann die nächste Aufgabe verwendet werden.
 
 Bei einer Reihenschaltung von Kondensatoren, wie in Abbildung [ref:e_3C-parallel] gezeigt, erhöht sich die Spannungsfestigkeit, allerdings verringert sich die Kapazität. Selbstverständlich kann man wieder die Gesamtkapazität berechnen. Diese ist sehr ähnlich zur Parallelschaltung von Widerstanden:
 
-$\frac{ 1 }{ C_{ G } } = \frac{ 1 }{ C_{ 1 } } + \frac{ 1 }{ C_{ 2 } } + \frac{ 1 }{ C_{ 3 } }$
+$\frac{1}{C_{G}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 <margin>
 [picture:823:e_3C-parallel:Reihenschaltung von 3 Kondensatoren] 
@@ -66,7 +66,7 @@ Wenn alle Kondensatoren gleiche Kapazitätswerte haben, dann kann man die Gesamt
 Bei der Reihenschaltung von Kondensatoren in der folgenden Aufgabe findet man $\unit{\mu\farad}$ und $\unit{\nano\farad}$ als Vorsilbe. Es ist sehr sinnvoll, $\qty{200000}{\nano\farad}$ zuerst in $\qty{200}{\mu\farad}$ umzuwandeln. Bei einer Reihenschaltung kann man nun die Formel aus der Formelsammlung anwenden.
 
 
-$C_{ G } =\frac{1}{ \frac{ 1 }{ 100 \  µF } + \frac{ 1 }{ 50\  µF } + \frac{ 1 }{ 100\  µF }}$
+$C_{G} = \frac{1}{\frac{1}{100 \  µF} + \frac{1}{50\  µF} + \frac{1}{100\  µF}}$
 
 [question:ED120]
 
@@ -90,7 +90,7 @@ Die weiteren Aufgaben ähnlich und leicht lösbar.
 %Lösungshilfen:
 %
 %*ED 118:* Reihenschaltung von 22 nF, 0,033 µF = 33 nF und 15 000 pF = 15 nF.
-%$\frac{ 1 }{ C_ G } = \frac{ 1 }{22 } + \frac{ 1 }{33} + \frac{ 1 }{ 15 }$
+%$\frac{1}{C_G} = \frac{1}{22} + \frac{1}{33} + \frac{1}{15}$
 %Eigentlich muss man nicht rechnen, denn es gibt nur ein Ergebnis, das kleiner als 15 nF ist.
 %*ED 120:* 50 µF 
 %*ED 122:* $C_2$ = 1 µF und $C_3$ = 1 µF in Parallelschaltung ergibt zusammen 2 µF. Dazu $C_1$ = 2 µF in Reihe %ergibt die Hälfte , also 1 µF.

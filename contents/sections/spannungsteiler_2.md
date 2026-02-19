@@ -19,16 +19,16 @@ Angenommen: Alle Widerstände haben einen Wert von 1 kOhm und die Gesamtspannung
  *unbelasteter Fall:*
  Ohne Rechnung ist sofort zu sehen: An jedem Widerstand können 6 V gemesen werden.
  Der Gesamtwiderstand $R_{ges}$ beträgt: 2 kOhm
- $\dfrac{ U_{ges1 } }{ U_{ 2 } } = \frac{R_{ges }}{R_{2}}$
- Der Gesamtstrom $I_1$ beträgt:  $I_1$ = $ \frac {U_B}{R_{ges}}$ 
- $I_1$ =$ \frac {12\ \text{V}}{2\ \text{k}\Omega}$ = 6 mA.  Dieser Strom fließt auch durch $R_2$.
+ $\dfrac{U_{ges1}}{U_{2}} = \frac{R_{ges}}{R_{2}}$
+ Der Gesamtstrom $I_1$ beträgt:  $I_1$ = $\frac{U_B}{R_{ges}}$ 
+ $I_1$ =$ \frac{12\ \text{V}}{2\ \text{k}\Omega}$ = 6 mA.  Dieser Strom fließt auch durch $R_2$.
  Die Verlustleistung ist an beiden Widerständen gleich groß: $P_1$ = $P_2$ = 6 V $\cdot\  6 \text{mA}$ = 36 mW
  
  *belasteter Fall:*
   Die Parallelschaltung von $R_2$ und $R_L$ ergibt einen Ersatzwiderstand von 500 Ohm.
   Der Gesamtwiderstand des Spannungsteilers beträgt nun 1, 5 kOhm. Jetzt wirkt eine Spannungsteiler mit 1 kOhm zu 500 Ohm und dementsprechend teilt sich die Gesamtspannung auf.
   2/3 der Gesamtspannung kann an $R_1$ und 1/3 der Gesamtspannung kann an 500 Ohm gemessen werden.
-  Formel: $\frac {U_1}{U_{ges}} =  \frac {R_{1}}{R_{ges}}   \  \ \    U_1 = U_{ges} * \frac {R_1}{R_{ges}}$ 
+  Formel: $\frac{U_1}{U_{ges}} =  \frac{R_{1}}{R_{ges}}   \  \ \    U_1 = U_{ges} * \frac{R_1}{R_{ges}}$ 
   $U_1$ = 12 V  * ${\frac {1 \ \text{k}\Omega}{1,5\  \text{k}\Omega}}$
   $U_1$ = 8 V  und am 500 Ohm Ersatzwiderstand 12 V - 8 V = 4 V. 
   

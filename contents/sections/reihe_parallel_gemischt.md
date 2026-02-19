@@ -8,7 +8,7 @@ Schwieriger ist die Berechnung einer Reihenschaltung von 3 Kondensatoren.
 
 Bei der folgenden Aufgabe hat die kleinste Kapazität den Wert 22 pF.
 Die Gesamtkapazität muss deshalb kleiner als 22 pF sein. Da in der Lösung zwei Ergebnisse unter 22pF zu finden sind, ist keine Abschätzung möglich, sondern es ist eine Rechnung notwendig.
-$\frac{ 1 }{ C_{ G } } = \frac{ 1 }{ C_{ 1 } } + \frac{ 1 }{ C_{ 2 } } + \frac{ 1 }{ C_{ 3 } }$
+$\frac{1}{C_{G}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 (siehe Formelsammlung Seite 236 unten -  Stichwort: Kondensatoren in Reihenschaltung )
 
 
@@ -19,7 +19,7 @@ $\frac{ 1 }{ C_{ G } } = \frac{ 1 }{ C_{ 1 } } + \frac{ 1 }{ C_{ 2 } } + \frac{ 
  Man gibt die Kapazitätswerte immer mit der 1/x - Taste in den Taschenrechner ein und muss am Schluss nochmals 1/x drücken.
 </tip>
 C1 mit 0,1 nF muss in Picofarad umgewandelt werden. Dies ergibt 100pF.
-$\frac{ 1 }{ C_{ G } } = \frac{ 1 }{ 100 } + \frac{ 1 }{47 } + \frac{ 1 }{22 }$
+$\frac{1}{C_{G}} = \frac{1}{100} + \frac{1}{47} + \frac{1}{22}$
 
 ---
 [question:AD104]

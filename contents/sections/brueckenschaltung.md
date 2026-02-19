@@ -5,7 +5,7 @@ Die Messbrücke besteht immer aus zwei Spannungsteilern, die parallel geschaltet
 In dem Sonderfall, dass die Spannungsteilerverhältnisse links und rechts gleich groß sind, fließt durch das Messinstrument,  im sogenannten Brückenzweig, kein Strom.
 Die Widerstandswerte können unterschiedliche Werte aufweisen, wichtig ist, dass das Spannungsteilerverhältnis links und rechts gleich sein muss.
 
-In einer Formel dargestellt lautet dieser Zusammenhang: $\frac {R_1}{R_2} = \frac {R_3}{R_4}$
+In einer Formel dargestellt lautet dieser Zusammenhang: $\frac{R_1}{R_2} = \frac{R_3}{R_4}$
 ---
 [question:AD111]
 <tip>

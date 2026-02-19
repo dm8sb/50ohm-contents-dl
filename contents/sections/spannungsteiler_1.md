@@ -11,11 +11,11 @@ Man spricht deshalb vom Basis-Spannungsteiler. Das Schauen wir uns im Kapitel Ve
 
 Dieser Zusammenhang kann in verschiedenen Formeln dargestellt werden, welche wir in der Formelsammlung finden.:
 
-$\frac{ U_{ 1 } }{ U_{ 2 } } = \frac{ R_{ 1 } }{ R_{ 2 } }$
+$\frac{U_{1}}{U_{2}} = \frac{R_{1}}{R_{2}}$
 
 oder
 
-$\frac{ U_{2} }{ U_g } = \frac{ R_{2} }{ R_{1} + R_{2} }$
+$\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 
 % TODO implementiere Attention in CSS!
 <danger>
@@ -31,17 +31,17 @@ Laut Fragestellung  ist $R_1$ 5-mal größer als $R_2$, also muss an ihm auch ei
 
 Diesen Zusammenhang kann man als Formel angeben.
 
-$\frac{ U_{ 1 } }{ U_{ 2 } } = \frac{ 5\cdot R_2 }{ R_2 }$
+$\frac{U_{1}}{U_{2}} = \frac{5 \cdot R_2}{R_2}$
 
 Die $R_2$ kürzen sich weg und es Ergibt sich:
 
-$\frac{ U_{ 1 } }{ U_{ 2 } } = \frac{ 5 }{ 1 }$
+$\frac{U_{1}}{U_{2}} = \frac{5}{1}$
 
 Nach etwas umformen erhalten wir das Ergebnis:
 
-$ U_{ 1 } =U_{ 2 } \cdot  \frac{ 5 }{ 1 }$
+$U_{1} = U_{2} \cdot \frac{5}{1}$
 
-$ U_{ 1 } = 5 \cdot U_{ 2 }$
+$U_{1} = 5 \cdot U_{2}$
 
 [question:ED102]
 
@@ -49,11 +49,11 @@ Bei dieser Frage besteht der umgekehrte Zusammenhang wie bei der Frage ED 101. L
 
 Dieser Zusammenhang in einer Formel dargestellt lautet nun:
 
-$\frac{ U_{ 1 } }{ U_{ 2 } } = \frac{ 1 }{ 6 }$
+$\frac{U_{1}}{U_{2}} = \frac{1}{6}$
   
-$U_{ 1 } = U_{ 2 } \cdot  {\frac{ 1 }{ 6 }}$
+$U_{1} = U_{2} \cdot {\frac{1}{6}}$
   
-$U_1  =\frac{U_2}{6}$
+$U_1 = \frac{U_2}{6}$
 
 [question:ED103]
 
@@ -61,8 +61,8 @@ Bei dieser Frage sind konkrete Widerstandswerte angegeben, die zur Ermittlung de
 
 Selbstverständlich kann dieses Ergebnis auch mit der Formel aus der Formelsammlung berechnet werden:
 
-$\frac{ U_{ 2 } }{ U_g } = \frac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } }$
+$\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 
 und diese dann nach $U_2$ umgestellt:
 
-$U_{ 2 } = \frac{ R_{ 2 } }{ R_{ 1 } + R_{ 2 } } \cdot U_{ g }$
+$U_{2} = \frac{R_{2}}{R_{1} + R_{2}} \cdot U_g$

@@ -15,7 +15,7 @@ Eine kleine Formel hilft nun bei der Berechnung. U = I * R = 2mA * 15 kOhm
 
 <margin>
 Dieses Mal ist die Gesamtspannung angegeben und der Strom durch $R_3$ ist gesucht. Da alle Widerstände wieder 10 kOhm betragen, ergibt sich ein Gesamtwiderstand wie in der vorherigen Aufgabe.
-Der Gesamtstrom lässt sich mit der bekannten Formel $I = \frac {U}{R}$ ermitteln.
+Der Gesamtstrom lässt sich mit der bekannten Formel $I = \frac{U}{R}$ ermitteln.
 Durch $R_3$ fließt wieder die Hälfte des Gesamtstroms, da $R_2$ und $R_3$ gleich groß sind.
 </margin>
 
