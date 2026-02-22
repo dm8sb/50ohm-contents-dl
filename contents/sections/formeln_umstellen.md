@@ -19,7 +19,7 @@ In Grundeinheiten ($\unit{\second}$, $\unit{\meter}$) lautet der Zusammenhang zw
 
 $\lambda = \dfrac{c_0}{f}$
 
-Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300000000}{\frac{\meter}{\second}}$
+Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300000000}{\meter\per\second}$
 </indepth>
 
 Wir betrachten den Zusammenhang zwischen Frequenz und Wellenlänge hier in der abstrakteren Form:
