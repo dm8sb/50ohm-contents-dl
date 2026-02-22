@@ -1,6 +1,6 @@
 Gleichspannungsquellen sind notwendig, um unsere Funkgeräte und das dazugehörige Zubehör mit Spannung und Strom zu versorgen. Bisher haben wir dabei vor allem Batterien betrachtet. Das allgemeine Schaltzeichen für eine ideale Spannungsquelle ist in Abbildung [ref:e_vsource] dargestellt. In der Realität ist eine Spannungsquelle jedoch nicht ideal, da sie stets einen Innenwiderstand $R_i$ besitzt, wie in Abbildung [ref:e_vsource_schematic] gezeigt.
 
-Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Eigenschaft wird dann erreicht, wenn der Innenwiderstand sehr klein ist. Dann gibt es an ihm, auch bei großen Lastströmen, keinen großen Spannungsfall, der die Klemmenspannung $U_k$ absinken läßt.
+Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Eigenschaft wird dann erreicht, wenn der Innenwiderstand sehr klein ist. Dann gibt es an ihm, auch bei großen Lastströmen, keinen großen Spannungsfall, der die Klemmenspannung $U_k$ absinken lässt.
 
 <margin>
 [picture:824:e_vsource:Schaltzeichen Spannungsquelle]

@@ -52,7 +52,7 @@ Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{in} - P_{out}$.
 
 ------
 [question:AD319]
-Die Verlustleistung $P_V$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spanungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel läßt sich der Wirkungsgrad berechnen: 
+Die Verlustleistung $P_V$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spanungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel lässt sich der Wirkungsgrad berechnen:
 Wirkungsgrad = abgegebene Leistung auf der Lastseite : gesamte Eingangsleistung
 $\eta = \frac{P_{out}}{P_{in}}$
 
@@ -107,7 +107,7 @@ $P_V = P_{in} - P_{out} = \qty{6,9}{\watt} - \qty{2,5}{\watt} = \qty{4,4}{\watt}
 [question:AD317]
 
 <tip>
-Damit die interne Regelschaltung optimal funktioniert, muß die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein. Es gibt Feststspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
+Damit die interne Regelschaltung optimal funktioniert, muss die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein. Es gibt Feststspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
 </tip>
   
 [question:AD316]

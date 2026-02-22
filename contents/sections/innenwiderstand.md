@@ -16,7 +16,7 @@ Zur Berechnung werden zwei Belastungsfälle benötigt:
 
 * Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen, im Idealfall: $\qty{0}{\ohm}$, dann bleibt die Ausgangsspannung bei Belastung unverändert. ($\Delta U = \qty{0}{\volt}$);  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
-% Kommentar von DK1KC: ungünstige Darstellung : In der Abbildung [ref:a_vsource_kennlinie] kann man erkennen, wie sich $U_k$ zu $I$ in Abhängigkeit vom Innenwiderstand $R_i$ verhält. Bei  $R_L=\qty{0}{\ohm}$ fließt an den Klemmen ein Kurzschlußstrom $I_k$.
+% Kommentar von DK1KC: ungünstige Darstellung : In der Abbildung [ref:a_vsource_kennlinie] kann man erkennen, wie sich $U_k$ zu $I$ in Abhängigkeit vom Innenwiderstand $R_i$ verhält. Bei  $R_L=\qty{0}{\ohm}$ fließt an den Klemmen ein Kurzschlussstrom $I_k$.
 
 % todo ungünstige Darstellung [photo:183:a_vsource_kennlinie:Kennlinie einer Konstantspannungsquelle]
 

@@ -70,7 +70,7 @@ Die Gesamtspannung ist die Summe der Zellenspannungen. Die Gesamtladung entspric
 
 [question:AB211]
 
-Zuerst muß die entnehmbare Ladungsmenge von $\qty{90}{\percent}$ ermittelt werden.
+Zuerst muss die entnehmbare Ladungsmenge von $\qty{90}{\percent}$ ermittelt werden.
 Die Entladezeit $t$ ergibt sich aus: $t=\frac{Q}{I}$
 
 
