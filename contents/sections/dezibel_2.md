@@ -13,15 +13,15 @@ In der Frage wird noch der Begriff _Leistungspegel_ verwendet. Das ist das logar
 
 So ist die Leistung *b* bezogen auf $\qty{1}{\watt}$:
 
-$a = \qty{\left(10\cdot\lg{\frac{b}{\qty{1}{\watt}}}\right)}{\dBW}$
+$a = \qty{\left(10\cdot\log_{10}{\frac{b}{\qty{1}{\watt}}}\right)}{\dBW}$
 
 bzw. bezogen auf ein Milliwatt:
 
-$a =  \qty{\left(10\cdot\lg{\frac{b}{\qty{1}{\milli\watt}}}\right)}{\dBm}$
+$a =  \qty{\left(10\cdot\log_{10}{\frac{b}{\qty{1}{\milli\watt}}}\right)}{\dBm}$
 
 Nun zur Lösung der Frage. Die Leistung wird verdoppelt - um wieviel $\unit{\dB}$ ändert sich der Leistungspegel? Hier ist also das Leistungsverhältnis $b=2$.
 
-$10 \cdot \lg{2} = \qty{3,01}{\dB} \approx \qty{3}{\dB}$
+$10 \cdot \log_{10}{2} = \qty{3,01}{\dB} \approx \qty{3}{\dB}$
 
 Negative Dezibelwerte kennzeichnen übrigens Verhältniswerte kleiner als 1. So entspricht $\qty{-3}{\dB}$ einem Verhältniswert von $\num{0,5}$ ($\frac{1}{2}$).
 
@@ -52,7 +52,7 @@ $\lg(x^2)=2 \cdot \lg(x)$
 
 Also:
 
-$10 \cdot \log\left(\frac{U_1^2}{U_2^2}\right)=20 \cdot \lg\left(\frac{U_1}{U_2}\right)$
+$10 \cdot \log\left(\frac{U_1^2}{U_2^2}\right)=20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
 Daher berechnen wir ein Verhältnis *a* zweier Spannungen $U_1$ und $U_2$, indem wir den Logarithmus des Verhältnisses nicht mit dem Faktor 10, sondern mit dem Faktor 20 multiplizieren:
 

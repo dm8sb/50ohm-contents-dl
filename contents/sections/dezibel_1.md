@@ -38,7 +38,7 @@ $\log_{10}(b)=\qty{a}{\bel}$
 
 In der Regel wird statt des Bels das *Dezibel* (Einheitenzeichen $\unit{\dB}$) verwendet, also der zehnte Teil eines Bels:
 
-$10 \cdot \lg(b) = \qty{a}{\dB}$
+$10 \cdot \log_{10}(b) = \qty{a}{\dB}$
 
 ---
 
