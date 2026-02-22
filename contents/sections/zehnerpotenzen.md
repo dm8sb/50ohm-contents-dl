@@ -31,7 +31,7 @@ Man kann es sich auch anders merken: Man multipliziert die Zahl so oft mit 10, w
 
 Für eine Million muss man nicht drei, sondern sechs Exemplare der Zahl 10 miteinander multiplizieren. Also entspricht der Vorsatz Mega dem Wert $10^6$. Die Schreibweise $\qty{28e6}{\hertz}$ bedeutet demnach dasselbe wie $\qty{28}{\mega\hertz}$.
 
-Für kleine Zahlen funktioniert es ähnlich. Ein Tausendstel ist $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Das schreibt man als $10^{-3}$ ("zehn hoch minus drei"). Der Wert $\qty{3,5e-3}}{\volt}$ ist also nichts anderes als $\qty{3,5}{\milli\volt}$ und $\qty{22e-6}{\volt}$ steht für $\qty{22}{\micro\volt}$. Die wichtigsten Zehnerpotenzen stehen wieder in Tabelle [ref:e_einheitenvorzeichen].
+Für kleine Zahlen funktioniert es ähnlich. Ein Tausendstel ist $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Das schreibt man als $10^{-3}$ ("zehn hoch minus drei"). Der Wert $\qty{3,5e-3}{\volt}$ ist also nichts anderes als $\qty{3,5}{\milli\volt}$ und $\qty{22e-6}{\volt}$ steht für $\qty{22}{\micro\volt}$. Die wichtigsten Zehnerpotenzen stehen wieder in Tabelle [ref:e_einheitenvorzeichen].
 
 ---
 
