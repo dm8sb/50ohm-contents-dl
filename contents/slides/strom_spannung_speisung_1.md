@@ -16,7 +16,7 @@
 
 * Hoher Strom bei vergleichsweise geringer Spannung am Speisepunkt
 * Niedriger Speisewiderstand
-* ca. $\qty{36}{\ohm}$ bis $\qty{100}{\ohm}$
+* ca. $\qtyrange{36}{100}{\ohm}$
 * Niederohmiges Verhalten
 
 ---
@@ -24,7 +24,7 @@
 ## Spannungsgespeiste Antenne
 * Hohe Spannung bei vergleichsweise geringem Strom am Speisepunkt
 * Hoher Speisewiderstand
-* ca. $\qty{1500}{\ohm}$ bis $\qty{4000}{\ohm}$
+* ca. $\qtyrange{1500}{4000}{\ohm}$
 * Hochohmiges Verhalten
 
 ---
