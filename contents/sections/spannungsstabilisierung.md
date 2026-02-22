@@ -6,7 +6,7 @@ Spannungsstabilisierungen gibt es in 3 Varianten:
 <margin>
 Zur Erinnerung:
 [picture:862:n_diode_kennlinie_uz:Kennline einer Z-Diode]
-Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung (-$U_Z$) betrieben. Z-Dioden mit Durchbruchspannungen $U_Z$ ab 5 V, zeigen einen sehr steilen Verlauf der Kennlinie und eignen sich deshalb sehr gut zur Spannungsstabilisierung.
+Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung ($-U_Z$) betrieben. Z-Dioden mit Durchbruchspannungen $U_Z$ ab $\qty{5}{\volt}$, zeigen einen sehr steilen Verlauf der Kennlinie und eignen sich deshalb sehr gut zur Spannungsstabilisierung.
 (siehe auch Klasse E: Abschnitt Diode 1)
 </margin>
 
@@ -19,12 +19,12 @@ Der Wirkungsgrad der Schaltung ist sehr niedrig, da die Verluste im Vorwiderstan
 
 <tip>
 Lösungsweg:
-Spannung am Lastwiderstand: $U_L$ = $I_L$ * $R_L$ = 10 mA * 470 Ohm = 4700 mV = 4,7 V
-Leistung im Lastwiderstand: $P_{out}$ = 4,7 V * 10 mA = 47 mW
-Verlustleistung in der Z-Diode: $P_{VZ}$ = 4,7 V * 15 mA = 70,5 mW
-Eingangsstrom: $I_g $ = 10 mA + 15 mA = 25 mA
-Eingangsleistung: $P_{in}$ = 13,8 V * 25 mA = 345 mW
-Wirkungsgrad: $\eta = \frac{P_{out}}{P_{in}}$ = $ \frac{47\ mW}{345\ mW}$ = 0,14  
+Spannung am Lastwiderstand: $U_L = I_L \cdot R_L = \qty{10}{\milli\ampere} \cdot \qty{470}{\ohm} = \qty{4700}{\milli\volt} = \qty{4,7}{\volt}$
+Leistung im Lastwiderstand: $P_{out} = \qty{4,7}{\volt} \cdot \qty{10}{\milli\ampere} = \qty{47}{\milli\watt}$
+Verlustleistung in der Z-Diode: $P_{VZ} = \qty{4,7}{\volt} \cdot \qty{15}{\milli\ampere} = \qty{70,5}{\milli\watt}$
+Eingangsstrom: $I_g = \qty{10}{\milli\ampere} + \qty{15}{\milli\ampere} = \qty{25}{\milli\ampere}$
+Eingangsleistung: $P_{in} = \qty{13,8}{\volt} \cdot \qty{25}{\milli\ampere} = \qty{345}{\milli\watt}$
+Wirkungsgrad: $\eta = \frac{P_{out}}{P_{in}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\milli\watt}} = \num{0,1}$
   
 </tip>
 
@@ -32,7 +32,7 @@ Wirkungsgrad: $\eta = \frac{P_{out}}{P_{in}}$ = $ \frac{47\ mW}{345\ mW}$ = 0,14
 ---
 2. *Lineare Spannungsregler* stabilisieren die Ausgangsspannung dadurch, indem ein Leistungstransistor als veränderlicher Widerstand betrieben wird und zusammen mit dem Lastwiderstand einen Spannungsteiler bildet.
 [picture:490:a_diskret aufgebaute Spannungsstabilisierung:diskret aufgebaute Spannungsstabilisierung]
-In der folgenden Frage ist eine diskrete Spannungsstabilisierung mit Längstransistor dargestellt. Über eine Z-Diode wird eine Referenzspannung von 5,6 V an der Basis des Transistors erzeugt. Das Emitterpotential ist im Betriebszustand eines Siliziumtransistor um etwa 0,6 V niedriger als das Basispotential. Die geregelte Ausgangsspannung liegt dann bei etwa 5 V.
+In der folgenden Frage ist eine diskrete Spannungsstabilisierung mit Längstransistor dargestellt. Über eine Z-Diode wird eine Referenzspannung von $\qty{5,6}{\volt}$ an der Basis des Transistors erzeugt. Das Emitterpotential ist im Betriebszustand eines Siliziumtransistor um etwa $\qty{0,6}{\volt}$ niedriger als das Basispotential. Die geregelte Ausgangsspannung liegt dann bei etwa $\qty{5}{\volt}$.
 %todo nur Schaltung aus Bild 490 darstellen
 Der Laststrom fließt auch durch den Transistor und dadurch wird er bei hohem Laststrom sehr warm. Die sogenannten Längstransistoren befinden sich deshalb bei linear geregelten Spannungsstabilisierungen immer auf einem Kühlkörper. 
 
@@ -41,7 +41,7 @@ Der Laststrom fließt auch durch den Transistor und dadurch wird er bei hohem La
 </margin>
 
 <margin>
-[photo:307:a_linear geregeltes Netzteil:Innenansicht eines linear geregelten Netzteils für 13,8 V und 25 A; Gewicht 7 kg]
+[photo:307:a_linear geregeltes Netzteil:Innenansicht eines linear geregelten Netzteils für $\qty{13,8}{\volt}$ und $\qty{25}{\ampere}$; Gewicht $\qty{7}{\kilo\gram}$]
 Der schwere Netztrafo bestimmt im Wesentlichen das Gesamtgewicht. 
 Unter der Regelung befindet sich ein großer Kühlkörper mit den Längstransistoren, die durch den Lüfter gekühlt werden
 </margin>
@@ -59,10 +59,10 @@ $\eta = \frac{P_{out}}{P_{in}}$
 <tip>
 Eingangsleistung = Eingangsspannung x Laststrom
 $P_{in} = U_{in} \cdot I_{L}$
-$P_{in}$ = 13,8 V * 0.9 A = 12,42 W
+$P_{in} = \qty{13,8}{\volt} \cdot \qty{0.9}{\ampere} = \qty{12,42}{\watt}$
 Ausgangsleistung =  Ausgangsspannung x Laststrom
 $P_{out} = U_{out} \cdot I_{L}$
-$P_{out}$ = 9 V * 0.9 A =  8,1 W
+$P_{out} = \qty{9}{\volt} \cdot \qty{0.9}{\ampere} = \qty{8,1}{\watt}$
 </tip>
 ---
 [question:AD320]
@@ -71,56 +71,56 @@ $P_{out}$ = 9 V * 0.9 A =  8,1 W
 Der Lösungsweg beginnt mit der Berechnung der Einzelleistungen. 
 Eingangsleistung = Eingangsspannung x Laststrom
 $P_{in} = U_{in} \cdot I_{L}$
-$P_{in}$ = 13,8 V * 0.455 A =  6,28 W
-Ausgangsleistung =  Ausgangsspannung x Laststrom
+$P_{in} = \qty{13,8}{\volt} \cdot \qty{0.455}{\ampere} = \qty{6,28}{\watt}$
+Ausgangsleistung = Ausgangsspannung x Laststrom
 $P_{out} = U_{out} \cdot I_{L}$
-$P_{out}$ = 5 V * 0.450 A  = 2,25 W
+$P_{out} = \qty{5}{\volt} \cdot \qty{0,450}{\ampere} = \qty{2,25}{\watt}$
   
-$\eta = \frac{P_{out}}{P_{in}} = \frac{2,25W}{6,28W}$ =  0,36
+$\eta = \frac{P_{out}}{P_{in}} = \frac{\qty{2,25}{\watt}}{\qty{6,28}{\watt}} = \num{0,36}$
 </tip>
 
 3. *Festspannungsregler* in einer integrierten Schaltung
 [picture:200:a_Festspannungsregler:Festspannungsregler]
 
-Festspannungsregler arbeiten wie lineare Spannungsregler mit Längstransistor und  beinhalten eine sehr genaue Spannungsreferenzquelle zusammen mit einer optimalen elektronischen Regelung. Auch wenn die Eingangsspannung stark  schwankt (z.B. +-2 V) ist auf der Lastseite die Spannungsänderung nur im Millivoltbereich messbar. Die Kondensatoren auf beiden Seiten des Festspannungsreglers müssen nach Vorgaben des Herstellers gewählt werden, sonst kann es zu unerwünschten Schwingungen im Regelverhalten der Schaltung kommen.
+Festspannungsregler arbeiten wie lineare Spannungsregler mit Längstransistor und  beinhalten eine sehr genaue Spannungsreferenzquelle zusammen mit einer optimalen elektronischen Regelung. Auch wenn die Eingangsspannung stark  schwankt (z.B. $\qty{\pm 2}{\volt}$) ist auf der Lastseite die Spannungsänderung nur im Millivoltbereich messbar. Die Kondensatoren auf beiden Seiten des Festspannungsreglers müssen nach Vorgaben des Herstellers gewählt werden, sonst kann es zu unerwünschten Schwingungen im Regelverhalten der Schaltung kommen.
 
 ---
 [question:AD318]
 
 <tip>
-Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_L$ = $\frac{5V}{10\ Ohm}$ = $0,5A$
+Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_L = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{0,5}{\ampere}$
 Eingangsleistung = Eingangsspannung x Laststrom
 Hinweis: Der Strom in der Masseleitung des Festspannungsreglers ist vernachlässigbar klein und wird deshalb nicht berücksichtigt.
-$P_{in} = U_{in} \ \cdot I_{L}$ = 13,8 V * 0,5 A = 6,9 W
+$P_{in} = U_{in} \cdot I_{L} = \qty{13,8}{\volt} \cdot \qty{0,5}{\ampere} = \qty{6,9}{\watt}$
   
-Ausgangsleistung =  Ausgangsspannung x Laststrom
-$P_{out} = U_{out} \cdot \ I_{L}$ = 5 V * 0,5 A = 2,5 W
+Ausgangsleistung = Ausgangsspannung x Laststrom
+$P_{out} = U_{out} \cdot I_{L} = \qty{5}{\volt} \cdot \qty{0,5}{\ampere} = \qty{2,5}{\watt}$
 </tip>
 Die Verlustleistung $P_V$ des Festspannungsreglers ergibt sich aus der Differenz von  $P_{in}$ und $P_{out}$.
 
-$P_V = P_{in}\  -\  P_{out}$ = 6,9 W - 2,5 W = 4,4 W
+$P_V = P_{in} - P_{out} = \qty{6,9}{\watt} - \qty{2,5}{\watt} = \qty{4,4}{\watt}$
 
 <margin>
-[photo:245:a_Festspannungsregler:Festspannungsregler für 5 V, 12 V und 9 V auf Kühlkörper]  
+[photo:245:a_Festspannungsregler:Festspannungsregler für $\qty{5}{\volt}$, $\qty{12}{\volt}$ und $\qty{9}{\volt}$ auf Kühlkörper]
 </margin>
 ---
 [question:AD317]
 
 <tip>
-Damit die interne Regelschaltung optimal funktioniert, muß die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812) um ca. 3 V größer als die Ausgangsspannung sein. Es gibt Feststspannungsregler, bei denen die Eingangsspannung nur um 1 V größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
+Damit die interne Regelschaltung optimal funktioniert, muß die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein. Es gibt Feststspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
 </tip>
   
 [question:AD316]
 
 <margin>
 Lösungshilfe
-AD 315: 5 V
-AD 316:  Die Eingangsspannung muss größer als die gewünschte Ausgangsspannung sein.
-AD 317:  Die Spannungsschwankung beträgt nahezu null Volt.
-AD 318:  4,4 W
-AD 319: 12,42 W - 8,1 W = 4,32 W
-AD 320: 0,36
-AD 321: 0,14
+AD 315: $\qty{5}{\volt}$
+AD 316: Die Eingangsspannung muss größer als die gewünschte Ausgangsspannung sein.
+AD 317: Die Spannungsschwankung beträgt nahezu null Volt.
+AD 318: $\qty{4,4}{\watt}$
+AD 319: $\qty{12,42}{\watt} - \qty{8,1}{\watt} = \qty{4,32}{\watt}$
+AD 320: $\num{0,36}$
+AD 321: $\num{0,14}$
   
 </margin>
   

@@ -3,42 +3,42 @@ Neben den bekannten Bleiakku (Pb), Nickel-Metallhydrid (NiMH) verwenden auch wir
 % TODO Bild LiFePO4 einfügen
 [photo:175:a_akku_lifepo4:LiFePO4]
 
-* Kapazität: 4200 mAh
-* Spannung: 4S1P / 13,2 V
+* Kapazität: $\qty{4200}{\milli\ampere\hour}$
+* Spannung: 4S1P / $\qty{13,2}{\volt}$
 * Entladung: 30C Constant / 40C Burst
 * Balance Stecker: JST-XH
-* Entlastung Stecker: 5.5mm Kugel-Stecker
+* Entlastung Stecker: $\qty{5.5}{\milli\meter}$ Kugel-Stecker
 
-Die für uns wichtigsten Kenndaten sind die Nennspannung 13,2 V und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von 13,2 V aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Überlicherweise besitzen LiFePO4 eine Zellnennspannung von 3,2 V bis 3,3 V. Und somit ergibt sich 3,3 V · 4 = 13,2 V · 1 = 13,2 V.
+Die für uns wichtigsten Kenndaten sind die Nennspannung $\qty{13,2}{\volt}$ und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von $\qty{13,2}{\volt}$ aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Überlicherweise besitzen LiFePO4 eine Zellnennspannung von $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$. Und somit ergibt sich $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
 ---
 
 <margin>
 | l: Zellspannung | l: Bemerkung |
-| 3,3 V | Nennspannung |
-| 2,5 V | min. Spannung |
-| 3,6 V | max. Spannung |
+| $\qty{3,3}{\volt}$ | Nennspannung |
+| $\qty{2,5}{\volt}$ | min. Spannung |
+| $\qty{3,6}{\volt}$ | max. Spannung |
 [table:a_akku_lifepo4spannung:LiFePO4 Zellspannung]
 </margin>
 
 <attention>
-Beachte bei dem Einsatz von einem LiFePO4 als 4S1P verschalten, dass Spannungen zwischen 10 V bis 14,4 V anliegen können. Nicht jedes Funkgerät kann mit diesen Spannungen arbeiten.
+Beachte bei dem Einsatz von einem LiFePO4 als 4S1P verschalten, dass Spannungen zwischen $\qty{10}{\volt}$ bis $\qty{14,4}{\volt}$ anliegen können. Nicht jedes Funkgerät kann mit diesen Spannungen arbeiten.
 </attention>
 
-Bei einem 4S2P sind insgesamt 8 Zellen verbaut. 4 in Serie und das 2 mal parallel. Dies würde dann eine Spannung von 13,2 V aber eine Kapazität von 8400 mAh ergeben.
+Bei einem 4S2P sind insgesamt 8 Zellen verbaut. 4 in Serie und das 2 mal parallel. Dies würde dann eine Spannung von $\qty{13,2}{\volt}$ aber eine Kapazität von $\qty{8400}{\milli\ampere\hour}$ ergeben.
 
-Bei dem Beispiel-Akku sind 4200 mAh angegeben. Dies entspricht  4,2 Ah. Das würde theoretisch bedeuten, wir können unseren Akku 1 h lang mit 4,2 A oder 2h lang mit 2,1 A usw. belasten. 
+Bei dem Beispiel-Akku sind $\qty{4200}{\milli\ampere\hour}$ angegeben. Dies entspricht $\qty{4,2}{\ampere\hour}$. Das würde theoretisch bedeuten, wir können unseren Akku $\qty{1}{\hour}$ lang mit $\qty{4,2}{\ampere}$ oder $\qty{2}{\hour}$ lang mit $\qty{2,1}{\ampere}$ usw. belasten.
 $t=\frac{Q}{I}$
-$t=\frac{4,2Ah}{1A} =1 h$
-Wenn die Kapazität Q in As zu berechnen ist, dann erfolgt die Umrechnung  dadurch, dass die Angabe Stunden (h) durch 3600 s ersetzt wird. Daraus ergibt sich 4,2 A * 3600 s = 15120 As.
-Nun wollen wir aber auch wissen, wie viel elektrische Energie in dem Akku gespeichert ist. Energie (Wh) ist die Ladung Q (Ah) des Akkus multipliziert mit der Gesamtspannung U in Volt.
+$t=\frac{\qty{4,2}{\ampere\hour}}{\qty{1}{\ampere}} = \qty{1}{\hour}$
+Wenn die Kapazität $Q$ in $\unit{\ampere\second}$ zu berechnen ist, dann erfolgt die Umrechnung  dadurch, dass die Angabe Stunden ($\unit{\hour}$) durch $\qty{3600}{\second}$ ersetzt wird. Daraus ergibt sich $\qty{4,2}{\ampere} \cdot \qty{3600}{\second} = \qty{15120}{\ampere\second}$.
+Nun wollen wir aber auch wissen, wie viel elektrische Energie in dem Akku gespeichert ist. Energie ($\unit{\watt\hour}$) ist die Ladung $Q$ ($\unit{\ampere\hour}$) des Akkus multipliziert mit der Gesamtspannung $U$ in Volt.
 
-1 Wh = 1 Ah · 1 V
+$\qty{1}{\watt\hour} = \qty{1}{\ampere\hour} \cdot \qty{1}{\volt}$
 
-Für unser Beispiel berechnen wir  4,2 Ah · 13,2 V = 55,44 Wh als gespeicherte Energie.
-Die Entladung dieses Akkus kann mit einem konstanten Entladestrom von  "30 C" erfolgen. Das bedeutet,  dass der Akku mit 30 · Kapazität Q entladen werden kann.
-Endladestrom = 30 · 4200 mA = 126 A
-Das ist allerdings nur ein theoretisch möglicher Wert, da unser Akku somit innerhalb von 108 s entladen wäre. Auch der Kabelquerschnitt ist dabei zu berücksichtigen.
+Für unser Beispiel berechnen wir $\qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$ als gespeicherte Energie.
+Die Entladung dieses Akkus kann mit einem konstanten Entladestrom von  "30 $C$" erfolgen. Das bedeutet,  dass der Akku mit 30 · Kapazität $Q$ entladen werden kann.
+Endladestrom = $30 \cdot \qty{4200}{\milli\ampere} = \qty{126}{\ampere}$
+Das ist allerdings nur ein theoretisch möglicher Wert, da unser Akku somit innerhalb von $\qty{108}{\second}$ entladen wäre. Auch der Kabelquerschnitt ist dabei zu berücksichtigen.
 Bei Reihen- bzw. Serienschaltung von Akkus, wie in Abbildung [ref:a_akku_4S1P] addieren sich die Spannungen und die Kapazität bleibt gleich. 
 
 % TODO Bild Reihenschaltung liegt bei DG1HXJ als .tex
@@ -60,7 +60,7 @@ Insbesondere bei den aktuellen Lithium-Akkumulatoren ist es sinnvoll eine Überw
 </margin>
 [question:AB210]
 
-Die Akku-Nennkapazität Q wird auch als Ladung bezeichnet und, wie bereits bekannt, in Ah oder mAh angegeben. 
+Die Akku-Nennkapazität $Q$ wird auch als Ladung bezeichnet und, wie bereits bekannt, in $\unit{\ampere\hour}$ oder $\unit{\milli\ampere\hour}$ angegeben.
 
 ------
 
@@ -70,21 +70,21 @@ Die Gesamtspannung ist die Summe der Zellenspannungen. Die Gesamtladung entspric
 
 [question:AB211]
 
-Zuerst muß die entnehmbare Ladungsmenge von 90 % ermittelt werden.
+Zuerst muß die entnehmbare Ladungsmenge von $\qty{90}{\percent}$ ermittelt werden.
 Die Entladezeit t ergibt sich aus: $t=\frac{Q}{I}$
 
 
 [question:AB501]
-Die im Akku gespeicherte Energie in Wh oder VAh ergibt sich aus der Multiplikation der Akkuspannung U (V) mit der Ladung Q (Ah).
+Die im Akku gespeicherte Energie in $\unit{\watt\hour}$ oder $\unit{\volt\ampere\hour}$ ergibt sich aus der Multiplikation der Akkuspannung U ($\unit{\volt}$) mit der Ladung Q ($\unit{\ampere\hour}$).
 Beispiel:
-1 V *  1Ah = 1 Wh
+$\qty{1}{\volt} \cdot \qty{1}{\ampere\hour} = \qty{1}{\watt\hour}$
 <margin>
   
   Lösungshilfe:
   
-  AB 209: 6 * 2 V = 12 V / 10 Ah
+  AB 209: $6 \cdot \qty{2}{\volt} = \qty{12}{\volt} / \qty{10}{\ampere\hour}$
   AB 210: Nennkapazität
-  AB 211: 90% = 54 Ah; 54 Ah / 0,8 A = 67,5 h oder   67 Stunden und 30 Minuten
-  AB 501: 12 V * 5 Ah = 60,0 Wh
+  AB 211: $\qty{90}{\percent} = \qty{54}{\ampere\hour}; \qty{54}{\ampere\hour} / \qty{0,8}{\ampere} = \qty{67,5}{\hour}$ oder 67 Stunden und 30 Minuten
+  AB 501: $\qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60,0}{\watt\hour}$
   
 </margin>

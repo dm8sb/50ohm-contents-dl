@@ -24,8 +24,8 @@ Wenn zwei Anoden gemeinsam an einem Ausgangspol angeschlossen sind, dann wird do
 
 [question:AD308]
 
-Würde man die pulsierende Gleichspannung über einen Spannungsteiler in einen Verstärker mit Lautsprecher einspeisen, dann könnte man einen 100 Hz Brummton hören.
-Gegenüber der 50Hz Sinusschwingung mit einer Periodendauer von 20 ms, enthält die pulsierende Gleichspannung prinzipiell 2 Schwingungen in der Zeit von 20ms. Daraus lassen sich die 100Hz berechnen.
-%todo 50 Hz und 100Hz durch anklicken hörbar 
+Würde man die pulsierende Gleichspannung über einen Spannungsteiler in einen Verstärker mit Lautsprecher einspeisen, dann könnte man einen $\qty{100}{\hertz}$ Brummton hören.
+Gegenüber der $\qty{50}{\hertz}$ Sinusschwingung mit einer Periodendauer von $\qty{20}{\milli\second}$, enthält die pulsierende Gleichspannung prinzipiell 2 Schwingungen in der Zeit von $\qty{20}{\milli\second}$. Daraus lassen sich die $\qty{100}{\hertz}$ berechnen.
+%todo $\qty{50}{\hertz}$ und $\qty{100}{\hertz}$ durch anklicken hörbar
 
 [question:AD310]

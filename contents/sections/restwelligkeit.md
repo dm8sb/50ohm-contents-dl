@@ -10,12 +10,12 @@ Bei gedrückter Taste AC/DC erfolgt eine galvanische Kopplung des Oszilloskopein
 
 Die Periodendauer des Brummanteils beträgt 10 ms. Daraus lässt sich die Brummfrequenz berechnen.
 %todo Formel f=1/T
-$f = \frac {1}{T}$
-Die Amplitude der Brummspannung beträgt genau ein Kästchen bei einem Maßstab von 3V/Div.
+$f = \frac{1}{T}$
+Die Amplitude der Brummspannung beträgt genau ein Kästchen bei einem Maßstab von $\qty{3}{\volt\per\oszidiv}$.
 
 ---
 [question:AD309]
 <margin>
   Lösungshilfe
- AD 309: 3 V; 100 Hz 
+ AD 309: $\qty{3}{\volt}$; $\qty{100}{\hertz}$
 </margin>

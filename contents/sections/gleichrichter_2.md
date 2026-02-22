@@ -21,11 +21,11 @@ Bei der Bemessung von Diode und Kondensator müssen wir jedoch wissen, dass die 
 
 $\hat{u} = \sqrt{2} \cdot {U}_{Eff}$
 
-Wenn an einem Transformator die Spannung ${U}_{a}$ = 15 V angegeben ist, rechnen wir  $\hat{u} = \sqrt{2} \cdot {U}_{Eff} = \sqrt{2} \cdot {15} V = {21,21} V $. Somit wird sich ohne Last eine Leerlaufspitzenspannung von ca. 21 V einstellen.
+Wenn an einem Transformator die Spannung $U_a = \qty{15}{\volt}$ angegeben ist, rechnen wir $\hat{u} = \sqrt{2} \cdot {U}_{Eff} = \sqrt{2} \cdot \qty{15}{\volt} = \qty{21,21}{\volt}$. Somit wird sich ohne Last eine Leerlaufspitzenspannung von ca. $\qty{21}{\volt}$ einstellen.
 
 [question:AD302]
 
-Bei nachfolgender Frage müssen wir das Übersetzungsverhältniss vom Trafo anwenden, um unsere Ausgangsspannung zu ermitteln. Wir setzten also für die effektive Eingangsspannung ${U}_{Eff}$ ein zwanzigstel der Trafoeingangsspannung von 230 V ein. Von der Spitzenspannung können wir dann die Hälfte der Spannung nochmal addieren um den Sicherheitsaufschlag zu berücksichtigen.
+Bei nachfolgender Frage müssen wir das Übersetzungsverhältniss vom Trafo anwenden, um unsere Ausgangsspannung zu ermitteln. Wir setzten also für die effektive Eingangsspannung ${U}_{Eff}$ ein zwanzigstel der Trafoeingangsspannung von $\qty{230}{\volt}$ ein. Von der Spitzenspannung können wir dann die Hälfte der Spannung nochmal addieren um den Sicherheitsaufschlag zu berücksichtigen.
 
 [question:AD303]
 
@@ -33,7 +33,7 @@ Für die Lösung der folgenden Aufgabe müssen wir erkennen, dass der Spitzenwer
 % die größtmögliche Sperrspannung aushalten muss. Da der Kondensator auf die Spannung der positiven Halbwelle aufgeladen wurde, müssen wir die Spannungsdifferenz zw. dem positiven und negativen Scheitelwert annehmen.
 
 Wir rechnen: ${U}_{sperr} = 2 \cdot \hat{u}$ 
-Zu berücksichtigen sind dann noch das Übersetzungsverhältnis 5 : 1  des Netztransformators und der Sicherheitsaufschlag von 20 %.
+Zu berücksichtigen sind dann noch das Übersetzungsverhältnis $5 : 1$  des Netztransformators und der Sicherheitsaufschlag von $\qty{20}{\percent}$.
 %TODO Simulation einbauen: https://tinyurl.com/22m65xlw
 
 [question:AD304]

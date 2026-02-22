@@ -18,12 +18,12 @@ In dem nebenstehenden Applet kann man bei dargestellter Polarität der Trafospan
 [photo:296: Brückengleichrichter Bauformen: Bauformen von Brückengleichrichtern]
 Die Beschriftung der Anschlüsse ist zu beachten.
 
-  1. Hochstrom-Brückengleichrichter 26 MB 20 A (200 V 25 A) im Metallgehäuse zur direkten Montage auf einem Kühlkörper
-  2. B80 C 5000/3300 bedeutet: maximal 80 V Betriebsspannung, C kapazitive Last max. 2500 µF mit Schutzwiderstand R = 1 Ohm,  maximaler Dauerlaststrom: 5000 mA mit Kühlkörper, 3300 mA ohne Kühlkörper
+  1. Hochstrom-Brückengleichrichter 26 MB 20 A ($\qty{200}{\volt}$, $\qty{25}{\ampere}$) im Metallgehäuse zur direkten Montage auf einem Kühlkörper
+  2. B80 C 5000/3300 bedeutet: maximal $\qty{80}{\volt}$ Betriebsspannung, C kapazitive Last max. $\qty{2500}{\micro\farad}$ mit Schutzwiderstand $R = \qty{1}{\ohm}$, maximaler Dauerlaststrom: $\qty{5000}{\milli\ampere}$ mit Kühlkörper, $\qty{3300}{\milli\ampere}$ ohne Kühlkörper
   3. BY 225 Brückengleichrichter - besonderes Gehäuse
   4. runde Bauform eines Brückengleichrichters B 80 C 1000
   5. B40 C 1500 - die veränderte Anschlussfolge ist zu beachten
-  6. FPU 4M ( 1000 V - 4 A)
+  6. FPU 4M ($\qty{1000}{\volt}$, $\qty{4}{\ampere}$)
   7. im Kunststoff eingeprägte Anschlussfolge
 </margin>
 
@@ -44,7 +44,7 @@ Um jetzt die Spannung am Siebkondensator $C_S$ zu bestimmen, sollten wir wissen,
 $\hat{U}={U}_{eff}\cdot\sqrt{2}$
 
 Weiterhin müssen wir beachten, ob der Trafo ein Übersetzungsverhältniss $ü$ aufweist. In unserem Beispiel hat der Trafo ${\"u}=\frac{8}{1}$ und somit können wir mit der Formel $\frac{8}{1}=\frac{{U}_{PRIM}}{{U}_{SEK}}$ nach ${U}_{SEK}$ umstellen. Wir kommen somit auf folgende Gleichung:
-${U}_{SEK}=\frac{{U}_{PRIM}}{8}=\frac{{U}_{eff}\cdot\sqrt{2}}{8}=\frac{230V\cdot 1,414}{8}=\frac{325,22V}{8}=40,65V$
+${U}_{SEK}=\frac{{U}_{PRIM}}{8}=\frac{{U}_{eff}\cdot\sqrt{2}}{8} = \frac{\qty{230}{\volt} \cdot 1,414}{8} = \frac{\qty{325,22}{\volt}}{8} = \qty{40,65}{\volt}$
 
 % Anmerkung DC4LW 2024-05-29: Muss die Diodenspannung nicht auch noch von U_{SEK} abgezogen werden? Ergänzung: Habe erfahren, dass bei Leerlauf die Diodenspannung vernachlässigt werden kann.
 

@@ -1,7 +1,7 @@
 Ein Schaltnetzteil (engl. switched-mode power supply) eine Wechselspannung in eine stabilisierte Gleichspannung um, indem es die Eingangsspannung gleichrichtet und danach sehr schnell ein- und ausschaltet, diese so effizient auf die gewünschte Spannung transformiert und anschließend glättet. Wie das im Detail funktioniert werden wir uns in der Klasse A genauer anschauen. 
 
 <margin>
-[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Innenansicht eines Schaltnetzteils für 13,8 V und 35 A mit einem kleinen Ferritkernübertrager zwischen den beiden Kühlkörpern, Gewicht 2 kg]
+[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Innenansicht eines Schaltnetzteils für $\qty{13,8}{\volt}$ und $\qty{35}{\ampere}$ mit einem kleinen Ferritkernübertrager zwischen den beiden Kühlkörpern, Gewicht $\qty{2}{\kilo\gram}$]
 </margin> 
 
 Das Schaltnetzteil mehrere positive Eigenschaften gegen über einem linear geregeltem Netzteil:

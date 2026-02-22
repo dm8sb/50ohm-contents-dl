@@ -19,8 +19,8 @@ Abbildung [ref:n_schaltzeichen_batt] zeigt das Schaltzeichen einer Batterie bezi
 
 <webindepth>
 Es gibt unterschiedlichste Batterien und Akkus mit verschiedenen Spannungen, Kapazitäten und Bauformen:
-* Häufige Spannungsangaben bei Batterien oder Akkus sind z. B. 1,5 V oder 9 V. Es gibt sie aber auch mit anderen Spannungen. Ferngesteuerte Modellautos verwenden beispielsweise meist 7,2 V. In akkubetriebenen Werkzeugen finden sich oftmals Akkus mit 18 V, 20 V oder 40 V.
-* Die Kapazität einer Batterie oder eines Akkus wird in Amperestunden (Ah) angegeben. Hat ein Akku eine Kapazität von 5 Ah kann er für 5 Stunden einen Strom von einem Ampere fließen lassen - oder beispielsweise auch für 10 Stunden einen Strom von 0,5 Ampere oder einen Strom von 5 A für nur eine Stunde. Bei Batterien fehlt oft die Angabe der Kapazität. Haushaltsübliche Batterien haben oft eine Kapazität von weniger als 5 Ah. Große Akkus können auch 100 Ah oder mehr Kapazität aufweisen. Bei Akkus wird im Gegensatz zu Batterien praktisch immer die Kapazität angegeben.
+* Häufige Spannungsangaben bei Batterien oder Akkus sind z. B. $\qty{1,5}{\volt}$ oder $\qty{9}{\volt}$. Es gibt sie aber auch mit anderen Spannungen. Ferngesteuerte Modellautos verwenden beispielsweise meist $\qty{7,2}{\volt}$. In akkubetriebenen Werkzeugen finden sich oftmals Akkus mit $\qty{18}{\volt}$, $\qty{20}{\volt}$ oder $\qty{40}{\volt}$.
+* Die Kapazität einer Batterie oder eines Akkus wird in Amperestunden ($\unit{\ampere\hour}$) angegeben. Hat ein Akku eine Kapazität von $\qty{5}{\ampere\hour}$ kann er für 5 Stunden einen Strom von einem Ampere fließen lassen - oder beispielsweise auch für 10 Stunden einen Strom von 0,5 Ampere oder einen Strom von $\qty{5}{\ampere}$ für nur eine Stunde. Bei Batterien fehlt oft die Angabe der Kapazität. Haushaltsübliche Batterien haben oft eine Kapazität von weniger als $\qty{5}{\ampere\hour}$. Große Akkus können auch $\qty{100}{\ampere\hour}$ oder mehr Kapazität aufweisen. Bei Akkus wird im Gegensatz zu Batterien praktisch immer die Kapazität angegeben.
 * Bei den Bauformen sind die zylinderförmigen AA- und AAA-Zellen sehr bekannt, die in den meisten Haushaltsgeräten eingesetzt werden. Es gibt aber gerade bei den Akkus alle möglichen Bauformen. Oftmals sogar Bauformen, die nur für ein einziges Gerät passen.
 </webindepth>
 
@@ -32,7 +32,7 @@ Es gibt unterschiedlichste Batterien und Akkus mit verschiedenen Spannungen, Kap
 Akkus sollten niemals komplett entladen werden. Diese sogenannte Tiefentladung kann den Akku beschädigen. Praktisch lässt sich die Entladung daran erkennen, dass die Spannung des Akkus nach und nach leicht absinkt. Die Stromentnahme muss beendet werden, bevor die vom Hersteller angegebene Mindestspannung unterschritten wird.
 </attention>
 
-Viele Geräte benötigen mehrere Batterien. In der Regel dient dies zur Spannungserhöhung, wenn die Spannung einer einzelnen Batterie von z. B. 1,5 V nicht für den Betrieb ausreicht. Im Batteriefach des Geräts werden diese in Serie verschaltet, sodass der Minuspol der vorhergehenden Batterie jeweils auf den Pluspol der nachfolgenden trifft. Die Spannung an den Enden dieser Kette berechnet sich wie folgt:
+Viele Geräte benötigen mehrere Batterien. In der Regel dient dies zur Spannungserhöhung, wenn die Spannung einer einzelnen Batterie von z. B. $\qty{1,5}{\volt}$ nicht für den Betrieb ausreicht. Im Batteriefach des Geräts werden diese in Serie verschaltet, sodass der Minuspol der vorhergehenden Batterie jeweils auf den Pluspol der nachfolgenden trifft. Die Spannung an den Enden dieser Kette berechnet sich wie folgt:
 
 $\text{Gesamtspannung} = \text{Anzahl Batterien} \cdot \text{Batteriespannung}$
 
@@ -43,7 +43,7 @@ $\text{Gesamtspannung} = \text{Anzahl Batterien} \cdot \text{Batteriespannung}$
 Generell gilt, dass bei Batterien und Akkus ein Kurzschluss verhindert werden sollte. Gerade bei leistungsfähigen, modernen Akkus besteht die Gefahr der Überhitzung. Diese können in Brand geraten oder durch den entstehenden Kurzschlusstrom einen Brand verursachen.
 
 <danger>
-Während bei Netzgeräten eine Sicherung im Fehlerfall den Stromfluss stoppen kann, fehlt dieser Schutzmechanismus bei Batterien bzw. Akkus meistens. Die Stromstärke, die Batterien und Akkus liefern können, übersteigt oftmals ein Vielfaches des Maximalstroms von Netzgeräten. Dies gilt insbesondere für hochkapazitive Akkus wie z. B. Autobatterien, die kurzzeitig 1000 A und mehr Strom liefern können. Bei der Nutzung von externen, hochkapazitiven Akkus sollte unbedingt eine zusätzliche Sicherung vorgesehen werden, wie sie beispielsweise in Abbildung [ref:n_Bat_Sicherung] gezeigt wird!
+Während bei Netzgeräten eine Sicherung im Fehlerfall den Stromfluss stoppen kann, fehlt dieser Schutzmechanismus bei Batterien bzw. Akkus meistens. Die Stromstärke, die Batterien und Akkus liefern können, übersteigt oftmals ein Vielfaches des Maximalstroms von Netzgeräten. Dies gilt insbesondere für hochkapazitive Akkus wie z. B. Autobatterien, die kurzzeitig $\qty{1000}{\ampere}$ und mehr Strom liefern können. Bei der Nutzung von externen, hochkapazitiven Akkus sollte unbedingt eine zusätzliche Sicherung vorgesehen werden, wie sie beispielsweise in Abbildung [ref:n_Bat_Sicherung] gezeigt wird!
 [photo:90:n_Bat_Sicherung:Anschlussbox mit Kfz-Sicherungen und verpolungsgeschützten Ausgängen zum Schutz von leistungsstarken Akkus]
 </danger>
 

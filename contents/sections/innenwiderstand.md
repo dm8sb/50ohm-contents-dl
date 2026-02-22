@@ -10,13 +10,13 @@ $R_i$ = $\frac{\Delta U}{\Delta I}$
 (siehe Formelsammlung Seite 234 Mitte links -  Stichwort: Innenwiderstand)
 
 Zur Berechnung werden zwei Belastungsfälle benötigt:
-1. Leerlauf; I = 0 A
+1. Leerlauf; $I = \qty{0}{\ampere}$
 2. Belastung mit $R_L \  $;  $I_L$ =$\frac{U_L}{R_L}$
 Über die Spannungsveränderung ($\Delta U$) an den Klemmen und die Laststromveränderung ($\Delta I$) , kann der Innenwiderstand berechnet werden. 
 
-* Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i$$\ll$$R_L$ aufweisen, im Idealfall: 0 Ohm, dann bleibt die Ausgangsspannung bei Belastung unverändert. ($\Delta U$ = 0 V);  $R_i$ = $\frac{\Delta U}{\Delta I}$ = $ \frac {0} {xxx} = 0 \ \Omega$
+* Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i$$\ll$$R_L$ aufweisen, im Idealfall: $\qty{0}{\ohm}$, dann bleibt die Ausgangsspannung bei Belastung unverändert. ($\Delta U = \qty{0}{\volt}$);  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
-% Kommentar von DK1KC: ungünstige Darstellung : In der Abbildung [ref:a_vsource_kennlinie] kann man erkennen, wie sich $U_k$ zu $I$ in Abhängigkeit vom Innenwiderstand $R_i$ verhält. Bei  $R_L$=0 Ohm fließt an den Klemmen ein Kurzschlußstrom $I_k$. 
+% Kommentar von DK1KC: ungünstige Darstellung : In der Abbildung [ref:a_vsource_kennlinie] kann man erkennen, wie sich $U_k$ zu $I$ in Abhängigkeit vom Innenwiderstand $R_i$ verhält. Bei  $R_L=\qty{0}{\ohm}$ fließt an den Klemmen ein Kurzschlußstrom $I_k$.
 
 % todo ungünstige Darstellung [photo:183:a_vsource_kennlinie:Kennlinie einer Konstantspannungsquelle]
 
@@ -35,12 +35,12 @@ Beispiele:
 
 % todo [photo:184:a_isource_schematic:Ersatzschaltbild Stromquelle]
 
-% geändert von DK1KC; vorher: Bei einem Kurzschluss am Lastausgang ist $I$=$I_q$ und die Spannung annähernd $U_L$=0 V. Der Stom im Innenwiderstand ist ebenfalls annähernd $I_i$=0 A. Dies liegt daran, dass der $R_i$ bei einer Stromquelle sehr hochohmig sein soll. Daher gilt auch im Leerlauf $I_i$=$I_q$ und der Strom $I$ ist ohne Last 0 A.
+% geändert von DK1KC; vorher: Bei einem Kurzschluss am Lastausgang ist $I$=$I_q$ und die Spannung annähernd $U_L=\qty{0}{\volt}$. Der Stom im Innenwiderstand ist ebenfalls annähernd $I_i=\qty{0}{\ampere}$. Dies liegt daran, dass der $R_i$ bei einer Stromquelle sehr hochohmig sein soll. Daher gilt auch im Leerlauf $I_i$=$I_q$ und der Strom $I$ ist ohne Last $\qty{0}{\ampere}$.
 
 
 Betrachtung einer Konstantstromquelle am Beispiel eines Labornetzgerätes
 
-[photo:298:a_Strombegrenzung:Labornetzgerät mit eingestellter Strombegrenzung auf 500 mA]
+[photo:298:a_Strombegrenzung:Labornetzgerät mit eingestellter Strombegrenzung auf $\qty{500}{\milli\ampere}$]
 Bei Kurzschluss an den Ausgangsklemmen fließt der eingestellte maximale Strom.
 
 In Labornetzgeräten ist eine Strombegrenzung eingebaut, d.h. übersteigt der Laststrom eine maximale Stromstärke, wird die Klemmenspannung so abgesenkt, dass der Laststrom konstant bleibt. Dies entspricht der Funktion einer Konstantstromquelle.
@@ -68,7 +68,7 @@ Hierbei gilt: $R_i$ = $R_L$
 [question:AB204]
 <margin>
  Lösungshilfe
- AG 401:  $R_i$ = $R_L$ = 50 Ohm
+ AG 401: $R_i = R_L = \qty{50}{\ohm}$
  AB 202:  $R_L$ =$R_i$  
  AB 203: $R_i$$\ll$$R_L$
  AB 204: $R_i$$\gg$$R_L$
@@ -77,7 +77,7 @@ Hierbei gilt: $R_i$ = $R_L$
 
 <margin>
 |c: Zusammenfassung | c: Innenwiderstand |
-| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch  $0\ \Omega$;  $R_i$$\ll$$R_L$ identisch mit $R_L$$\gg$$R_i$| 
+| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch  $\qty{0}{\ohm}$;  $R_i$$\ll$$R_L$ identisch mit $R_L$$\gg$$R_i$| 
 |Stromanpassung bei einer Konstantstromquelle|$R_i$ =  "sehr hochohmig" ;  $R_i$$\gg$$R_L$ identisch mit $R_L$$\ll$$R_i$ |
 | Leistungsanpassung bei Verstärkern| $R_L$ = $R_i$|
 [table:a_Innenwiderstand Zusammenfassung:Zusammenfassung zum Innenwiderstand]
@@ -89,9 +89,9 @@ Hierbei gilt: $R_i$ = $R_L$
 Nun wollen wir einmal anhand eines Beispieles den Innenwiderstand einer Gleichspannungsquelle berechnen. 
 [question:AB206]
 
-Die Leerlaufspannung $U_L$, also ohne Belastung unseres Netzteils, beträgt 13,5 V. Dabei fließt kein Laststrom $I_L$. Beim Senden mit unserem Funkgerät wird ein Strom  $I_L$ von 0,9 A abgegeben und die Ausgangsspannung  $U_L$  sinkt nun, wegen des Innenwiderstandes, auf 12,4 V ab.
+Die Leerlaufspannung $U_L$, also ohne Belastung unseres Netzteils, beträgt $\qty{13,5}{\volt}$. Dabei fließt kein Laststrom $I_L$. Beim Senden mit unserem Funkgerät wird ein Strom  $I_L$ von $\qty{0,9}{\ampere}$ abgegeben und die Ausgangsspannung  $U_L$  sinkt nun, wegen des Innenwiderstandes, auf $\qty{12,4}{\volt}$ ab.
 
-$R_i$ = $\frac{\Delta U_L}{\Delta I_L}$ = $ \frac {13,5\ V - 12,4\ V}{0,9\ A - 0\ A} $ = $ \frac {1,1\ V}{0,9\ A}$ = $1,22 \  \Omega$ Dieser Wert ist in der Praxis noch zu hoch. 
+$R_i$ = $\frac{\Delta U_L}{\Delta I_L}$ = $\frac{\qty{13,5}{\volt} - \qty{12,4}{\volt}}{\qty{0,9}{\ampere} - \qty{0}{\ampere}} = \frac{\qty{1,1}{\volt}}{\qty{0,9}{\ampere}} = \qty{1,22}{\ohm}$ Dieser Wert ist in der Praxis noch zu hoch. 
 Praxisnäher sind die Ergebnisse der folgenden Aufgaben.
 
 ---
@@ -110,10 +110,10 @@ $I_L = \frac{U_L}{R_L}$
 
 <margin>
  Lösungshinweis:
-AB 205:   $I_L=\frac{U_L}{R_L}$ =  $ \frac {4,8\  V}{1,2\  \Omega}$ = 4 A
-  $R_i$ = $\frac{\Delta U}{\Delta I}$ = $ \frac {5,0\ V - 4,8\ V}{4\ A - 0\ A} $ = $ \frac {0,2\ V}{4\ A}$ = $0,05 \  \Omega$ = $50 \ m\Omega$
+AB 205:   $I_L=\frac{U_L}{R_L} = \frac{\qty{4,8}{\volt}}{\qty{1,2}{\ohm}} = \qty{4}{\ampere}$
+  $R_i$ = $\frac{\Delta U}{\Delta I}$ = $\frac{\qty{5,0}{\volt} - \qty{4,8}{\volt}}{\qty{4}{\ampere} - \qty{0}{\ampere}} = \frac{\qty{0,2}{\volt}}{\qty{4}{\ampere}} = \qty{0,05}{\ohm} = \qty{50}{\milli\ohm}$
 AB 206:  siehe Beispielrechnung
-AB 207:  $R_i$ = $\frac{\Delta U}{\Delta I}$ = $ \frac {13,5\ V - 13,0\ V}{2,0\ A - 0\ A} $ = $ \frac {0,5\ V}{2,0\ A}$ = $0,25 \  \Omega$ = $250 \ m\Omega$
-AB 208: $R_i$ = $\frac{\Delta U}{\Delta I}$ = $ \frac {13,8\ V - 13,6\ V}{20,0\ A - 0\ A} $ = $ \frac {0,2\ V}{20,0\ A}$ = $0,01 \  \Omega$  = $10 \ m\Omega$
+AB 207:  $R_i = \frac{\Delta U}{\Delta I} = \frac{\qty{13,5}{\volt} - \qty{13,0}{\volt}}{\qty{2,0}{\ampere} - \qty{0}{\ampere}} = \frac{\qty{0,5}{\volt}}{\qty{2,0}{\ampere}} = \qty{0,25}{\ohm} = \qty{250}{\milli\ohm}$
+AB 208: $R_i = \frac{\Delta U}{\Delta I} = \frac{\qty{13,8}{\volt} - \qty{13,6}{\volt}}{\qty{20,0}{\ampere} - \qty{0}{\ampere}} = \frac{\qty{0,2}{\volt}}{\qty{20,0}{\ampere}} = \qty{0,01}{\ohm} = \qty{10}{\milli\ohm}$
   
 </margin>
