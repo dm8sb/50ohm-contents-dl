@@ -18,14 +18,14 @@
 * Rechnerisch ermitteln: <br/>$R_i$ = $\frac{\Delta U}{\Delta I}$
 </left>
 <right>
-* Leerlauf: $I = 0A$
+* Leerlauf: $I = \qty{0}{\ampere}$
 * Belastung mit $R_L$: <br/>$I_L = \frac{U_L}{R_L}$
 </right>
 
 ---
 ### Innenwiderstand Spannungsquelle
 
-$(\Delta U = 0V)$;  $R_i = \frac{\Delta U}{\Delta I} = \frac {0}{xxx} = 0\ \Omega$
+$(\Delta U = \qty{0}{\volt})$;  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
 <fragment>
 Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i$$\ll$$R_L$ aufweisen, im Idealfall: 0 Ohm, dann bleibt die Ausgangsspannung bei Belastung unverändert.
@@ -61,7 +61,7 @@ Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i$$\gg$$R_L$ aufw
 --- style="font-size: 0.7em;"
 
 |c: Zusammenfassung Innenwiderstand | c: Innenwiderstand |
-| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch  $0\ \Omega$;  $R_i$$\ll$$R_L$ identisch mit $R_L$$\gg$$R_i$| 
+| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch $\qty{0}{\ohm}$; $R_i$$\ll$$R_L$ identisch mit $R_L$$\gg$$R_i$| 
 |Stromanpassung bei einer Konstantstromquelle|$R_i$ =  "sehr hochohmig" ;  $R_i$$\gg$$R_L$ identisch mit $R_L$$\ll$$R_i$ |
 | Leistungsanpassung bei Verstärkern| $R_L$ = $R_i$|
 [table:a_Innenwiderstand Zusammenfassung:Zusammenfassung zum Innenwiderstand]
@@ -78,51 +78,51 @@ Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i$$\gg$$R_L$ aufw
 [question:AB207]
 ---
 #### Lösungsweg
-* gegeben: $U_0 = 13,5V$
-* gegeben: $U_{Kl} = 13V$
-* gegeben: $I = 2A$
+* gegeben: $U_0 = \qty{13,5}{\volt}$
+* gegeben: $U_{Kl} = \qty{13}{\volt}$
+* gegeben: $I = \qty{2}{\ampere}$
 * gesucht: $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{13,5V-13V}{2A} = 0,25Ω$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{13}{\volt}}{\qty{2}{\ampere}} = \qty{0,25}{\ohm}$
 </fragment>
 ---
 [question:AB208]
 ---
 #### Lösungsweg
-* gegeben: $U_0 = 13,8V$
-* gegeben: $U_{Kl} = 13,6V$
-* gegeben: $I = 20A$
+* gegeben: $U_0 = \qty{13,8}{\volt}$
+* gegeben: $U_{Kl} = \qty{13,6}{\volt}$
+* gegeben: $I = \qty{20}{\ampere}$
 * gesucht: $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{13,8V-13,6V}{20A} = 10mΩ$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,8}{\volt} - \qty{13,6}{\volt}}{\qty{20}{\ampere}} = \qty{10}{\milli\ohm}$
 </fragment>
 ---
 [question:AB206]
 ---
 #### Lösungsweg
-* gegeben: $U_0 = 13,5V$
-* gegeben: $U_{Kl} = 12,4V$
-* gegeben: $I = 0,9A$
+* gegeben: $U_0 = \qty{13,5}{\volt}$
+* gegeben: $U_{Kl} = \qty{12,4}{\volt}$
+* gegeben: $I = \qty{0,9}{\ampere}$
 * gesucht: $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{13,5V-12,4V}{0,9A} = 1,22Ω$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{12,4}{\volt}}{\qty{0,9}{\ampere}} = \qty{1,22}{\ohm}$
 </fragment>
 ---
 [question:AB205]
 ---
 #### Lösungsweg
-* gegeben: $U_0 = 5,0V$
-* gegeben: $U_{Kl} = 4,8V$
-* gegeben: $R_L = 1,2Ω$
+* gegeben: $U_0 = \qty{5,0}{\volt}$
+* gegeben: $U_{Kl} = \qty{4,8}{\volt}$
+* gegeben: $R_L = \qty{1,2}{\ohm}$
 * gesucht: $R_i$
 
 <fragment>
-$I = \frac{U_{Kl}}{R_L} = \frac{4,8V}{1,2Ω} = 4A$
+$I = \frac{U_{Kl}}{R_L} = \frac{\qty{4,8}{\volt}}{\qty{1,2}{\ohm}} = \qty{4}{\ampere}$
 </fragment>
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{5,0V-4,8V}{4A} = 0,05Ω$
+$R_i = \frac{U_i}{I} = \frac{U_0 - U_{Kl}}{I} = \frac{\qty{5,0}{\volt} - \qty{4,8}{\volt}}{\qty{4}{\ampere}} = \qty{0,05}{\ohm}$
 </fragment>
 

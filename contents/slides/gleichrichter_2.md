@@ -23,43 +23,43 @@ Am Lastwiderstand $R_L$ stellt sich eine pulsierende Gleichspannung $U_L$ ein
 [question:AD302]
 ---
 #### Lösungsweg
-* gegeben: $U_{eff} = 15V$
+* gegeben: $U_{eff} = \qty{15}{\volt}$
 * gesucht: $\hat{U}$
 
 <fragment>
-$\hat{U} = U_{eff} \cdot \sqrt{2} = 15V \cdot 1,41 = 21,21V$
+$\hat{U} = U_{eff} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
 </fragment>
 ---
 [question:AD303]
 ---
 #### Lösungsweg
-* gegeben: $U_P = 230V$
+* gegeben: $U_P = \qty{230}{\volt}$
 * gegeben: $ü = 20:1$
-* gesucht: $\hat{U} + 50\%$
+* gesucht: $\hat{U} + \qty{50}{\percent}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{230V}{20} = 11,5V$
+$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt}$
 </fragment>
 <fragment>
-$\hat{U} = U_S \cdot \sqrt{2} = 11,5V \cdot 1,41 \approx 16,26V$
+$\hat{U} = U_S \cdot \sqrt{2} = \qty{11,5}{\volt} \cdot 1,41 \approx \qty{16,26}{\volt}$
 </fragment>
 <fragment>
-$\hat{U} + 50\% \approx 25V$
+$\hat{U} + \qty{50}{\percent} \approx \qty{25}{\volt}$
 </fragment>
 ---
 [question:AD304]
 ---
 #### Lösungsweg
-* gegeben: $U_P = 230V$
+* gegeben: $U_P = \qty{230}{\volt}$
 * gegeben: $ü = 5:1$
-* gesucht: $U_{SS} + 20\%$
+* gesucht: $U_{SS} + \qty{20}{\percent}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{230V}{5} = 46V$
+$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt}$
 </fragment>
 <fragment>
-$\hat{U} = U_S \cdot \sqrt{2} = 46V \cdot 1,41 \approx 65,05V$
+$\hat{U} = U_S \cdot \sqrt{2} = \qty{46}{\volt} \cdot 1,41 \approx \qty{65,05}{\volt}$
 </fragment>
 <fragment>
-$U_{SS} + 20\% = 2 \cdot \hat{U} + 20\% \approx 156V$
+$U_{SS} + \qty{20}{\percent} = 2 \cdot \hat{U} + \qty{20}{\percent} \approx \qty{156}{\volt}$
 </fragment>

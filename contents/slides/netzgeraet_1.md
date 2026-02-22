@@ -1,6 +1,6 @@
 <left>
-* Netzgerät wandelt Wechselspannung von 230 V aus der Steckdose in kleinere Gleichspannung um
-* Im Amateurfunk wird häufig 13,8 V für Transceiver verwendet
+* Netzgerät wandelt Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in kleinere Gleichspannung um
+* Im Amateurfunk wird häufig $\qty{13,8}{\volt}$ für Transceiver verwendet
 </left>
 <right>
 [picture:740:n_netzgeraet:Netzgerät]
@@ -21,7 +21,7 @@
 <left>
 * Beim *Schutzkontaktstecker* gibt es drei Pole
 * L- und N-Leiter durch Stifte
-* Dort liegt die 230 V-Spanung an
+* Dort liegt die $\qty{230}{\volt}$-Spanung an
 * *Schutzkontakt* ist der dritte Pol
 * PE-Leiter durch äußere Schleifkontakte
 </left>
@@ -108,9 +108,9 @@
 ### Kenngrößen von Feinsicherungen
 
 | c: Auslösecharakteristik | c: Kennzeichen | c: Abschaltzeit bei zehnfachem Nennstrom |
-| flink | F | max. 30 ms|
-| mittelträge | MT | max. 90 ms |
-| träge | T | max. 300 ms |
+| flink | F | max. $\qty{30}{\milli\second}$ |
+| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
+| träge | T | max. $\qty{300}{\milli\second}$ |
 [table:n_feinsicherung:Kenngrößen von Feinsicherungen]
 
 ---

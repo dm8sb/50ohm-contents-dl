@@ -27,15 +27,15 @@
 [question:AD306]
 ---
 #### Lösungsweg
-* gegeben: $U_P = 230V$
+* gegeben: $U_P = \qty{230}{\volt}$
 * gegeben: $ü = 8:1$
-* gegeben: $U_D = 0,6V$
+* gegeben: $U_D = \qty{0,6}{\volt}$
 * gesucht: $\hat{U}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{230V}{8} = 28,75V$
+$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
 </fragment>
 <fragment>
 Im Leerlauf kann die Diodenspannung vernachlässigt werden.
-$\hat{U} = U_S \cdot \sqrt{2} = 28,75V \cdot 1,41 \approx 40V$
+$\hat{U} = U_S \cdot \sqrt{2} = \qty{28,75}{\volt} \cdot 1,41 \approx \qty{40}{\volt}$
 </fragment>

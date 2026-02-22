@@ -16,9 +16,9 @@
 ---
 
 | c: Auslösecharakteristik | c: Kennzeichen | c: Abschaltzeit bei zehnfachem Nennstrom |
-| flink | F | max. 30 ms|
-| mittelträge | MT | max. 90 ms |
-| träge | T | max. 300 ms |
+| flink | F | max. $\qty{30}{\milli\second}$ |
+| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
+| träge | T | max. $\qty{300}{\milli\second}$ |
 [table:n_feinsicherung:Kenngrößen von Feinsicherungen]
 
 ---

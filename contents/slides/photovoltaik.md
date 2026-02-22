@@ -33,14 +33,14 @@ Analog zur Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen
 [question:AD301]
 ---
 #### Lösungweg
-* gegeben: $U_0 = 0,6V$
-* gegeben: $I_k = 1A$
+* gegeben: $U_0 = \qty{0,6}{\volt}$
+* gegeben: $I_k = \qty{1}{\ampere}$
 * gegeben: $N_R = 30, N_P = 4$
 * gesucht: $U_{0,ges}, I_{k,ges}$
 
 <fragment>
-$U_{0,ges} = N_R \cdot U_0 = 30 \cdot 0,6V = 18V$
+$U_{0,ges} = N_R \cdot U_0 = 30 \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$
 </fragment>
 <fragment>
-$I_{0,ges} = N_P \cdot I_k = 4 \cdot 1A = 4A$
+$I_{0,ges} = N_P \cdot I_k = 4 \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$
 </fragment>
