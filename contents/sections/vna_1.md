@@ -26,7 +26,7 @@ Viele VNAs sollten vor der Benutzung kalibriert werden, um ein möglichst genaue
 Zur Kalibrierung als auch zum Funktionstest misst man oft die Zustände "offen" (unendlicher Widerstand), "Kurzschluss" (Widerstand nahe Null) und "angepasst" (Lastwiderstand entsprechend des Ausgangswiderstands des Messgeräts).
 
 <margin>
-[photo:327:e_vna_solt:SOL(T)-Kalibierkit. Von links nach rechts: Load, Open, Closed]
+[photo:327:e_vna_solt:SOL(T)-Kalibrierkit. Von links nach rechts - Load, Open, Closed]
 </margin>
 
 Bei angeschlossenem Leitungsabschluss (z. B. $\qty{50}{\ohm}$ Abschlusswiderstand) sollte der VNA ein SWR von nahe $\num{1}$ anzeigen, da keine Leistung reflektiert wird. Ist nichts am Messanschluss angeschlossen oder wird dieser kurzgeschlossen, so ergibt sich ein SWR von nahe unendlich (vollständige Reflexion).

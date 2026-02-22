@@ -26,6 +26,6 @@ Eine weiteres wichtiges Merkmal von Übertragungsleitungen ist der sogenannte *W
 
 Wenn man Übertragungsleitungen mit unterschiedlichem Wellenwiderstand verbindet, dann kommt es an der Verbindungsstelle zu unerwünschten Reflexionen von hochfrequenten Schwingungen. Dadurch wird ein Teil der Sendeleistung zurück in den Sender reflektiert und kann daher nicht abgestrahlt werden und im schlimmsten Fall sogar den Sender beschädigen.
 
-Der Antennenanschluss von Amateurfunkgeräten ist fast immer auf einen Wellenstand von $\qty{50}{\ohm}$ ausgelegt. Entsprechend haben im Amateurfunk gängige Koaxialkabel einen Wellenwiderstand von $\qty{50}{\ohm}$. In der Fernsehtechnik sind auch Koaxialkabel mit einem Wellenwiderstand von $\qty{75}{\ohm}$ üblich. Seltener finden sich Koaxialkabel mit $\qty{60}{\ohm}$. 
+Der Antennenanschluss von Amateurfunkgeräten ist fast immer auf einen Wellenwiderstand von $\qty{50}{\ohm}$ ausgelegt. Entsprechend haben im Amateurfunk gängige Koaxialkabel einen Wellenwiderstand von $\qty{50}{\ohm}$. In der Fernsehtechnik sind auch Koaxialkabel mit einem Wellenwiderstand von $\qty{75}{\ohm}$ üblich. Seltener finden sich Koaxialkabel mit $\qty{60}{\ohm}$.
 
 [question:NG201]

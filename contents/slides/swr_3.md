@@ -28,7 +28,7 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 
 * Leitungsdämpfung reduziert sowohl die vorlaufende als auch die rücklaufende Leistung
 * Selbst wenn am Kabelende $\qty{100}{\percent}$ der Energie reflektiert werden, kann am Sender ein niedrigeres (besseres) SWR gemessen werden
-* Beispiel: Geht in Hin- und Rürichtung jeweils die Hälfte der Leistung verloren, so verbleibt nur ein Viertel der ursprünglichen Leistung – dies entspricht einem gemessenen SWR von $\num{3}$ ($\qty{25}{\percent}$ reflektierte Leistung)
+* Beispiel: Geht in Hin- und Rückrichtung jeweils die Hälfte der Leistung verloren, so verbleibt nur ein Viertel der ursprünglichen Leistung – dies entspricht einem gemessenen SWR von $\num{3}$ ($\qty{25}{\percent}$ reflektierte Leistung)
 
 ---
 [question:AG402]
@@ -38,7 +38,7 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 
 ### Auswirkung von Leitungsdämpfung auf gemessenes SWR
 
-* Bei einer Leitungsdiämpfung von $\qty{5}{\dB}$ in Hin- und Rürichtung (insgesamt $\qty{10}{\dB}$) entspricht die rücklaufende Leistung nur einem Zehntel der vorlaufenden
+* Bei einer Leitungsdämpfung von $\qty{5}{\dB}$ in Hin- und Rückrichtung (insgesamt $\qty{10}{\dB}$) entspricht die rücklaufende Leistung nur einem Zehntel der vorlaufenden
 * Das gemessene SWR lässt sich mit der Formel berechnen:
   
 <fragment>
