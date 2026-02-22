@@ -108,7 +108,7 @@ Da neben dem Kollektorstrom auch der Basisstrom durch den Transistor fließt, fl
 Ist die Basis-Emitter-Spannung ausreichend und liegt sie im positiven Potential vor?
 Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, Beispiele:
 
-* Basis $\qty{+2}{\volt}$ und Emitter $\qty{+1,4}{\volt}$<br/> &rArr; Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
+* Basis $\qty{+2}{\volt}$ und Emitter $\qty{+1,4}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
 * Basis $\qty{-5,6}{\volt}$ und Emitter $\qty{-6,2}{\volt}$<br/> &rArr; Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
 
 ---
