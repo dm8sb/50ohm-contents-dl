@@ -15,7 +15,7 @@
 
 <left>
 * Nicht messbar mit einem Multimeter
-* Rechnerisch ermitteln: <br/>$R_i$ = $\frac{\Delta U}{\Delta I}$
+* Rechnerisch ermitteln: <br/>$R_i = \frac{\Delta U}{\Delta I}$
 </left>
 <right>
 * Leerlauf: $I = \qty{0}{\ampere}$
@@ -28,7 +28,7 @@
 $(\Delta U = \qty{0}{\volt})$;  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
 <fragment>
-Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i$$\ll$$R_L$ aufweisen, im Idealfall: 0 Ohm, dann bleibt die Ausgangsspannung bei Belastung unverändert.
+Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen, im Idealfall: 0 Ohm, dann bleibt die Ausgangsspannung bei Belastung unverändert.
 </fragment>
 
 ---
@@ -47,7 +47,7 @@ Ideale Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i$$\ll$$R
 $R_i = \frac{\Delta U}{\Delta I}$; $(\Delta I = "\textrm{Null}" A)$;  $R_i = \frac{\Delta U}{"\textrm{Null}"} = "\textrm{unendlich}"\ \Omega$
 
 <fragment>
-Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i$$\gg$$R_L$ aufweisen. Idealfall: "unendlich" Ohm, dann bleibt der Laststrom bei Änderung des  Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
+Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i \gg R_L$ aufweisen. Idealfall: "unendlich" Ohm, dann bleibt der Laststrom bei Änderung des  Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
 </fragment>
 
 ---
@@ -61,9 +61,9 @@ Ideale Stromquellen sollen einen sehr hohen Innenwiderstand $R_i$$\gg$$R_L$ aufw
 --- style="font-size: 0.7em;"
 
 |c: Zusammenfassung Innenwiderstand | c: Innenwiderstand |
-| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch $\qty{0}{\ohm}$; $R_i$$\ll$$R_L$ identisch mit $R_L$$\gg$$R_i$| 
-|Stromanpassung bei einer Konstantstromquelle|$R_i$ =  "sehr hochohmig" ;  $R_i$$\gg$$R_L$ identisch mit $R_L$$\ll$$R_i$ |
-| Leistungsanpassung bei Verstärkern| $R_L$ = $R_i$|
+| Spannungsanpassung bei einer Konstantspannungsquelle| $R_i$ =  "sehr niederhohmig" ; theoretisch $\qty{0}{\ohm}$; $R_i \ll R_L$ identisch mit $R_L \gg R_i$| 
+|Stromanpassung bei einer Konstantstromquelle|$R_i$ =  "sehr hochohmig" ;  $R_i \gg R_L$ identisch mit $R_L \ll R_i$ |
+| Leistungsanpassung bei Verstärkern| $R_L = R_i$|
 [table:a_Innenwiderstand Zusammenfassung:Zusammenfassung zum Innenwiderstand]
 
 ---

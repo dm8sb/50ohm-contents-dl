@@ -48,7 +48,7 @@ Unter der Regelung befindet sich ein großer Kühlkörper mit den Längstransist
 
 
 [question:AD315]
-Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{in}$ - $P_{out}$.
+Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{in} - P_{out}$.
 
 ------
 [question:AD319]
