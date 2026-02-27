@@ -26,11 +26,11 @@ Am besten erreicht man dieses Ziel mit Hilfe eines sog. Balancemischers. Dieser 
 <indepth>
 Funktionsweise eines Ringmischers:
 
-Der Lokal-Oszillator (U2 im Schaubild) schaltet immer zwei gegenüberliegende Dioden während einer Halbwelle leitend, während die beiden anderen Dioden gesperrt sind. In der nächsten Halbwelle des Lokal-Oszillators kehren sich die Verhältnisse genau um. Hierfür muss die Amplitude des Lokal-Oszillators (U2) ausreichend hoch sein, damit die Dioden während der positiven und negativen Halbwellen ausreichend durchgesteuert werden können.
+Der Lokal-Oszillator ($U_2$ im Schaubild) schaltet immer zwei gegenüberliegende Dioden während einer Halbwelle leitend, während die beiden anderen Dioden gesperrt sind. In der nächsten Halbwelle des Lokal-Oszillators kehren sich die Verhältnisse genau um. Hierfür muss die Amplitude des Lokal-Oszillators ($U_2$) ausreichend hoch sein, damit die Dioden während der positiven und negativen Halbwellen ausreichend durchgesteuert werden können.
 
-Hierdurch arbeitet der Diodenring als Polwender für das am Eingang anliegende Signal (U1).
+Hierdurch arbeitet der Diodenring als Polwender für das am Eingang anliegende Signal ($U_1$).
 Zum erreichen eines guten Mischergebnisses bezüglich unerwünschter Mischprodukte und Unterdrückung des Eingangssignals muss dessen Amplitude deutlich kleiner sein als die Amplitude des Lokal-Oszillators.
-Optimale Werte werden durch sog. High-Level-Ringmischer erreicht, deren LO-Eingangspegel im Bereich von bis zu 10mW liegen können.
+Optimale Werte werden durch sog. High-Level-Ringmischer erreicht, deren LO-Eingangspegel im Bereich von bis zu $\qty{10}{\milli\watt}$ liegen können.
 </indepth>
 
 <tip>

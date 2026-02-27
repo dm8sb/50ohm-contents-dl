@@ -2,29 +2,29 @@ Funkgeräte müssen manchmal neu abgeglichen werden, zum Beispiel nach Reparatur
 
 [question:EI501]
 
-Abbildung [ref:e_frequenzzaehler1] zeigt das Display eines Frequenzzählers. Die abgesetzte Drei ganz rechts steht wie bei manchen Taschenrechnern für $10^3$. Also misst der Zähler die Frequenz $\qty{455}\cdot 10^3~\unit{\hertz}$ oder $\qty{455}{\kilo\hertz}$. Neuere Messgeräte zeigen statt der Zehnerpotenz den Einheitenvorsatz direkt an.
+Abbildung [ref:e_frequenzzaehler1] zeigt das Display eines Frequenzzählers. Die abgesetzte Drei ganz rechts steht wie bei manchen Taschenrechnern für $\num{10^3}$. Also misst der Zähler die Frequenz $\qty{455}\cdot \qty{10^3}{\hertz}$ oder $\qty{455}{\kilo\hertz}$. Neuere Messgeräte zeigen statt der Zehnerpotenz den Einheitenvorsatz direkt an.
 
 <margin>
-[photo:187:e_frequenzzaehler1:Display eines Frequenzzählers, der $\qty{455}\cdot 10^3~\unit{\hertz}$ anzeigt]
+[photo:187:e_frequenzzaehler1:Display eines Frequenzzählers, der $\qty{455}\cdot \qty{10^3}{\hertz}$ anzeigt]
 </margin>
 
 % Ich hab das mal aus Platzgründen entfernt
 %<margin> 
-%[photo:189:e_frequenzzaehler2:Multimeter, das im Frequenzmessbereich 455 kHz anzeigt. Darüber erscheinen ein Symbol für niedrige %Batteriespannung, die Luftfeuchtigkeit und die Temperatur. Diese Werte haben nichts mit der Frequenzmessung zu tun.]
+%[photo:189:e_frequenzzaehler2:Multimeter, das im Frequenzmessbereich $\qty{455}{\kilo\hertz}$ anzeigt. Darüber erscheinen ein Symbol für niedrige %Batteriespannung, die Luftfeuchtigkeit und die Temperatur. Diese Werte haben nichts mit der Frequenzmessung zu tun.]
 %</margin>
 
 <indepth>
-Die Frequenz 455 kHz kommt häufig als Zwischenfrequenz von Überlagerungsempfängern vor und kann gemessen werden, wenn der Empfänger auf ein starkes Signal abgestimmt ist.
+Die Frequenz $\qty{455}{\kilo\hertz}$ kommt häufig als Zwischenfrequenz von Überlagerungsempfängern vor und kann gemessen werden, wenn der Empfänger auf ein starkes Signal abgestimmt ist.
 </indepth>
 
 ---
 
-In Abgleichanleitungen wird oft verlangt, eine Frequenz bis auf eine bestimmte Abweichung genau einzustellen, zum Beispiel $\pm\qty{10}{\hertz}$. In solchen Fällen ist es hilfreich, sich den Stellenwert der einzelnen Ziffern vor Augen zu führen. Die vom Messgerät angezeigte Zehnerpotenz, also bei $\qty{455}{\kilo\hertz}$ der Wert $10^3$ oder $1000$, gilt immer für die Stelle direkt vor dem Komma. Die Stelle links davon steht dann für $\qty{10}{\kilo\hertz}$ oder $10^4~\unit{\hertz}$ und die Stelle noch eins weiter links, im Beispiel die Vier, für $\qty{100}{\kilo\hertz}$ oder $10^5~\unit{\hertz}$. Nach rechts geht es in die andere Richtung.
+In Abgleichanleitungen wird oft verlangt, eine Frequenz bis auf eine bestimmte Abweichung genau einzustellen, zum Beispiel $\pm\qty{10}{\hertz}$. In solchen Fällen ist es hilfreich, sich den Stellenwert der einzelnen Ziffern vor Augen zu führen. Die vom Messgerät angezeigte Zehnerpotenz, also bei $\qty{455}{\kilo\hertz}$ der Wert $\num{10^3}$ oder $\num{1000}$, gilt immer für die Stelle direkt vor dem Komma. Die Stelle links davon steht dann für $\qty{10}{\kilo\hertz}$ oder $\qty{10^4}{\hertz}$ und die Stelle noch eins weiter links, im Beispiel die Vier, für $\qty{100}{\kilo\hertz}$ oder $\qty{10^5}{\hertz}$. Nach rechts geht es in die andere Richtung.
 
  In Abbildung [ref:e_frequenzzaehler_stellen] sehen wir ein Beispiel mit einer höheren Frequenz.
   
 <margin>
-[picture:793:e_frequenzzaehler_stellen:Diese Anzeige stellt eine Frequenz in MHz dar. Das ist zugleich der Stellenwert der Ziffer vor dem Komma.]
+[picture:793:e_frequenzzaehler_stellen:Diese Anzeige stellt eine Frequenz in $\unit{\mega\hertz}$ dar. Das ist zugleich der Stellenwert der Ziffer vor dem Komma.]
 </margin>
 
 <attention>

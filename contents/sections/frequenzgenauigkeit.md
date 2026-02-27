@@ -1,11 +1,11 @@
-Die Genauigkeit von Frequenzen und Messbereichen bei Sendern, Empfängern, Oszillatoren, Frequenzzählern usw. wird entweder in % ($1 \cdot {10^{-2}}$) oder in parts per million (ppm = $1 \cdot {10^{-6}}$) angegeben. Manchmal erfolgt die Angabe auch direkt in Exponentialschreibweise wie z.B. Genauigkeit von $1 \cdot {10^{-7}}$.
+Die Genauigkeit von Frequenzen und Messbereichen bei Sendern, Empfängern, Oszillatoren, Frequenzzählern usw. wird entweder in $\unit{\percent}$ ($1 \cdot \num{10^{-2}}$) oder in parts per million ($\unit{\ppm} = 1 \cdot \num{10^{-6}}$) angegeben. Manchmal erfolgt die Angabe auch direkt in Exponentialschreibweise wie z.B. Genauigkeit von $1 \cdot \num{10^{-7}}$.
 Mit dieser Genauigkeit ist die Frequenz zu multiplizieren um die mögliche Abweichung von Messwerten oder Anzeigen zu berechnen.
 
 <indepth>
   Hinweis bzgl. Umrechnung/Darstellung von 10er Potenzen:
   
-  $1 \cdot {10^{-2}} = \frac{1}{10^2}$
-  $1 \cdot {10^{-6}} = \frac{1}{10^6}$
+  $1 \cdot {\num{10^{-2}}} = \frac{1}{\num{10^2}}$
+  $1 \cdot {\num{10^{-6}}} = \frac{1}{\num{10^6}}$
   
   usw.
 </indepth>
