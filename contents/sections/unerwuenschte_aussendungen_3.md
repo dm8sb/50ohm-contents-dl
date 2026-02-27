@@ -27,7 +27,7 @@ Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden
 [question:AJ204]
 
 <tip>
-Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich zwischen 87,6 und 107,9 MHz.
+Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von $\qtyrange{87,6}{107,9}{\mega\hertz}$.
 </tip>
 
 Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt werden, so kann dies neben des klassischen Oberwellenfilters (Tiefpass) auch durch sog. *Sperrkreise* erfolgen. Ein Sperrkreis unterdrückt genau eine Frequenz maximal und lässt ansonsten alle anderen nahezu ungehindert passieren.
@@ -42,7 +42,7 @@ Laut Amateurfunkverordnung (AFuV) sind unerwünschte Aussendungen auf das gering
 [photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]
 </margin>
 
-Für den VHF/UHF/SHF-Bereich von 50 MHz bis 1000 MHz gilt, dass Nebenaussendungen und Oberwellen mindestens 60 dB gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von 0,25 µW befindet (vgl. Abbildung [ref:a_uagw]).
+Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{60}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).
 
 [question:AJ225]
 
@@ -50,7 +50,7 @@ Für den VHF/UHF/SHF-Bereich von 50 MHz bis 1000 MHz gilt, dass Nebenaussendunge
 [picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
 </margin>
 
-Für den Kurzwellenbereich von 1,7 MHz bis 35 MHz gilt, dass Nebenaussendungen und Oberwellen mindestens 40 dB gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von 0,25 µW befindet.
+Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{40}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet.
 
 [question:AJ224]
 

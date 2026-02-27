@@ -26,13 +26,13 @@ Unterschiedliche Übertragungsverfahren haben aufgrund ihrer Modulationscharakte
 
 Um DVB-T Empfänger vor starken Signalen eines VHF/UHF Amateurfunksenders in unmittelbarer Nähe zu schützen sollte in die Antennenzuleitung des DVB-T-Empfängers ein Hochpassfilter eingebaut werden. Dies ist jedoch nur bei passiven Empfangsantennen wirksam. Insbesondere unselektive TV-Antennenvorverstärker werden durch benachbarte Sendesignale schnell übersteuert, da diese einen breiten Frequenzbereich verstärken.
 Bei aktiven Empfangsantennen muss ein Hochpassfilter vor dem Antennenvorverstärker der Antenne eingebaut werden.
-Beim Einbau von Filtern ist auch die Einfügedämpfung der Filter im Durchlassbereich zu beachten. Diese sollte so gering wie möglich sein und nicht mehr als 2-3 dB betragen um das gewünschte Empfangssignal möglichst ungehindert passieren zu lassen.
+Beim Einbau von Filtern ist auch die Einfügedämpfung der Filter im Durchlassbereich zu beachten. Diese sollte so gering wie möglich sein und nicht mehr als $\qtyrange{2}{3}{\dB}$ betragen um das gewünschte Empfangssignal möglichst ungehindert passieren zu lassen.
 
 [question:AJ113]
 [question:AJ114]
 [question:AJ108]
 
-Grundsätzlich macht es Sinn hinter einem starken Kurzwellensender ein Tiefpassfilter mit einer Grenzfrequenz von 30-40 MHz zu installieren. Auch durch Verwendung eines Antennen-Tuners in Tiefpass-Konfiguration (Pi- oder LC-Filter) kann eine Tiefpasswirkung erreicht werden, die Oberwellenaussendungen wirksam unterdrückt.
+Grundsätzlich macht es Sinn hinter einem starken Kurzwellensender ein Tiefpassfilter mit einer Grenzfrequenz von $\qtyrange{30}{40}{\mega\hertz}$ zu installieren. Auch durch Verwendung eines Antennen-Tuners in Tiefpass-Konfiguration (Pi- oder LC-Filter) kann eine Tiefpasswirkung erreicht werden, die Oberwellenaussendungen wirksam unterdrückt.
 
 [question:AJ112]
 [question:AJ104]
@@ -47,7 +47,7 @@ Um die vorgenannten Probleme zu vermeiden sollte seitens des Funkamateurs daher 
 
 [question:AJ101]
 
-Zum Abblocken von HF-Störungen in Schaltungen und Geräten werden oft Abblockkondensatoren verwendet. Diese müssen die Eigenschaft haben die HF möglichst effizient gegen Masse abzuleiten. Hierfür eignen sich insbesondere Keramik-Kondensatoren sehr gut. Ungeeignet sind Elektrolyt- und Kunststoff-Folienkondensatoren, da diese durch ihren gewickelten Aufbau eine hohe Eigeninduktivität besitzen. Bei Tantal-Kondensatoren wird oft aufgrund der besseren HF-Ableitungseigenschaften ein Keramik-Kondensator parallel geschaltet, da diese alleinig nur für mittlere HF-Frequenzen bis ca. 30 MHz geeignet sind und Keramik-Kondensatoren weitaus höhere Frequenzen abblocken können.
+Zum Abblocken von HF-Störungen in Schaltungen und Geräten werden oft Abblockkondensatoren verwendet. Diese müssen die Eigenschaft haben die HF möglichst effizient gegen Masse abzuleiten. Hierfür eignen sich insbesondere Keramik-Kondensatoren sehr gut. Ungeeignet sind Elektrolyt- und Kunststoff-Folienkondensatoren, da diese durch ihren gewickelten Aufbau eine hohe Eigeninduktivität besitzen. Bei Tantal-Kondensatoren wird oft aufgrund der besseren HF-Ableitungseigenschaften ein Keramik-Kondensator parallel geschaltet, da diese alleinig nur für mittlere HF-Frequenzen bis ca. $\qty{30}{\mega\hertz}$ geeignet sind und Keramik-Kondensatoren weitaus höhere Frequenzen abblocken können.
 Um HF-Störungen wirksam abzuleiten muss eine wirksame Erdung mit niedriger Impedanz vorliegen.
 
 [question:AJ119]

@@ -120,8 +120,8 @@
 </left>
 <right>
 * Quarze bestimmen die Frequenz des unterdrückten Trägers
-* Beim LSB liegt der Träger 1,5 kHz über der 9 MHz-Mitte
-* Bei maximal 3 kHz NF liegt das LSB 1,5 kHz unter der Mitte
+* Beim LSB liegt der Träger $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Mitte
+* Bei maximal $\qty{3}{\kilo\hertz}$ NF liegt das LSB $\qty{1,5}{\kilo\hertz}$ unter der Mitte
 * Für das USB gilt das umgekehrt
 </right>
 
@@ -132,12 +132,12 @@
 [question:AF307]
 ---
 #### Lösungsweg
-* gegeben: $f_Q = 9MHz$
-* gegeben: $f_{LSB} = 9,0015MHz$
+* gegeben: $f_Q = \qty{9}{\mega\hertz}$
+* gegeben: $f_{LSB} = \qty{9,0015}{\mega\hertz}$
 * gesucht: $f_{USB}$
 
 <fragment>
-$\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= 9MHz - (9,0015MHz - 9MHz)\\ &= 9MHz - 0,0015MHz\\ &=8,9985MHz\end{split}$ 
+$\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= \qty{9}{\mega\hertz} - (\qty{9,0015}{\mega\hertz} - \qty{9}{\mega\hertz})\\ &= \qty{9}{\mega\hertz} - \qty{0,0015}{\mega\hertz}\\ &=\qty{8,9985}{\mega\hertz}\end{split}$ 
 </fragment>
 
 ---

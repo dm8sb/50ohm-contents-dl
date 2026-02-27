@@ -69,11 +69,11 @@ Sägezahnsignale enthalten überwiegend gradzahlige Harmonische.
 
 ---
 #### Lösungsweg
-* gegeben: $f = 3,730MHz$
+* gegeben: $f = \qty{3,730}{\mega\hertz}$
 * gesucht: $f$ der 2. Harmonischen
 
 <fragment>
-$2 \cdot f = 2 \cdot 3,730MHz = 7,460MHz$
+$2 \cdot f = 2 \cdot \qty{3,730}{\mega\hertz} = \qty{7,460}{\mega\hertz}$
 </fragment>
 
 ---
@@ -81,24 +81,24 @@ $2 \cdot f = 2 \cdot 3,730MHz = 7,460MHz$
 
 ---
 #### Lösungsweg
-* gegeben: $f = 144,690MHz$
+* gegeben: $f = \qty{144,690}{\mega\hertz}$
 * gesucht: $f$ als 2. ungeradzahlige Harmonische
 
 <fragment>
 2. ungeradzahlige Harmonische = 3. Harmonische
   
-$3 \cdot f = 3 \cdot 144,690MHz = 434,070MHz$
+$3 \cdot f = 3 \cdot \qty{144,690}{\mega\hertz} = \qty{434,070}{\mega\hertz}$
 </fragment>
 ---
 [question:AJ202]
 
 ---
 #### Lösungsweg
-* gegeben: $f = 7,050MHz$
+* gegeben: $f = \qty{7,050}{\mega\hertz}$
 * gesucht: $f$ als 3. Harmonische
 
 <fragment>
-$3 \cdot f = 3 \cdot 7,050MHz = 21,150MHz$
+$3 \cdot f = 3 \cdot \qty{7,050}{\mega\hertz} = \qty{21,150}{\mega\hertz}$
 </fragment>
 
 ---
@@ -106,9 +106,9 @@ $3 \cdot f = 3 \cdot 7,050MHz = 21,150MHz$
 
 ---
 #### Lösungsweg
-* gegeben: $f = 144,300MHz$
+* gegeben: $f = \qty{144,300}{\mega\hertz}$
 * gesucht: mehrere Harmonische
 
 <fragment>
-$\begin{split}2 \cdot 144,300MHz &= 288,600MHz\\ 3 \cdot 144,300MHz &= \bold{432,900MHz}\\ &\vdots\\ 9 \cdot 144,300MHz &= \bold{1298,700MHz}\end{split}$
+$\begin{split}2 \cdot \qty{144,300}{\mega\hertz} &= \qty{288,600}{\mega\hertz}\\ 3 \cdot \qty{144,300}{\mega\hertz} &= \bold{\qty{432,900}{\mega\hertz}}\\ &\vdots\\ 9 \cdot \qty{144,300}{\mega\hertz} &= \bold{\qty{1298,700}{\mega\hertz}}\end{split}$
 </fragment>

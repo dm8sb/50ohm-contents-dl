@@ -29,7 +29,7 @@ Wir empfehlen, die folgenden Fragen anhand der Anlage 1 zu beantworten, um Übun
 [question:VD733]
 [question:VD734]
 
-Für den Frequenzbereich von 1240 bis 1300 MHz gelten zusätzliche Regelungen, die nicht direkt in der Tabelle stehen. In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben, die unter der Tabelle stehen. Für die folgende Frage ist der Punkt 11 zu beachten.
+Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen, die nicht direkt in der Tabelle stehen. In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben, die unter der Tabelle stehen. Für die folgende Frage ist der Punkt 11 zu beachten.
 
 [question:VD735]
 [question:VD736]

@@ -64,7 +64,7 @@ Aktuell ist die [Anlage 1 der AFuV](https://50ohm.de/a1) hier zu finden.
 
 ---
 
-* Für den Frequenzbereich von 1240 bis 1300 MHz gelten zusätzliche Regelungen
+* Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen
 * stehen nicht direkt in der Tabelle
 * In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben
 * Stehen unter der Tabelle

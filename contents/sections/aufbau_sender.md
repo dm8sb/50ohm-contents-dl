@@ -6,7 +6,7 @@ In Abbildung [ref:aufbau_sender] wird gezeigt, aus welchen Komponenten man einen
 1. Mikrofon: Das Mikrofon wandelt die Schallwellen der Sprache in niederfrequente elektrische Schwingungen um. Man kann stattdessen aber auch, z. B. für digitale Übertragungsverfahren, das niederfrequente Signal vom Audio-Ausgang eines Computers verwenden.
 2. Niederfrequenz-Verstärker: Das Signal vom Mikrofon bzw. Computer wird zunächst verstärkt.
 3. Mischer: Der Mischer fügt den vom Oszillator (4) erzeugten Hochfrequenzträger mit der niederfrequenten Schwingung vom Mikrofon bzw. Computer zusammen. Das führt dazu, dass der Hochfrequenzträger mit dem Sprach- bzw. Datensignal amplitudenmoduliert wird.
-4. Oszillator: Der Oszillator erzeugt die hochfrequente Schwingung mit der Frequenz, auf der gesendet werden soll, beispielsweise 29,5 MHz.
+4. Oszillator: Der Oszillator erzeugt die hochfrequente Schwingung mit der Frequenz, auf der gesendet werden soll, beispielsweise $\qty{29,5}{\mega\hertz}$.
 5. Bandpassfilter: Da der Mischer aufgrund seiner Funktionsweise neben den gewünschten Frequenzen auch weitere, unerwünschte Frequenzen erzeugt, müssen diese mit einem Bandfilter gesperrt werden.
 6. Hochfrequenz-Verstärker: Das Hochfrequenzsignal wird nun verstärkt, damit es über die gewünschte Sendeleistung verfügt.
 7. Tiefpassfilter: Da auch die Verstärkung unerwünschte Frequenzen erzeugen kann, muss jetzt nochmal gefiltert werden.

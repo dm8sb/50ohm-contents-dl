@@ -1,6 +1,6 @@
 Wichtige Messungen für den Funkamateur an Sendern sind Messungen von Ausgangsleistungen an Sendern oder die Messung von HF-Spannungen in HF-Schaltungsteilen.
 
-Bei Messung von Senderausgangsleistungen muss der Sender mit einer definierten Impedanz, die zur Ausgangsimpedanz des Senders passt, abgeschlossen werden. Im Amateurfunk beträgt die übliche Impedanz (Senderabschluss) 50 Ohm. Der Abschluss kann auch direkt in der Messschaltung erfolgen, was jedoch nur bei kleine Leistungen sinnvoll ist.
+Bei Messung von Senderausgangsleistungen muss der Sender mit einer definierten Impedanz, die zur Ausgangsimpedanz des Senders passt, abgeschlossen werden. Im Amateurfunk beträgt die übliche Impedanz (Senderabschluss) $\qty{50}{\ohm}$. Der Abschluss kann auch direkt in der Messschaltung erfolgen, was jedoch nur bei kleine Leistungen sinnvoll ist.
 
 Die Messung von HF-Spannungen erfolgt mittels eines HF-Tastkopfes über Diodengleichrichtung und anschließende Glättung der entstehenden Gleichspannung mit einem nachgeschalteten Kondensator.
 
@@ -26,14 +26,14 @@ Ein HF-Tastkopf mit einfacher Gleichrichtung und anschließender Glättung wird 
 
 Das HF-Eingangssignal wird durch den vorhandenen Widerstand (oder Kombination aus Einzelwiderständen) am Eingang impedanzrichtig abgeschlossen. In der dargestellten Schaltung wird die HF-Spannung durch den nachfolgenden Spannungsteiler halbiert (wobei dieser ebenfalls bzgl. der Impedanz wirksam ist). Anschließend erfolgt die Spitzenwert-Gleichrichtung mittels Diode, deren Ausgansspannung sich als Spitzenwert abzüglich der Forward-Spannung der Diode berechnet und im nachgeschalteten Kondensator gepuffert wird.
 
-Bei 1 Watt Eingangsleistung in einem 50 Ohm System ergibt sich eine Eingangsspannung von 7,07 V Effektiv-Spannung und 10V Spitzenspannung.
-Der nachgeschaltete Spannungsteiler halbiert diese Spannung auf 5V Spitzenspannung, die nach Gleichrichtung durch die Diode abzüglich deren Forward-Spannung von 0,23V noch 4,77 Volt beträgt. Gemessen werden dann gerundet ca. 4,8 Volt am Ausgang der Schaltung.
+Bei $\qty{1}{\watt}$ Eingangsleistung in einem $\qty{50}{\ohm}$-System ergibt sich eine Eingangsspannung von $\qty{7,07}{\volt}$ Effektiv-Spannung und $\qty{10}{\volt}$ Spitzenspannung.
+Der nachgeschaltete Spannungsteiler halbiert diese Spannung auf $\qty{5}{\volt}$ Spitzenspannung, die nach Gleichrichtung durch die Diode abzüglich deren Forward-Spannung von $\qty{0,23}{\volt}$ noch $\qty{4,77}{\volt}$ beträgt. Gemessen werden dann gerundet ca. $\qty{4,8}{\volt}$ am Ausgang der Schaltung.
 
 [question:AI610]
 
 Umgekehrt kann aus der gemessenen Gleichspannung die der Schaltung zugeführte Leistung berechnet werden.
 
-Gemessen werden am Ausgang der Schaltung 14,9 V Spitzenspannung. Wegen der Forward-Spannung der Diode beträgt der HF-Spitzenwert vor der Diode 15,6 V. Unter Berücksichtigung des vorgeschalteten Spannungsteilers ergibt dies eine HF-Spitzenspannung von 31,2 V.  Dies entspricht einer Eingangsleistung an einem 50 Ohm-System von 9,73 Watt und damit ca. 9,7 Watt.
+Gemessen werden am Ausgang der Schaltung $\qty{14,9}{\volt}$ Spitzenspannung. Wegen der Forward-Spannung der Diode beträgt der HF-Spitzenwert vor der Diode $\qty{15,6}{\volt}$. Unter Berücksichtigung des vorgeschalteten Spannungsteilers ergibt dies eine HF-Spitzenspannung von $\qty{31,2}{\volt}$.  Dies entspricht einer Eingangsleistung an einem $\qty{50}{\ohm}$-System von $\qty{9,73}{\watt}$ und damit ca. $\qty{9,7}{\watt}$.
 
 [question:AI611]
 

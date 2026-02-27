@@ -58,7 +58,7 @@ Eine mögliche Maßnahme besteht darin, HF-Baugruppen möglichst durch ein gesch
 
 [question:EJ108]
 
-Befindet sich eine Kurzwellen-Sendeantenne in der Nähe und parallel zu einer 230-V-Wechselstromleitung, können Hochfrequenzströme in das Stromnetz eingekoppelt werden. Um Beeinflussungen im eigenen Haus möglichst gering zu halten, empfiehlt es sich, für Sendeantennen eine separate HF-Erdleitung zu verwenden.
+Befindet sich eine Kurzwellen-Sendeantenne in der Nähe und parallel zu einer $\qty{230}{\volt}$-Wechselstromleitung, können Hochfrequenzströme in das Stromnetz eingekoppelt werden. Um Beeinflussungen im eigenen Haus möglichst gering zu halten, empfiehlt es sich, für Sendeantennen eine separate HF-Erdleitung zu verwenden.
 
 [question:EJ109]
 [question:EJ111]

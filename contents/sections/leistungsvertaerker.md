@@ -1,4 +1,4 @@
-Leistungsverstärker werden im Amateurfunkbereich zur Verstärkung des intern erzeugten HF-Signals aus vorherigen Stufen verwendet um die gewünschte Ausgangsleistung des Senders zu erzielen. Hierbei unterscheidet man grundlegend in 2 Typen von HF-Verstärkern. Zum einen breitbandige HF-Verstärker, welche eine gleichbleibende Verstärkung über einen relativ breiten Frequenzbereich haben (z.B. Kurzwellenbereich 1-30 MHz). Zum anderen selektive HF-Verstärker, welche das Maximum Ihrer Verstärkung nur in einem schmalen Frequenzbereich haben (z.B. nur in einem Amateurband des Kurzwellenbereichs).
+Leistungsverstärker werden im Amateurfunkbereich zur Verstärkung des intern erzeugten HF-Signals aus vorherigen Stufen verwendet um die gewünschte Ausgangsleistung des Senders zu erzielen. Hierbei unterscheidet man grundlegend in 2 Typen von HF-Verstärkern. Zum einen breitbandige HF-Verstärker, welche eine gleichbleibende Verstärkung über einen relativ breiten Frequenzbereich haben (z.B. Kurzwellenbereich $\qtyrange{1}{30}{\mega\hertz}$). Zum anderen selektive HF-Verstärker, welche das Maximum Ihrer Verstärkung nur in einem schmalen Frequenzbereich haben (z.B. nur in einem Amateurband des Kurzwellenbereichs).
 
 Breitbandige HF-Verstärker erkennt man typischerweise an breitbandigen Koppeltransformatoren zwischen den einzelnen Verstärkerstufen, die **nicht** mittels einer Parallel- oder Serienkapazität als Schwingkreis ausgebildet sind.
 
@@ -68,6 +68,6 @@ Die HF-Eigenschaften realer Kondensatoren sind frequenzabhängig. Große Kapazit
 
 [question:AF415]
 
-Um die Gesamtverstärkung eines mehrstufigen Leistungsverstärkers zu ermitteln muss die Differenz zwischen Ausgangs- und Eingangsleistung durch vorzeichenrichtige Subtraktion der dBm-Werte vorgenommen werden. Beispiel: Eingangsleistung -5 dBm, Ausgangsleistung 20 dBm ergibt eine Gesamtverstärkung von 25 dB (20 dBm - (-5 dBm) = 25 dB)
+Um die Gesamtverstärkung eines mehrstufigen Leistungsverstärkers zu ermitteln muss die Differenz zwischen Ausgangs- und Eingangsleistung durch vorzeichenrichtige Subtraktion der dBm-Werte vorgenommen werden. Beispiel: Eingangsleistung $\qty{-5}{\dBm}$, Ausgangsleistung $\qty{20}{\dBm}$ ergibt eine Gesamtverstärkung von $\qty{25}{\dB}$ ($\qty{20}{\dBm} - (\qty{-5}{\dBm}) = \qty{25}{\dB}$)
 
 [question:AF428]

@@ -42,12 +42,12 @@
 
 ---
 #### Lösungsweg
-* gegeben: $f = 29,5MHz$
+* gegeben: $f = \qty{29,5}{\mega\hertz}$
 * gegeben: $n = 3$
-* gegeben: Radiobereich: 88,5MHz - 108,0MHz
+* gegeben: Radiobereich: $\qtyrange{88,5}{108,0}{\mega\hertz}$
 
 <fragment>
-$f \cdot n = 29,5MHz \cdot 3 = 88,5MHz$
+$f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
 </fragment>
 
 ---
@@ -56,12 +56,12 @@ $f \cdot n = 29,5MHz \cdot 3 = 88,5MHz$
 
 ---
 #### Lösungsweg
-* gegeben: $f = 7,20MHz$
+* gegeben: $f = \qty{7,20}{\mega\hertz}$
 * gegeben: $n = 4$
 * gesucht: 3. Oberwelle
 
 <fragment>
-$f \cdot n = 7,20MHz \cdot 4 = 28,80MHz$
+$f \cdot n = \qty{7,20}{\mega\hertz} \cdot 4 = \qty{28,80}{\mega\hertz}$
 </fragment>
 
 ---
@@ -140,10 +140,10 @@ Weitere Informationen in der [Verfügung 33](http://50ohm.de/vfg33) von 2007.
 
 ---
 
-### HF-Bereich (1,7 MHz – 35 MHz)
+### HF-Bereich ($\qtyrange{1,7}{35}{\mega\hertz}$)
 
-* Dämpfung mindestens 40 dB  
-* Signalleistung über 0,25 µW relevant  
+* Dämpfung mindestens $\qty{40}{\dB}$
+* Signalleistung über $\qty{0,25}{\micro\watt}$ relevant
 
 ---
 
@@ -151,10 +151,10 @@ Weitere Informationen in der [Verfügung 33](http://50ohm.de/vfg33) von 2007.
 
 ---
 
-### VHF/UHF/SHF-Bereich (50 MHz – 1000 MHz)
+### VHF/UHF/SHF-Bereich ($\qtyrange{50}{1000}{\mega\hertz}$)
 
-* Dämpfung mindestens 60 dB  
-* Signalleistung über 0,25 µW relevant  
+* Dämpfung mindestens $\qty{60}{\dB}$
+* Signalleistung über $\qty{0,25}{\micro\watt}$ relevant
 
 ---
 

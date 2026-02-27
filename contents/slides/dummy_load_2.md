@@ -19,22 +19,22 @@
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $R = 150Ω$
-* gegeben: $R_S = 4\cdot 150Ω = 600Ω$
+* gegeben: $R = \qty{150}{\ohm}$
+* gegeben: $R_S = 4\cdot \qty{150}{\ohm} = \qty{600}{\ohm}$
 </left>
 <right>
-* gegeben: $R_{ges} = 50Ω$
-* gegeben: $P_R = 1W$
+* gegeben: $R_{ges} = \qty{50}{\ohm}$
+* gegeben: $P_R = \qty{1}{\watt}$
 * gesucht: $n$ Widerstände, $P$
 </right>
 
 <fragment>
 Reihen mit je 4 Widerständen:
-$\frac{1}{R_{ges}} = n_S \cdot \frac{1}{R_S} \Rightarrow n_S = \frac{R_S}{R_{ges}} = \frac{600Ω}{50Ω} = 12$
+$\frac{1}{R_{ges}} = n_S \cdot \frac{1}{R_S} \Rightarrow n_S = \frac{R_S}{R_{ges}} = \frac{\qty{600}{\ohm}}{\qty{50}{\ohm}} = 12$
 $n = 4 \cdot n_S = 4 \cdot 12 = 48$ 
 </fragment>
 <fragment>
-$P = n \cdot P_R = 48 \cdot 1W = 48W$
+$P = n \cdot P_R = 48 \cdot \qty{1}{\watt} = \qty{48}{\watt}$
 </fragment>
 
 ---

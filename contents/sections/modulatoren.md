@@ -48,7 +48,7 @@ Hinter dem Balacemodulator folgt die zweite Stufe eines SSB-Modulators.
 
 [question:AF306]
 
-Die Quarze bestimmen die Frequenz des durch den Balancemodulator unterdrückten Trägers. Man erkennt an der Quarzfrequenz für das untere Seitenband (LSB): Der Träger liegt 1,5 kHz über der 9 MHz-Bandfilter-Mittenfrequenz. Mit der maximalen NF-Frequenz von 3 kHz liegt das untere Seitenband dann 1,5 kHz unter der Mittenfrequenz und die NF-Frequenz 200 Hz legt das Seitenband dann bei 1,3 kHz über der Mittenfrequenz des Filters. Für das obere Seiteband (USB) gilt das umgekehrt.
+Die Quarze bestimmen die Frequenz des durch den Balancemodulator unterdrückten Trägers. Man erkennt an der Quarzfrequenz für das untere Seitenband (LSB): Der Träger liegt $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Bandfilter-Mittenfrequenz. Mit der maximalen NF-Frequenz von $\qty{3}{\kilo\hertz}$ liegt das untere Seitenband dann $\qty{1,5}{\kilo\hertz}$ unter der Mittenfrequenz und die NF-Frequenz $\qty{200}{\hertz}$ legt das Seitenband dann bei $\qty{1,3}{\kilo\hertz}$ über der Mittenfrequenz des Filters. Für das obere Seiteband (USB) gilt das umgekehrt.
 
 [question:AF307]
 

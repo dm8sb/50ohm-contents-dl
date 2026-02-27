@@ -11,7 +11,7 @@
 [picture:491:a_verstaerker_breitband_gegentaktverstaerker:Breitband-Gegentaktverstärker]
 </left>
 <right>
-* Gleichmäßige Verstärkung über einen weiten Frequenzbereich (z. B. 1-30 MHz)
+* Gleichmäßige Verstärkung über einen weiten Frequenzbereich (z. B. $\qtyrange{1}{30}{\mega\hertz}$)
 * Erkennbar an breitbandigen Koppeltransformatoren
 * Keine Parallel- oder Serienkapazitäten als Schwingkreis
 </right>
@@ -164,24 +164,24 @@
 --- style="font-size: smaller;"
 #### Lösungsweg
 <left>
-* gegeben: $U_Z = 6,2V$
-* gegeben: $R_2 = 270Ω$
-* gegeben: $R_3 = 220Ω$
+* gegeben: $U_Z = \qty{6,2}{\volt}$
+* gegeben: $R_2 = \qty{270}{\ohm}$
+* gegeben: $R_3 = \qty{220}{\ohm}$
 </left>
 <right>
-* gegeben: $R_4 = 6,8kΩ$
-* gegeben: $R_6 = 150Ω$
+* gegeben: $R_4 = \qty{6,8}{\kilo\ohm}$
+* gegeben: $R_6 = \qty{150}{\ohm}$
 * gesucht: $U_{GS}$
 </right>
 
 <left>
 <fragment>
-$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{220Ω + 150Ω) \cdot 6,8kΩ}{220Ω + 150Ω + 6,8kΩ}\\ &= \frac{2,516MΩ^2}{7170Ω}\\ &= 351Ω\end{split}$
+$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{(\qty{220}{\ohm} + \qty{150}{\ohm}) \cdot \qty{6,8}{\kilo\ohm}}{\qty{220}{\ohm} + \qty{150}{\ohm} + \qty{6,8}{\kilo\ohm}}\\ &= \frac{\qty{2,516}{\mega\ohm}^2}{\qty{7170}{\ohm}}\\ &= \qty{351}{\ohm}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{6,2V}{U_{GS}} &= \frac{270Ω+351Ω}{351Ω}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{6,2V}{1,77}\\ &= 3,50V\end{split}$
+$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\qty{6,2}{\volt}}{U_{GS}} &= \frac{\qty{270}{\ohm}+\qty{351}{\ohm}}{\qty{351}{\ohm}}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{\qty{6,2}{\volt}}{1,77}\\ &= \qty{3,50}{\volt}\end{split}$
 </fragment>
 </right>
 
@@ -237,17 +237,17 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{6,
 ---
 #### Lösungsweg
 
-* gegeben: $P_1 = 0,3mW$ oder $-5dBm$
-* gegeben: $P_2 = 20W$ oder $43dBm$
+* gegeben: $P_1 = \qty{0,3}{\milli\watt}$ oder $\qty{-5}{\dBm}$
+* gegeben: $P_2 = \qty{20}{\watt}$ oder $\qty{43}{\dBm}$
 * gesucht: $g$
 
 <left>
 <fragment>
-$\begin{split}g &= P_2 - P_1\\ &= 43dBm - (-5dBm)\\ &= 43dBm + 5dBm\\ &= 48dB\end{split}$
+$\begin{split}g &= P_2 - P_1\\ &= \qty{43}{\dBm} - (\qty{-5}{\dBm})\\ &= \qty{43}{\dBm} + \qty{5}{\dBm}\\ &= \qty{48}{\dB}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}g &= 10 \cdot \log_{10}{(\frac{P_2}{P_1})}dB\\ &= 10 \cdot \log_{10}{(\frac{20W}{0,3mW})}dB \\ &\approx 48dB\end{split}$
+$\begin{split}g &= \qty{10 \cdot \log_{10}{\left(\frac{P_2}{P_1}\right)}}{\dB}\\ &= \qty{10 \cdot \log_{10}{\left(\frac{\qty{20}{\watt}}{\qty{0,3}{\milli\watt}}\right)}}{\dB} \\ &\approx \qty{48}{\dB}\end{split}$
 </fragment>
 </right>

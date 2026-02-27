@@ -69,7 +69,7 @@
 * Wirksam nur bei passiven Antennen  
 * Unselektive Vorverstärker sind besonders störanfällig  
 * Filter vor Verstärker notwendig bei aktiven Antennen  
-* Einfügedämpfung sollte ≤ 2-3 dB sein  
+* Einfügedämpfung sollte $\le\qtyrange{2}{3}{\dB}$ sein  
 
 ---
 
@@ -91,7 +91,7 @@
 [photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Tiefpassfilter für Kurzwelle mit Frequenzgang]
 </left>
 <right>
-* Grenzfrequenz 30-40 MHz  
+* Grenzfrequenz $\qtyrange{30}{40}{\mega\hertz}$
 * Antennen-Tuner in Tiefpass-Konfiguration als Alternative  
 * Reduzierung von Oberwellenaussendungen  
 </right>
