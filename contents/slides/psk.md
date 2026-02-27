@@ -11,16 +11,16 @@
 <right>
 <fragment>
 *BPSK (Binary Phase Shift Keying)*
-* Zwei Phasenwinkel: 0° und 180°  
-* Jeder Winkel repräsentiert einen Bitwert (0 oder 1)
+* Zwei Phasenwinkel: $\qty{0}{\degree}$ und $\qty{180}{\degree}$  
+* Jeder Winkel repräsentiert einen Bitwert ($\num{0}$ oder $\num{1}$)
 </fragment>
 </right>
 
 ---
 Höhere Varianten:  
 
-* *QPSK (Quadrature PSK)*: Vier Phasen (0°, 90°, 180°, 270°) – 2 Bits pro Symbol  
-* *8-PSK*: Acht Phasen – 3 Bits pro Symbol
+* *QPSK (Quadrature PSK)*: Vier Phasen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$, $\qty{270}{\degree}$) – $\qty{2}{\text{Bits pro Symbol}}$
+* *8-PSK*: Acht Phasen – $\qty{3}{\text{Bits pro Symbol}}$
 
 
 ---

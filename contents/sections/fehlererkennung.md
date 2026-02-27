@@ -1,20 +1,20 @@
-Die einfachste Art der Fehlererkennung wird durch das Hinzufügen eines zusätzlichen Bits realisiert, dem Prüfbit. Es wird auch *Parity Bit* genannt. Es gibt zwei Varianten dieses Verfahrens. Bei *Even Parity* wird der Wert dieses Bits für jeden Block so gewählt, dass die Anzahl der auf 1 gesetzten Bits immer gerade ist. Bei *Odd Parity* hingegen muss die Anzahl immer ungerade sein. Sender und Empfänger müssen sich vor der Übertragung einig sein, welche der beiden Varianten verwendet wird.
+Die einfachste Art der Fehlererkennung wird durch das Hinzufügen eines zusätzlichen Bits realisiert, dem Prüfbit. Es wird auch *Parity Bit* genannt. Es gibt zwei Varianten dieses Verfahrens. Bei *Even Parity* wird der Wert dieses Bits für jeden Block so gewählt, dass die Anzahl der auf $\num{1}$ gesetzten Bits immer gerade ist. Bei *Odd Parity* hingegen muss die Anzahl immer ungerade sein. Sender und Empfänger müssen sich vor der Übertragung einig sein, welche der beiden Varianten verwendet wird.
 
 Nehmen wir an, wir wollen folgendes Byte mit Even Parity übertragen:
 
 [picture:677:byte:Ein Byte]
 
-Wir zählen 5 Einsen, also eine ungerade Anzahl. Das Prüfbit muss demnach auf 1 gesetzt werden, damit eine gerade Anzahl an Einsen herauskommt:
+Wir zählen 5 Einsen, also eine ungerade Anzahl. Das Prüfbit muss demnach auf $\num{1}$ gesetzt werden, damit eine gerade Anzahl an Einsen herauskommt:
 
 [picture:678:even_parity:Das Byte mit Even Parity Bit]
 
-Wenn nun ein Übertragungsfehler *ein* Bit verändert (von 1 zu 0 oder umgekehrt), dann wird die Anzahl der Einsen ungerade. Der Empfänger erkennt daran, dass ein Fehler vorliegt.
+Wenn nun ein Übertragungsfehler *ein* Bit verändert (von $\num{1}$ zu $\num{0}$ oder umgekehrt), dann wird die Anzahl der Einsen ungerade. Der Empfänger erkennt daran, dass ein Fehler vorliegt.
 
 Ein weiteres Beispiel folgt hier: 
 
 [picture:679:even_parity:Byte mit Even Parity]
 
-Im ursprünglichen Byte zählen wir 4 Einsen, was einer geraden Anzahl entspricht. Deshalb müssen wir als Prüfbit eine 0 einfügen.
+Im ursprünglichen Byte zählen wir 4 Einsen, was einer geraden Anzahl entspricht. Deshalb müssen wir als Prüfbit eine $\num{0}$ einfügen.
 
 Dieses Verfahren stößt schnell an seine Grenzen, nämlich dann, wenn mehr als ein Fehler bei der Übertragung passiert. Werden bei der Übertragung zwei Bits verändert, so bleibt die Anzahl der Einsen gerade. Der Empfänger kann nicht mehr erkennen, dass Fehler aufgetreten sind. Treten bei der Übertragung drei Fehler auf, so entsteht wieder eine ungerade Anzahl von Einsen und der Empfänger erkennt die Fehler.
 

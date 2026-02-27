@@ -3,7 +3,7 @@
 
 --- style="font-size: 0.7em;"
 
-[picture:702:8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude (0,5 bzw. 1), Phasenlage und 3-stelliger Bitfolge]
+[picture:702:8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\num{0,5}$ bzw. $\num{1}$), Phasenlage und 3-stelliger Bitfolge]
 
 * Trick: Anstelle der Änderung nur eines Parameters (z.B. der Amplitude) werden pro Symbol zwei Parameter verändert, nämlich die Amplitude und die Phase.
 * Ein Symbol entspricht dann einer Kombination einer bestimmten Amplitude mit einer bestimmten Phasenlage.

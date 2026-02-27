@@ -1,4 +1,4 @@
-Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein sehr einfaches haben wir schon besprochen. Bei der Morsetelegrafie mit Continuous Wave (CW) wird ein Träger in einem bestimmten Rhythmus ein- und wieder ausgeschaltet. Es gibt also nur 2 Stufen, 0% und 100% der maximalen Amplitude. Die Übertragung erfolgt also digital.
+Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein sehr einfaches haben wir schon besprochen. Bei der Morsetelegrafie mit Continuous Wave (CW) wird ein Träger in einem bestimmten Rhythmus ein- und wieder ausgeschaltet. Es gibt also nur zwei Stufen, $\qty{0}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude. Die Übertragung erfolgt also digital.
 
 Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
 

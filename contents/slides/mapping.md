@@ -9,7 +9,7 @@
 ## Schritt 1: Binäre Daten in Symbole umwandeln
 
 * Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst  
-* Es ergeben sich 4 mögliche Kombinationen: 00, 01, 10, 11  
+* Es ergeben sich 4 mögliche Kombinationen: $\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$
 * Jede Kombination wird einem bestimmten Signalpunkt zugeordnet
 
 ---
@@ -17,11 +17,11 @@
 ## Schritt 2: Phasenvergabe
 
 * Jedem Symbol wird eine eigene Phase zugewiesen  
-* Typische Phasen in 90°-Schritten:
-* 00 entspricht 0°
-* 01 entspricht 90°
-* 10 entspricht 180°
-* 11 entspricht 270°
+* Typische Phasen in $\qty{90}{\degree}$-Schritten:
+* $\num{00}$ entspricht $\qty{0}{\degree}$
+* $\num{01}$ entspricht $\qty{90}{\degree}$
+* $\num{10}$ entspricht $\qty{180}{\degree}$
+* $\num{11}$ entspricht $\qty{270}{\degree}$
 
 --- style="font-size: smaller;"
 ## Schritt 3: Mapping auf das Konstellationsdiagramm
@@ -40,9 +40,9 @@ Die Darstellung ist für ein 8QAM-Mapping. QPSK im Beispiel entspricht dem äuß
 
 ## Darstellung der QPSK-Symbole
 
-* 00 bei 0°: Punkt auf der positiven X-Achse  
-* 01 bei 90°: Punkt auf der positiven Y-Achse  
-* 10 bei 180°: Punkt auf der negativen X-Achse  
-* 11 bei 270°: Punkt auf der negativen Y-Achse
+* $\num{00}$ bei $\qty{0}{\degree}$: Punkt auf der positiven X-Achse  
+* $\num{01}$ bei $\qty{90}{\degree}$: Punkt auf der positiven Y-Achse  
+* $\num{10}$ bei $\qty{180}{\degree}$: Punkt auf der negativen X-Achse  
+* $\num{11}$ bei $\qty{270}{\degree}$: Punkt auf der negativen Y-Achse
 
 * Die klare Trennung der Phasen erleichtert das Auseinanderhalten der Symbole – auch bei Rauschen

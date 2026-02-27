@@ -84,6 +84,6 @@
 </left>
 <right>
 * Durch die Kombination der Parity-Bereiche lässt sich der fehlerhafte Bit-Standort bestimmen  
-* Beispiel: Wird ein bestimmtes Bit (z. B. Bit&nbsp;k) während der Übertragung verändert, schlagen alle zugehörigen Paritätsprüfungen fehl – der Fehler liegt also bei Bit&nbsp;k
+* Beispiel: Wird ein bestimmtes Bit (z. B. Bit $k$) während der Übertragung verändert, schlagen alle zugehörigen Paritätsprüfungen fehl – der Fehler liegt also bei Bit $k$
 </right>
 

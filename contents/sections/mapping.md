@@ -4,16 +4,16 @@ Beispiel für schrittweises Mapping bei QPSK
 
 1. *Binäre Daten in Symbole umwandeln*:
 
-Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst. Da wir zwei Bits pro Symbol haben, ergeben sich vier mögliche Kombinationen (00, 01, 10, 11). Jede dieser Kombinationen wird einem spezifischen Signalpunkt zugeordnet, der durch eine bestimmte Phase repräsentiert wird.
+Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst. Da wir zwei Bits pro Symbol haben, ergeben sich vier mögliche Kombinationen ($\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$). Jede dieser Kombinationen wird einem spezifischen Signalpunkt zugeordnet, der durch eine bestimmte Phase repräsentiert wird.
 
 2. *Phasenvergabe*:
 
-Bei QPSK hat jedes Symbol eine eigene Phase. Die Phasen werden typischerweise in 90°-Schritten definiert:
+Bei QPSK hat jedes Symbol eine eigene Phase. Die Phasen werden typischerweise in $\qty{90}{\degree}$-Schritten definiert:
 
-- 00 entspricht \(0^\circ\)
-- 01 entspricht \(90^\circ\)
-- 10 entspricht \(180^\circ\)
-- 11 entspricht \(270^\circ\)
+- $\num{00}$ entspricht ($\qty{0}{\degree}$)
+- $\num{01}$ entspricht ($\qty{90}{\degree}$)
+- $\num{10}$ entspricht ($\qty{180}{\degree}$)
+- $\num{11}$ entspricht ($\qty{270}{\degree}$)
 
 3. *Mapping auf das Konstellationsdiagramm*:
 
@@ -23,10 +23,10 @@ Die Darstellung ist für ein 8QAM-Mapping. QPSK im Beispiel entspricht dem äuß
 
 Ein *Konstellationsdiagramm* ist eine grafische Darstellung der möglichen Symbole in einem quadratischen Diagramm, wobei die X-Achse (In-Phase) und die Y-Achse (Quadratur-Phase) die Amplitude der Signalbestandteile darstellen. Bei QPSK befinden sich die vier Signalpunkte an den Enden eines Quadrats im Diagramm:
 
-- Signalpunkt für 00: auf der positiven X-Achse (0°)
-- Signalpunkt für 01: auf der positiven Y-Achse (90°)
-- Signalpunkt für 10: auf der negativen X-Achse (180°)
-- Signalpunkt für 11: auf der negativen Y-Achse (270°)
+- Signalpunkt für $\num{00}$: auf der positiven X-Achse ($\qty{0}{\degree}$)
+- Signalpunkt für $\num{01}$: auf der positiven Y-Achse ($\qty{90}{\degree}$)
+- Signalpunkt für $\num{10}$: auf der negativen X-Achse ($\qty{180}{\degree}$)
+- Signalpunkt für $\num{11}$: auf der negativen Y-Achse ($\qty{270}{\degree}$)
 
 Jeder dieser Punkte repräsentiert ein Symbol, und der Empfänger kann anhand der Phasenlage bestimmen, welche Bitkombination gesendet wurde.
 
@@ -34,10 +34,10 @@ Beispielhafte Darstellung im Konstellationsdiagramm bei QPSK
 
 Die vier Punkte im Konstellationsdiagramm bei QPSK lassen sich einfach darstellen:
 
-- *00* bei 0°: Repräsentiert einen Punkt auf der positiven X-Achse.
-- *01* bei 90°: Ein Punkt auf der positiven Y-Achse.
-- *10* bei 180°: Ein Punkt auf der negativen X-Achse.
-- *11* bei 270°: Ein Punkt auf der negativen Y-Achse.
+- *$\num{00}$* bei $\qty{0}{\degree}$: Repräsentiert einen Punkt auf der positiven X-Achse.
+- *$\num{01}$* bei $\qty{90}{\degree}$: Ein Punkt auf der positiven Y-Achse.
+- *$\num{10}$* bei $\qty{180}{\degree}$: Ein Punkt auf der negativen X-Achse.
+- *$\num{11}$* bei $\qty{270}{\degree}$: Ein Punkt auf der negativen Y-Achse.
 
 %TODO: Bild zum Mapping am Beispiel von QPSK einfügen und die Punkte im Diagramm im Bezug zum Text setzen.
 

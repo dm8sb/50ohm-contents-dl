@@ -1,5 +1,5 @@
-* Die *Bandbreite* ist der genutzte Frequenzbereich in *Hz*
-* Die *Datenübertragungsrate* ist die je Zeiteinheit übertragene Datenmenge in *Bit/s*
+* Die *Bandbreite* ist der genutzte Frequenzbereich in *$\unit{\hertz}$*
+* Die *Datenübertragungsrate* ist die je Zeiteinheit übertragene Datenmenge in *$\unit{\bit\per\second}$*
 
 ---
 

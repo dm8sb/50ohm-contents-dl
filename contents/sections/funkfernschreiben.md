@@ -1,12 +1,12 @@
 Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen gibt es verschiedenste Verfahren. Damit eine Verbindung zustande kommt, müssen beide Kommunikationspartner das gleiche Übertragungsverfahren und die gleichen Parameter verwenden. Das gilt um so mehr, weil nicht jedem Verfahren eindeutige Frequenzbereiche zugeordnet sind.
 
-%[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im 20-Meter-Band]
+%[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\qty{20}{\meter}$-Band]
 %[photo:0:n_funkfernschreiben_digimodes:Häufig verwendete Digimodes von K1JT vergrößert im Wasserfalldiagramm]
 %[photo:0:n_funkfernschreiben_olivia:Ausschnitt aus einer Olivia-Aussendung im Wasserfalldiagramm]
 %[photo:0:n_funkfernschreiben_fm:Musterbild FM]
 %[photo:0:n_funkfernschreiben_am:Musterbild AM]
-%[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei 1500 Hz oberhalb der eingestellten Frequenz]
-%[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im 20-Meter-Band]
+%[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei $\qty{1500}{\hertz}$ oberhalb der eingestellten Frequenz]
+%[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
 
 [question:NE401]
 

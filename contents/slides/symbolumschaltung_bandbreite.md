@@ -1,5 +1,5 @@
 * Als Symbol werden in der Digitaltechnik die verschiedenen Zeicheneinheiten zur Übertragung des Informationsgehaltes bezeichnet.
-* Die Anzahl der pro Zeitspanne übertragenen Symbole ist die Symbolrate und wird in der Einheit Baud ausgedrückt.
+* Die Anzahl der pro Zeitspanne übertragenen Symbole ist die Symbolrate und wird in der Einheit Baud ($\unit{\baud}$) ausgedrückt.
 
 ---
 * Bei jeder Umschaltung zwischen zwei Symbolen wird die Amplitude, Frequenz oder Phase eines Trägers geändert.

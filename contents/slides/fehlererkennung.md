@@ -16,7 +16,7 @@
 <right>
 * Zu übertragendes Byte  
 * Es werden 5 Einsen gezählt → ungerade Anzahl  
-* Prüfbit muss auf 1 gesetzt werden, um eine gerade Anzahl zu erreichen
+* Prüfbit muss auf $\num{1}$ gesetzt werden, um eine gerade Anzahl zu erreichen
 </right>
 
 ---
@@ -25,7 +25,7 @@
 [picture:678:even_parity:Das Byte mit Even Parity Bit]
 </left>
 <right>
-* Das Prüfbit wurde auf 1 gesetzt  
+* Das Prüfbit wurde auf $\num{1}$ gesetzt  
 * Das resultierende Byte hat eine gerade Anzahl an Einsen
 * Bei einer Fehlerübertragung stimmt das Prüfbit nicht mehr
 </right>
@@ -39,7 +39,7 @@
 </left>
 <right>
 * Ursprüngliches Byte: 4 Einsen (gerade)  
-* Prüfbit wird auf 0 gesetzt
+* Prüfbit wird auf $\num{0}$ gesetzt
 </right>
 
 ---

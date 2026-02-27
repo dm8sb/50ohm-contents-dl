@@ -4,10 +4,10 @@ Die Phasenumtastung (Phase Shift Keying, PSK) ist ein digitales Modulationsverfa
 
 Prinzip der Phasenumtastung (PSK)
 
-In der einfachsten Form, dem **BPSK (Binary Phase Shift Keying)**, gibt es zwei Phasenwinkel, z. B. 0° und 180°. Jeder Phasenwinkel repräsentiert einen Bitwert (0 oder 1). Bei einem Wechsel der Bitwerte verändert sich die Phase des Trägers um 180°.
+In der einfachsten Form, dem **BPSK (Binary Phase Shift Keying)**, gibt es zwei Phasenwinkel, z. B. $\qty{0}{\degree}$ und $\qty{180}{\degree}$. Jeder Phasenwinkel repräsentiert einen Bitwert ($\num{0}$ oder $\num{1}$). Bei einem Wechsel der Bitwerte verändert sich die Phase des Trägers um $\qty{180}{\degree}$.
 
 Für höhere Datenraten gibt es Varianten wie **QPSK (Quadrature Phase Shift Keying)** und **8-PSK**, bei denen vier bzw. acht Phasenlagen verwendet werden, um mehrere Bits pro Symbol zu übertragen:
-- **QPSK**: Verwendet vier Phasen (0°, 90°, 180° und 270°), um jeweils zwei Bits pro Symbol zu kodieren.
+- **QPSK**: Verwendet vier Phasen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ und $\qty{270}{\degree}$), um jeweils zwei Bits pro Symbol zu kodieren.
 - **8-PSK**: Verwendet acht Phasen, um drei Bits pro Symbol zu kodieren.
 
 Signale in der Zeitdarstellung
@@ -15,7 +15,7 @@ Signale in der Zeitdarstellung
 In der Zeitdarstellung eines PSK-Signals zeigt sich die Phasenumtastung als abrupter Wechsel im Phasenwinkel des Trägersignals, während die Amplitude konstant bleibt. Dies ist ein deutlicher Unterschied zur Amplituden- oder Frequenzmodulation, da die Höhe und Frequenz des Signals gleichbleiben, nur die Phase ändert sich bei jedem Symbolwechsel.
 
 Beispiel: BPSK in der Zeitdarstellung
-- Bei BPSK ist das Signal in zwei Phasen gespalten: z. B. positive Amplitude für eine Phase (0°) und negative Amplitude für die entgegengesetzte Phase (180°).
+- Bei BPSK ist das Signal in zwei Phasen gespalten: z. B. positive Amplitude für eine Phase ($\qty{0}{\degree}$) und negative Amplitude für die entgegengesetzte Phase ($\qty{180}{\degree}$).
 - In einem Zeit-Diagramm sieht man daher bei jedem Bitwechsel einen Sprung des Signals, z. B. von positiv nach negativ oder umgekehrt.
 
 Beispiel: QPSK in der Zeitdarstellung
