@@ -16,39 +16,35 @@ Alle Signale, deren Modulations-Information sich in deren Amplitude befindet, m�
 
 Je nach Betriebsart unterscheidet man mögliche Arbeitspunkte und deren Bezeichnung auf der Kennlinie (siehe Abbildung [ref:a_kennlinien_transistor_arbeitspunkt] ):
 
-- AP1
-  C-Betrieb des Verstärkers
-  ohne Vorspannung
-  Ruhestrom null
-  Wirkungsgrad ca. 80-87%
-  hoher Oberwellenanteil
-  
-- AP2
-  B-Betrieb des Verstärkers
-  Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
-  Ruhestrom fast null (gering)
-  Wirkungsgrad ca. bis zu 80%
-  geringer Oberwellenanteil
-  
-- AP3
-  A/B-Betrieb des Verstärkers
-  Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
-  Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-  Wirkungsgrad zwischen 50% bis 80%
-  geringer Oberwellenanteil
-  
-- AP4
-   A-Betrieb des Verstärkers
-   Höhe der Vorspannung ist so gewählt, dass der Ruhestrom ca. 50% des maximal zulässigen Wertes erreicht
-   Wirkungsgrad ca. 40%
-   sehr geringer Oberwellenanteil
+AP1: C-Betrieb des Verstärkers
+- ohne Vorspannung
+- Ruhestrom null
+- Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
+- hoher Oberwellenanteil
+
+AP2: B-Betrieb des Verstärkers
+- Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
+- Ruhestrom fast null (gering)
+- Wirkungsgrad ca. bis zu $\qty{80}{\percent}$
+- geringer Oberwellenanteil
+
+AP3: A/B-Betrieb des Verstärkers
+- Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
+- Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
+- Wirkungsgrad zwischen $\qty{50}{\percent}$ bis $\qty{80}{\percent}$
+- geringer Oberwellenanteil
+
+AP4: A-Betrieb des Verstärkers
+- Höhe der Vorspannung ist so gewählt, dass der Ruhestrom ca. $\qty{50}{\percent}$ des maximal zulässigen Wertes erreicht
+- Wirkungsgrad ca. $\qty{40}{\percent}$
+- sehr geringer Oberwellenanteil
 
 [question:AD416]
 [question:AD419]
 [question:AD420]
 [question:AD421]
 
-Die Ausgangsleistung eines Verstärkers kann durch Kenntnis des Arbeitspunktes und damit dessen ungefähren Wirkungsgrads grob berechnet werden. Hierbei berechnet man zunächst die Gleichspannungsleistung aus dem Produkt von Spannung und Strom, die dem Verstärker zugeführt wird. Anschließend multipliziert man diese Leistung mit dem numerischen Faktor des Wirkungsgrads, wobei 100% einem Wirkungsgrad von 1 entsprechen. Beispielsweise entspricht ein Wirkungsgrad von 40% dann einem Faktor von 0,4.
+Die Ausgangsleistung eines Verstärkers kann durch Kenntnis des Arbeitspunktes und damit dessen ungefähren Wirkungsgrads grob berechnet werden. Hierbei berechnet man zunächst die Gleichspannungsleistung aus dem Produkt von Spannung und Strom, die dem Verstärker zugeführt wird. Anschließend multipliziert man diese Leistung mit dem numerischen Faktor des Wirkungsgrads, wobei $\qty{100}{\percent}$ einem Wirkungsgrad von $1$ entsprechen. Beispielsweise entspricht ein Wirkungsgrad von $\qty{40}{\percent}$ dann einem Faktor von $0,4$.
 
 [question:AD424]
 [question:AD425]

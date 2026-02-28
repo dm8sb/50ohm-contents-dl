@@ -9,12 +9,12 @@ Rechenbeispiel:
 
 Liegt die Oszillatorfrequenz unterhalb des Nutzsignals, so gehört zur höheren Frequenz des Nutzsignals auch die höhere Frequenz des Ausgangssignals des Konverters/Transverters.
 
-Soll z.B. ein Frequenzbereich von 438 bis 440 MHz auf einen Frequenzbereich von 28-30 MHz umgesetzt werden (bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet), so benötigt man eine Oszillatorfrequenz von 440 MHz - 30 MHz oder 438 MHz - 28 MHz, was in beiden Fällen 410 MHz ergibt. Wird diese Oszillatorfrequenz mittels Frequenzvervielfachung erzeugt, so muss man diese bei der Rückrechnung auf die benötigte Frequenz des Quarzoszillators noch durch Teilen berücksichtigen.
+Soll z.B. ein Frequenzbereich von $\qtyrange{438}{440}{\mega\hertz}$ auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umgesetzt werden (bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet), so benötigt man eine Oszillatorfrequenz von $\qty{440}{\mega\hertz} - \qty{30}{\mega\hertz}$ oder $\qty{438}{\mega\hertz} - \qty{28}{\mega\hertz}$, was in beiden Fällen $\qty{410}{\mega\hertz}$ ergibt. Wird diese Oszillatorfrequenz mittels Frequenzvervielfachung erzeugt, so muss man diese bei der Rückrechnung auf die benötigte Frequenz des Quarzoszillators noch durch Teilen berücksichtigen.
 
-Gleich verhält es sich für den Frequenzbereich von 436 bis 438 MHz, wenn dieser wieder auf einen Frequenzbereich von 28-30 MHz umgesetzt werden soll (ebenfalls bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet).
-Hierbei ergibt sich bei der Rechnung 438 MHz - 30 MHz bzw. 436 MHz - 28 MHz eine Oszillatorfrequenz von 408 MHz.
+Gleich verhält es sich für den Frequenzbereich von $\qtyrange{436}{438}{\mega\hertz}$, wenn dieser wieder auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umgesetzt werden soll (ebenfalls bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet).
+Hierbei ergibt sich bei der Rechnung $\qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ bzw. $\qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz}$ eine Oszillatorfrequenz von $\qty{408}{\mega\hertz}$.
 
-Werden die oben berechneten 408 MHz bzw. 410 MHz durch Verneunfachung der Quarz-Oszillatorfrequenz gewonnen, so ergeben sich die beiden Quarz-Oszillatorfrequenzen zu 408 MHz / 9 = 45,333 MHz und 410 MHz / 9 = 45,556 MHz (jeweils gerundet).
+Werden die oben berechneten $\qty{408}{\mega\hertz}$ bzw. $\qty{410}{\mega\hertz}$ durch Verneunfachung der Quarz-Oszillatorfrequenz gewonnen, so ergeben sich die beiden Quarz-Oszillatorfrequenzen zu $\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ und $\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (jeweils gerundet).
 
 [question:AF501]
 [question:AF502]

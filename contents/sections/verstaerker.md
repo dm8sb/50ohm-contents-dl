@@ -1,4 +1,4 @@
-Im Kapitel zu den Transistoren haben wir bereits kennengelernt, dass sich mit einem kleinen Basisstrom $I_B$ ein deutlich größerer Kollektorstrom $I_C$ steuern lässt. Dieses Prinzip kann genutzt werden, um einen Verstärker für elektrische Signale aufzubauen. Abhängig von der jeweiligen Schaltungsart lassen sich mit Transistoren Signale aller Art verstärken – seien es digitale Signale, Niederfrequenz- (NF) oder Hochfrequenz- (HF) Signale. Eine Verstärkung bedeutet dabei, dass die Ausgangsleistung eines Signals größer ist als seine Eingangsleistung, was das grundlegende Kennzeichen eines Verstärkers darstellt.
+Im Kapitel zu den Transistoren haben wir bereits kennengelernt, dass sich mit einem kleinen Basisstrom $I_\text{B}$ ein deutlich größerer Kollektorstrom $I_\text{C}$ steuern lässt. Dieses Prinzip kann genutzt werden, um einen Verstärker für elektrische Signale aufzubauen. Abhängig von der jeweiligen Schaltungsart lassen sich mit Transistoren Signale aller Art verstärken – seien es digitale Signale, Niederfrequenz- (NF) oder Hochfrequenz- (HF) Signale. Eine Verstärkung bedeutet dabei, dass die Ausgangsleistung eines Signals größer ist als seine Eingangsleistung, was das grundlegende Kennzeichen eines Verstärkers darstellt.
 
 ---
 
@@ -30,7 +30,7 @@ Für die Linearität eines Senders ist ebenfalls eine stabilisierte und von ande
 
 [question:EF405]
 
-Nicht nur beim Lautsprecher am Funkgerät findet man NF-Verstärker, sondern auch bereits am Mikrofon. Diese dienen hierbei z. B. für die Verstärkung des Mikrofon-Signals. Üblicherweise werden hierbei tiefere (unter 300 Hz) und höhere Frequenzanteile (über 3 kHz) des Mikrofonsignals bereits innerhalb des Mikrofonverstärkers durch eine Bandpasscharakteristik unterdrückt, um die Bandbreite des NF-Signals zu begrenzen und tiefere Frequenzanteile wie z.B. Netzbrummen zu unterdrücken (vgl. Abbildung [ref:e_frequenzgang_mikrofonverstaerker]). Für eine gute Sprachverständlichkeit ist bei Sprachkommunkation eine NF-Bandbreite von ca. 2,5 bis 3 kHz erforderlich.
+Nicht nur beim Lautsprecher am Funkgerät findet man NF-Verstärker, sondern auch bereits am Mikrofon. Diese dienen hierbei z. B. für die Verstärkung des Mikrofon-Signals. Üblicherweise werden hierbei tiefere (unter $\qty{300}{\hertz}$) und höhere Frequenzanteile (über $\qty{3}{\kilo\hertz}$) des Mikrofonsignals bereits innerhalb des Mikrofonverstärkers durch eine Bandpasscharakteristik unterdrückt, um die Bandbreite des NF-Signals zu begrenzen und tiefere Frequenzanteile wie z.B. Netzbrummen zu unterdrücken (vgl. Abbildung [ref:e_frequenzgang_mikrofonverstaerker]). Für eine gute Sprachverständlichkeit ist bei Sprachkommunkation eine NF-Bandbreite von ca. $\qtyrange{2,5}{3}{\kilo\hertz}$ erforderlich.
 
 <margin>
 [picture:246:e_frequenzgang_mikrofonverstaerker:Typischer Frequenzgang für einen Amateurfunk-Mikrofonverstärker]

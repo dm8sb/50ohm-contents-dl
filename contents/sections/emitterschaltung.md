@@ -26,16 +26,16 @@ Die Ein- und Auskopplung der Signale an Basis und Kollektor erfolgt über sog. K
 
 Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden.
 
-Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Emitterschaltung 180 Grad, da bei einer positiven Halbwelle in der Eingangsspannung der Kollektorstrom steigt und damit der Spannungsabfall am Kollektorwiderstand zunimmt. Hierdurch sinkt die Spannung am Ausgangskondensator. Es kommt zu einer negativen Halbwelle am Ausgang der Verstärkerstufe.
+Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Emitterschaltung $\qty{180}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung der Kollektorstrom steigt und damit der Spannungsabfall am Kollektorwiderstand zunimmt. Hierdurch sinkt die Spannung am Ausgangskondensator. Es kommt zu einer negativen Halbwelle am Ausgang der Verstärkerstufe.
 
 [question:AD407]
 [question:AD408]
 
-Wird eine Emitterschaltung wie in der folgenden Frage ohne Arbeitspunktvoreinstellung durch einen Spannungsteiler betrieben, so erfolgt die Ansteuerung des Transistors allein durch das zugeführte Eingangssignal. Erst wenn dieses den Wert von ca. 0,6V überschreitet, wird die Basis-Emitter-Strecke des Transistors leitend. Hierdurch fließt nur in den Spannungsspitzen ein Kollektorstrom, der einen Spannungsabfall am Ausgang hervorruft. Als Ausgangssignal erscheint die Versorgungsspannung, welche zu den Zeiten, zu denen der Transistor in den leitfähigen Bereich kommt, abfällt. So erklärt sich das entsprechende Ausgangsssignal.
+Wird eine Emitterschaltung wie in der folgenden Frage ohne Arbeitspunktvoreinstellung durch einen Spannungsteiler betrieben, so erfolgt die Ansteuerung des Transistors allein durch das zugeführte Eingangssignal. Erst wenn dieses den Wert von ca. $\qty{0,6}{\volt}$ überschreitet, wird die Basis-Emitter-Strecke des Transistors leitend. Hierdurch fließt nur in den Spannungsspitzen ein Kollektorstrom, der einen Spannungsabfall am Ausgang hervorruft. Als Ausgangssignal erscheint die Versorgungsspannung, welche zu den Zeiten, zu denen der Transistor in den leitfähigen Bereich kommt, abfällt. So erklärt sich das entsprechende Ausgangsssignal.
 
 [question:AD406]
 
-Die Spannungsverstärkung der Emitterschaltung bewegt sich bei entsprechender Auslegung im Bereich von 100..300 und ist damit hoch. Wird jedoch der Emitterkondensator entfernt, so sinkt der Verstärkungsfaktor der Schaltung erheblich. Er wird letztlich nur noch durch das Verhältnis von Kollektorwiderstand zu Emitterwiderstand definiert.
+Die Spannungsverstärkung der Emitterschaltung bewegt sich bei entsprechender Auslegung im Bereich von $100\dots 300$ und ist damit hoch. Wird jedoch der Emitterkondensator entfernt, so sinkt der Verstärkungsfaktor der Schaltung erheblich. Er wird letztlich nur noch durch das Verhältnis von Kollektorwiderstand zu Emitterwiderstand definiert.
 
 [question:AD414]
 [question:AD415]

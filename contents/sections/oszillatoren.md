@@ -12,7 +12,7 @@ Die einfachste Form eines Oszillators ist der sog. *LC-Oszillator*, der als freq
 
 LC-Oszillatoren haben den Nachteil, dass sich Ihre frequenzbestimmenden Komponenten (L und C) in Abhängigkeit von der Temperatur stark ändern können, was zu großen Freqzenzabweichungen führen kann.
 
-Laut Formelsammlung ist die Formel für die Schwingungsfrequenz (Thomson´schen Schwingkreisformel):
+Laut Formelsammlung ist die Formel für die Schwingungsfrequenz (Thomsonsche Schwingkreisformel):
 
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
 

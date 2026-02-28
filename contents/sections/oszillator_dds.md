@@ -7,7 +7,7 @@ Mittels eines Taktgenerators mit fester Frequenz wird ein Adresszähler laufend 
 
 <indepth>
 Eine DDS kann auch unterschiedliche Wertetabellen durchfahren, so dass auch beliebige zyklische Signalformen generiert werden können. Durch Steuerung des Adresszählers (mittels eines Tuning-Words), welches die Schrittweite des Zählers laufend beeinflusst, kann die Frequenz, mit der die Wertetabelle durchfahren wird, in weiten Grenzen gesteuert werden.
-Für das Adressregister verwendet man oft Register mit 32 Bit oder mehr, wovon dann nur eine kleinere Anzahl der höherwertigen Bits (z.B. obere 14 Bit) für das Durchfahren der Wertetabelle verwendet werden. Hierdurch ist es möglich, auch Bruchteile der Taktfrequenz auszugeben, und die Frequenzauflösung der DDS wird hierdurch erhöht.
+Für das Adressregister verwendet man oft Register mit $\qty{32}{\bit}$ oder mehr, wovon dann nur eine kleinere Anzahl der höherwertigen Bits (z.B. obere $\qty{14}{\bit}$) für das Durchfahren der Wertetabelle verwendet werden. Hierdurch ist es möglich, auch Bruchteile der Taktfrequenz auszugeben, und die Frequenzauflösung der DDS wird hierdurch erhöht.
 Der Vorteil einer DDS gegenüber einer PLL besteht darin, dass durch Steuerung der vorgenannten Parameter eine nahezu beliebige Frequenzauflösung erreicht werden kann. Zudem kann ohne Einschwingvorgang zwischen verschiedenen Frequenzen (durch Steuerung mittels des Tuning-Words) schnell hin und her gewechselt werden.
 
 Die Qualität des Ausgangssignals einer DDS hängt im wesentlichen von der Qualität des verwendeten Taktgenerators ab (Stabilität, Jitter). Zudem ist auch die Amplitudenauflösung (Quantisierung) des D/A-Wandlers und dessen Linearität für die Qualität des Ausgangssignals entscheidend.

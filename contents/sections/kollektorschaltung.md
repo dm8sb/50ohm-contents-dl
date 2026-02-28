@@ -12,9 +12,9 @@ Die Ein- und Auskopplung der Signale an Basis und Emitter erfolgt über sog. Kop
 
 Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden. Zudem wird der Kollektor durch den Abblockkondensator signalmäßig (für Wechselspannung) auf Ein- und Ausgang gelegt.
 
-Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Kollektorschaltung 0 Grad, da bei einer positiven Halbwelle in der Eingangsspannung der Emitterstrom steigt und damit der Spannungsabfall am Emitterwiderstand zunimmt. Hierdurch steigt die Spannung am Ausgangskondensator. Es kommt zu einer positiven Halbwelle am Ausgang der Verstärkerstufe.
+Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Kollektorschaltung $\qty{0}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung der Emitterstrom steigt und damit der Spannungsabfall am Emitterwiderstand zunimmt. Hierdurch steigt die Spannung am Ausgangskondensator. Es kommt zu einer positiven Halbwelle am Ausgang der Verstärkerstufe.
 
-Die Spannungsverstärkung der Kollektorschaltung bewegt sich bei entsprechender Auslegung im Bereich von 0,9 bis 0,98 und ist immer etwas kleiner als 1. Die Stromverstärkung der Kollektorschaltung ist hingegen sehr groß, da die Eingangsimpedanz der Schaltung relativ hoch ist. Die Ausgangsimpedanz ist hingegen sehr niedrig im Vergleich zur Eingangsimpedanz.
+Die Spannungsverstärkung der Kollektorschaltung bewegt sich bei entsprechender Auslegung im Bereich von $\num{0,9}$ bis $\num{0,98}$ und ist immer etwas kleiner als $1$. Die Stromverstärkung der Kollektorschaltung ist hingegen sehr groß, da die Eingangsimpedanz der Schaltung relativ hoch ist. Die Ausgangsimpedanz ist hingegen sehr niedrig im Vergleich zur Eingangsimpedanz.
 
 [question:AD405]
 [question:AD402]
