@@ -24,7 +24,7 @@ Wir fassen die digitale Signalverarbeitung im Empfänger in den folgenden drei S
 3. Quellendecodierer: Daten dekomprimieren
 
 <margin>
-[picture:1062:a_sdr_empfänger:SDR Sender für Sprachkommunikation]
+[picture:1063:a_sdr_empfänger:SDR Empfänger für Sprachkommunikation]
 </margin>
 
 [question:AF628]
