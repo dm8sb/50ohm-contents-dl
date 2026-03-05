@@ -22,8 +22,8 @@ In der [Verordnung über elektromagnetische Felder (26. BImSchV)](https://50ohm.
 
 
 <margin>
-[picture:979:e_grenzwerte_max:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1a, Momentaner Spitzenwert]
-[picture:980:e_grenzwerte_avg:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1b, 6-Minuten-Intervalle]
+[picture:980:e_grenzwerte_max:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1a, Momentaner Spitzenwert]
+[picture:979:e_grenzwerte_avg:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1b, 6-Minuten-Intervalle]
 [picture:981:e_grenzwerte_pulse:Visualisierung der Grenzwerte der 26. BImSchV, Anhang 3, Gepulste Felder]
 </margin>
 
