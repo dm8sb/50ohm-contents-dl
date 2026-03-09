@@ -8,7 +8,7 @@ Bei der ersten Frage geht es um die Leistungsmessung eines Verstärkers (Power A
 
 [question:AI101]
 
-Für die nächste Frage erinnern wir uns an die Regeln aus der Klasse E, dass Spannungsmessgeräte immer arallel und Strommessgeräte immer in Reihe geschaltet werden. Dadurch ist die Frage sehr leicht zu lösen. 
+Für die nächste Frage erinnern wir uns an die Regeln aus der Klasse E, dass Spannungsmessgeräte immer parallel und Strommessgeräte immer in Reihe geschaltet werden. Dadurch ist die Frage sehr leicht zu lösen. 
 
 [question:AI102]
 
@@ -19,7 +19,7 @@ Im Folgenden wollen wir uns zwei Kenngrößen beim Messen ansehen, die oft verwe
 - Auflösung
 - Messgenauigkeit (auch Toleranz oder Fehler genannt)
 
-Die *Auflösung* oder bezeichnet die kleinste Änderung der Messgröße, die ein Gerät noch anzeigen kann. Beispiel: Ein Multimeter mit einer Auflösung von $\qty{0,1}{\volt}$ kann zwischen $\qty{10,5}{\volt}$ und $\qty{10,45}{\volt}$ nicht unterscheiden, wenn der Unterschied kleiner ist als die Auflösung. Ein Gerät mit $\qty{0,01}{\volt}$ Auflösung kann hingegen deutlich feiner unterscheiden. Die Auflösung wird in der Regel vom Hersteller des Messgeräts angegeben.
+Die *Auflösung* bezeichnet die kleinste Änderung der Messgröße, die ein Gerät noch anzeigen kann. Beispiel: Ein Multimeter mit einer Auflösung von $\qty{0,1}{\volt}$ kann zwischen $\qty{10,5}{\volt}$ und $\qty{10,45}{\volt}$ nicht unterscheiden, wenn der Unterschied kleiner ist als die Auflösung. Ein Gerät mit $\qty{0,01}{\volt}$ Auflösung kann hingegen deutlich feiner unterscheiden. Die Auflösung wird in der Regel vom Hersteller des Messgeräts angegeben.
 
 <tip>
 Betrachten wir zunächst die *Auflösung* anhand einer Uhr. Besitzt die Uhr eine Stunden- und Minutenanzeige, so lässt sich die Zeit auf eine Minute genau angeben. Aber ob es nun 13 Uhr 3 Minuten und 10 Sekunden ist oder 13 Uhr 3 Minuten und 59 Sekunden lässt sich nicht ablesen. *Eine Minute* ist also die *kleinste Auflösung* der Uhr (entsprechend hat eine Uhr mit einem Sekundenzeiger eine kleinste Auflösung von einer Sekunde).

@@ -7,5 +7,5 @@ Bei *geraden* Vielfachen hingegen, ergibt sich eine Spannungsspeisung, da dann d
 [question:AG208]
 
 <margin>
-[picture:1050:e_stromverteilungen:Stromverteilungen bei verschiedneen Grundfrequenzen]
+[picture:1050:e_stromverteilungen:Stromverteilungen bei verschiedenen Grundfrequenzen]
 </margin>
