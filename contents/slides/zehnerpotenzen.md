@@ -34,14 +34,14 @@ $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 ### Einheitenvorsätze und Zehnerpotenzen
 
 | c: Bezeichnung | c: Abkürzung | l: Wert |
-| Pico | $\unit{\pico}$ | $10^{-12} = 0,000000000001$ |
-| Nano | $\unit{\nano}$ | $10^{-9} = 0,000000001$ |
-| Mikro | $\unit{\micro}$ | $10^{-6} = 0,000001$ |
-| Milli | $\unit{\milli}$ | $10^{-3} = 0,001$ |
-| |  | $10^{0} = 1$ |
-| Kilo | $\unit{\kilo}$ | $10^{3} = 1000$ |
-| Mega | $\unit{\mega}$ | $10^{6} = 1000000$ |
-| Giga | $\unit{\giga}$ | $10^{9} = 1000000000$ |
+| Pico | $\unit{\pico}$ | $10^{-12} = \num{0,000000000001}$ |
+| Nano | $\unit{\nano}$ | $10^{-9} = \num{0,000000001}$ |
+| Mikro | $\unit{\micro}$ | $10^{-6} = \num{0,000001}$ |
+| Milli | $\unit{\milli}$ | $10^{-3} = \num{0,001}$ |
+| |  | $10^{0} = \num{1}$ |
+| Kilo | $\unit{\kilo}$ | $10^{3} = \num{1000}$ |
+| Mega | $\unit{\mega}$ | $10^{6} = \num{1000000}$ |
+| Giga | $\unit{\giga}$ | $10^{9} = \num{1000000000}$ |
 [table:e_einheitenvorzeichen:Einheitenvorsätze für Zehnerpotenzen]
 
 ---
