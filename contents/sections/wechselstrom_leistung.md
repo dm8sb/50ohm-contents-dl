@@ -5,7 +5,7 @@ Bei sinusförmigen Wechselstromsignalen wird die Leistung aus den Effektivwerten
 </margin>
 
 Somit ergibt sich für die Berechnung der Leistung
-$P_\text{Wechselstrom} = U_\text{eff} \cdot I = \dfrac{{U_\text{eff}}^2}{R} = I_\text{eff}^2 \cdot R$
+$P_\text{Wechselstrom} = U_\text{eff} \cdot I_\text{eff} = \dfrac{{U_\text{eff}}^2}{R} = I_\text{eff}^2 \cdot R$
 
 
 Bei sinusförmigen Signalen gilt allerdings auch:
