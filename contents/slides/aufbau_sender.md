@@ -45,14 +45,14 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 
 --- data-transition="none"
 
-### 5. Bandfilter
+### 5. Bandpassfilter
 
 <left>
 [picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
 * Mischer erzeugt unerwünschte Frequenzen
-* Mit dem Bandfilter werden nur die gewünschten Frequenzen durchgelassen
+* Mit dem Bandpassfilter werden nur die gewünschten Frequenzen durchgelassen
 </right>
 
 --- data-transition="none"
@@ -68,7 +68,7 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 
 --- data-transition="none"
 
-### 7. Bandfilter
+### 7. Tiefpassfilter
 
 <left>
 [picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
