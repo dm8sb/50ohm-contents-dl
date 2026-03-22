@@ -364,7 +364,7 @@
                     "video_url": null
                 },
                 {
-                    "title": "GPS-disziplinierter Oszillator",
+                    "title": "GPS-synchronisierter Oszillator",
                     "ident": "oszillator_gpsdo",
                     "status": "alpha",
                     "class": "A",
