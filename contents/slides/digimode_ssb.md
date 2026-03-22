@@ -2,7 +2,7 @@
 
 * Im Gegensatz zur Sprache benötigen viele Digimodes weniger Bandbreite
 * Z.B. BPSK31 mit $\qty{31,25}{\hertz}$ oder FT8 mit $\qty{50}{\hertz}$
-* Die erzeugten Töne werden mittels Kurzwelle in SSB moduliert
+* Die erzeugten Töne werden in SSB moduliert
 * Die Bandbreite des ausgestrahlten Signals bleibt dabei gleich
 
 ---
