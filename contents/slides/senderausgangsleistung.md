@@ -6,7 +6,7 @@
 ### Messung von unerwünschten Aussendungen
 
 * Am Senderausgang
-* Unter Einzebiehung von Stehwellenmessgerät, Anpassgerät(e), Tiefpassfilter etc.
+* Unter Einbeziehung von Stehwellenmessgerät, Anpassgerät(e), Tiefpassfilter etc.
 * Messung von unerwünschen Aussendungen, die die Antenne erreichen können
 
 ---
