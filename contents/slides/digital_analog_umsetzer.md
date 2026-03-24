@@ -13,7 +13,7 @@
 ### Auflösung und Spannungsbereich
 
 * Die Anzahl der möglichen Stufen wird durch die Bit-Auflösung bestimmt  
-* Beispiel: $\qty{4}{\bit}$ &rarr; $\num{16}$ mögliche Stufen
+* Beispiel: $\qty{4}{\bit}\rightarrow\num{16}$ mögliche Stufen
 * Ein D/A-Umsetzer arbeitet in einem festen Spannungsbereich (z. B. $\qty{0}{\volt}$ bis $\qty{1}{\volt}$)
 * Bei einem linear arbeitenden D/A-Umsetzer verteilt sich der Spannungsbereich gleichmäßig auf die Stufen
 

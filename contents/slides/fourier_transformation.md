@@ -1,8 +1,8 @@
 ## Fourier-Transformation und Signalzerlegung
 
 * Signale können sowohl im Zeit- als auch im Frequenzbereich dargestellt werden  
-* Im Zeitbereich: X-Achse &rarr; Zeit, Y-Achse &rarr; Spannung oder Leistung  
-* Im Frequenzbereich: X-Achse &rarr; Frequenz, Y-Achse &rarr; Amplitude oder Leistung
+* Im Zeitbereich: X-Achse $\rightarrow$ Zeit, Y-Achse $\rightarrow$ Spannung oder Leistung  
+* Im Frequenzbereich: X-Achse $\rightarrow$ Frequenz, Y-Achse $\rightarrow$ Amplitude oder Leistung
 
 ---
 

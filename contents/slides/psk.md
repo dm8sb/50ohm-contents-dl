@@ -1,6 +1,6 @@
 * Digitales Modulationsverfahren zur Datenübertragung  
 * Veränderung der Phase eines Trägersignals zur Repräsentation von Bitwerten  
-* Weniger anfällig für Amplitudenrauschen &rarr; ermöglicht höhere Datenraten
+* Weniger anfällig für Amplitudenrauschen $\rightarrow$ ermöglicht höhere Datenraten
 
 ---
 ## Prinzip der Phasenumtastung

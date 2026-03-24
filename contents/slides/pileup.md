@@ -11,7 +11,7 @@ Hinweise über seltene Station werden im Internet über sogenannte *DX-Cluster* 
 
 ### Umgang mit dem Pile-Up 1
 
-* Manchmal wird der CQ-Ruf auf bestimmte Ziffern im Rufzeichen beschränkt, zum Beispiel "*only number*&nbsp;5".
+* Manchmal wird der CQ-Ruf auf bestimmte Ziffern im Rufzeichen beschränkt, zum Beispiel "*only number* 5".
 * Oder der Aufruf wird nach Ländern oder Kontinenten vorgenommen, zum Beispiel "Asia only"
 * Selten wird *Listenbetrieb* gemacht: Eine andere Station nimmt die Kontaktwünsche auf und erstellt eine Liste, die von der begehrten Station abgearbeitet wird.
 

@@ -24,7 +24,7 @@
 * Vier Dioden in Ring-Anordnung unterdrücken den Träger
 * Eine Gegentakt-Schaltung hebt Trägersignale auf
 * Es bleiben nur die Seitenbänder übrig
-* Bereits als Balancemischer im Kapitel "Mischer&nbsp;II" gezeigt
+* Bereits im Kapitel "Mischer II" als Balancemischer gezeigt
 
 ---
 ### Balancemodulator im SSB-Modulator

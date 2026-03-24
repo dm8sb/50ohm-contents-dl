@@ -31,7 +31,7 @@
 Die Darstellung ist für ein 8QAM-Mapping. QPSK im Beispiel entspricht dem äußeren Kreis.
 </left>
 <right>
-* Das Konstellations&shy;dia&shy;gramm stellt die Signalpunkte in einem quadratischen Diagramm dar  
+* Das Konstellationsdiagramm stellt die Signalpunkte in einem quadratischen Diagramm dar  
 * Die X-Achse (*I*n-Phase) und die Y-Achse (*Q*uadratur) zeigen die Amplituden der Signalbestandteile  
 * Für QPSK liegen die vier Signalpunkte an den Enden eines Quadrats
 </right>

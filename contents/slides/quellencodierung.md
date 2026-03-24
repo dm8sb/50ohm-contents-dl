@@ -3,7 +3,7 @@
 </left>
 <right>
 * Möglichst effiziente Nutzung des Frequenzspektrums.
-* &rarr; Kompression der Nutzdaten, die sogenannte Quellencodierung.
+* $\rightarrow$ Kompression der Nutzdaten, die sogenannte Quellencodierung.
 * Entfernung von Redundanzen (z. B. Wiederholungen) oder Irrelevanzen (weniger wichtige Informationsteile) aus dem Datenstrom.
 </right>
 <note>

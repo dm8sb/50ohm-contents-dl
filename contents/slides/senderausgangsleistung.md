@@ -16,7 +16,7 @@
 
 * Direkt am Senderausgang
 * Ohne Zusatzgeräte, Filter oder Kabel
-* Bei SSB &rarr; mit Modulation
+* Bei SSB $\rightarrow$ mit Modulation
 * Ein- oder Zweitonaussteuerung, aber keine Sprache
 * Messung der maximalen *Hüllkurvenleistung* (PEP)
 * Spitzenleistung des Senders bei maximaler Aussteuerung

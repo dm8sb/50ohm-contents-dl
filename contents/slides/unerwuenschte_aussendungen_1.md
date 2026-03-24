@@ -1,5 +1,5 @@
 * Amateurfunkverordnung (AFuV): *Unerwünschte Aussendungen* auf das geringstmögliche Maß beschränken
-* Es gibt weitere gesetzliche Regelungen für konkrete Grenzwerte &rarr; Klasse A
+* Es gibt weitere gesetzliche Regelungen für konkrete Grenzwerte $\rightarrow$ Klasse A
 
 <note>
 * Keine Störungen in anderen Funkbändern erzeugen

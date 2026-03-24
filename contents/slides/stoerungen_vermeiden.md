@@ -46,7 +46,7 @@
 ## Ursachenforschung
 
 * Prüfen auf Behebung mit eigenen Mitteln
-* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann &rarr; Nachbarn auf *Funkstörungsannahme der BNetzA* (24/7&nbsp;&phone;&nbsp;0228&nbsp;14&nbsp;15&nbsp;16) hinweisen
+* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* (24/7 Tel. 0228 14 15 16) hinweisen
 
 <note>
 * Bei eigener Suche als DARC-Mitglied Hilfe beim Referat für elektromagnetische Verträglichkeit anfragen

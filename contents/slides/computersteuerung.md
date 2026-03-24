@@ -11,7 +11,7 @@
 ---
 ## Datenanschluss
 
-* Hinter dem Mikrofonanschluss im Funkgerät können Verstärker- und Filterstufen für Sprachübertragung liegen &rarr; ungeeignet für Datenübertragung
+* Hinter dem Mikrofonanschluss im Funkgerät können Verstärker- und Filterstufen für Sprachübertragung liegen $\rightarrow$ ungeeignet für Datenübertragung
 * Eigener Datenanschluss am Transceiver
 * Lässt Signale vom Computer unverfälscht passieren
 

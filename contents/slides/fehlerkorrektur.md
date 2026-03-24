@@ -2,7 +2,7 @@
 
 * Erkennt der Empfänger einen Fehler (z. B. mittels Prüfbits), kann er um eine erneute Übertragung bitten  
 * Bei der Vorwärtsfehlerkorrektur wird zusätzliche Redundanz (z. B. weitere Prüfbits) hinzugefügt  
-* So wird nicht nur erkannt, dass ein Fehler vorliegt, sondern auch an welcher Stelle &rarr; das fehlerhafte Bit kann berichtigt werden
+* So wird nicht nur erkannt, dass ein Fehler vorliegt, sondern auch an welcher Stelle $\rightarrow$ das fehlerhafte Bit kann berichtigt werden
 * Im Englischen spricht man von Forward Error Correction (FEC)
 
 ---

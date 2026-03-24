@@ -57,7 +57,7 @@
 * Der I/Q-Datenstrom bildet den Frequenzbereich um eine Mittenfrequenz ab  
 * Beispiel:  
 * $\qty{435}{\mega\hertz}$-Träger
-* Abtastrate von $\num{10}$ Mio. Samples/s &rarr; Bandbreite = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ um die Mittenfrequenz)
+* Abtastrate von $\num{10}$ Mio. Samples/s $\rightarrow$ Bandbreite = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ um die Mittenfrequenz)
 * Abgedeckter Bereich: ca. $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
 
 ---
