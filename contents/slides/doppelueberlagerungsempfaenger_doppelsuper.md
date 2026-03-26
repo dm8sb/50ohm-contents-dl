@@ -16,15 +16,15 @@
 [picture:810:doppelsuper_blockschaltbild:Blockschaltbild eines Doppelsuper]
 
 * Verwendung von zwei Zwischenfrequenzen
-* Hohe 1. ZF &rarr; gute Spiegelfrequenzunterdrückung
-* Niedrige 2. ZF &rarr; hohe Trennschärfe
+* Hohe 1. ZF $\rightarrow$ gute Spiegelfrequenzunterdrückung
+* Niedrige 2. ZF $\rightarrow$ hohe Trennschärfe
 
 ---
 * Nach 1. ZF ist ein Eingangsfilter vor 2. Mischer
 * Spiegelfrequenz lässt sich durch großen Abstand gut unterdrücken
 * Nach 2. ZF Filter mit hoher Güte
 * Lässt sich für niedrige Frequenzen gut realisieren
-* ZF und gewünschte Empfangsfrequenz weit entfernt legen &rarr; Vermeidung des Direktempfangs der ZF
+* ZF und gewünschte Empfangsfrequenz weit entfernt legen $\rightarrow$ Vermeidung des Direktempfangs der ZF
 * Die 1. ZF sollte das Doppelte der maximalen Empfangsfrequenz sein
 
 ---

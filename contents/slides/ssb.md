@@ -2,7 +2,7 @@
 [picture:482:n_seitenband:Amplitudenmodulation, Träger mit unterem (a) und oberen (b) Seitenband]
 </left>
 <right>
-* Bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder &rarr; unteres bzw. oberes Seitenband
+* Bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder $\rightarrow$ unteres bzw. oberes Seitenband
 * "lower side band" (*LSB*) und "upper side band" (*USB*)
 * Der Träger selbst enthält gar keine Information
 </right>

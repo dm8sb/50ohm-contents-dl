@@ -27,7 +27,7 @@ Der Name PI-Konfiguration stammt vom Aufbau der Widerstände als &Pi;
 <right>
 * Dämpfung wird in $\unit{\dB}$ angegeben
 * z.B. $\qty{20}{\dB}$ = Faktor $\num{100}$
-* $\qty{100}{\watt}$ Eingangsleistung &rArr; $\qty{1}{\watt}$ Ausgangsleistung
+* $\qty{100}{\watt}$ Eingangsleistung $\rightarrow\qty{1}{\watt}$ Ausgangsleistung
 </right>
 <note>
 Der Name T-Konfiguration stammt vom Aufbau der Widerstände als T

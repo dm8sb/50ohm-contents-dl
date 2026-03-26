@@ -2,7 +2,7 @@
 
 * Beat-Frequency-Oszillator (BFO) schwingt genau auf der Frequenz des unterdrückten Trägers
 * Mischt den Träger wieder rein
-* Möglichst hohe Frequenzstabilität &rarr; Quarzgesteuerter Oszillator
+* Möglichst hohe Frequenzstabilität $\rightarrow$ Quarzgesteuerter Oszillator
 
 ---
 ### BFO für CW

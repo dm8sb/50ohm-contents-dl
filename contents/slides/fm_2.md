@@ -19,7 +19,7 @@
 ## Frequenzhub
 <left>
 * Lautstärkeinformation wird bei FM durch *Trägerfrequenzauslenkung* (Frequenzhub) übertragen
-* Lautes NF-Signal &rarr; größerer Hub &rarr; höhere Bandbreite
+* Lautes NF-Signal $\rightarrow$ größerer Hub $\rightarrow$ höhere Bandbreite
 </left>
 <right>
 [picture:827:e_frequenzmodulation_frequenzhub:Trägerauslenkung bei Frequenzmodulation]

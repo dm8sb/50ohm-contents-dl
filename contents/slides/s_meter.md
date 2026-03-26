@@ -61,8 +61,8 @@
 ---
 ### Spannung am Eingang
 
-* Kurzwelle bis $\qty{30}{\mega\hertz}$: S9 &rArr; $\qty{50}{\micro\volt}$ an $\qty{50}{\ohm}$
-* VHF bei $\qty{144}{\mega\hertz}$: S9 &rArr; $\qty{5}{\micro\volt}$ an $\qty{50}{\ohm}$
+* Kurzwelle bis $\qty{30}{\mega\hertz}$: S9 $\rightarrow\qty{50}{\micro\volt}$ an $\qty{50}{\ohm}$
+* VHF bei $\qty{144}{\mega\hertz}$: S9 $\rightarrow\qty{5}{\micro\volt}$ an $\qty{50}{\ohm}$
 
 ---
 [question:AF105]

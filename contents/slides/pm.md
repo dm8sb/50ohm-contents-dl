@@ -5,7 +5,7 @@
 * Modulationssignal ändert die Phase einer Trägerwelle
 * Die Phasenänderung sieht im Signal wie ein "Versatz" der Welle aus
 * Amplitude des Signals bleibt gleich
-* Große Amplitude in der NF &rarr; große Phasenänderung
+* Große Amplitude in der NF $\rightarrow$ große Phasenänderung
 </right>
 <note>
 </note>

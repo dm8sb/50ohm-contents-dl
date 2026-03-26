@@ -20,7 +20,7 @@
 ## Zwischenfrequenz
 
 * Eine Frequenz, auf die für die weitere Verarbeitung gemischt wird
-* Im einfachsten Fall die NF &rarr; Direktüberlagerungsempfänger
+* Im einfachsten Fall die NF $\rightarrow$ Direktüberlagerungsempfänger
 * Bei NF muss die Oszillatorfrequenz nahe der Empfangsfrequenz sein
 * Klasse A behandelt Mehrfachsuper-Empfänger mit mehreren Zwischenfrequenzen
 

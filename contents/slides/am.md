@@ -4,7 +4,7 @@
 <right>
 * Modulationssignal wird durch Änderung der Amplitude auf den Träger aufmoduliert
 * Frequenz des Trägers bleibt unverändert
-* Änderung der Amplitude ändert die Form des Trägers &rarr; entspricht nicht mehr einer Sinusschwingung
+* Änderung der Amplitude ändert die Form des Trägers $\rightarrow$ entspricht nicht mehr einer Sinusschwingung
 * Zusätzliche Frequenzen heißen *Seitenbänder*
 </right>
 <note>

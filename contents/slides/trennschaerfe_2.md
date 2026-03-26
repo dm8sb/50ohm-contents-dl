@@ -6,9 +6,9 @@
 
 ---
 * Bandbreiten und Flankensteilheit durch technisch unterschiedliche Konzepte
-* Quarzfilter &rarr; stark steilflankig und sehr schmalbandig
-* Keramikfilter &rarr; steilflankig und schmalbandig
-* LC-Filter &rarr; nicht so steilflankig und größere Bandbreite
+* Quarzfilter $\rightarrow$ stark steilflankig und sehr schmalbandig
+* Keramikfilter $\rightarrow$ steilflankig und schmalbandig
+* LC-Filter $\rightarrow$ nicht so steilflankig und größere Bandbreite
 * RC-Filter werden üblicherweise in HF nicht eingsetzt
 
 ---

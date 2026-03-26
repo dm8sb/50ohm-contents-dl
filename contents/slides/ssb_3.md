@@ -12,7 +12,7 @@
 ### Übersteuerung
 
 * Bei Übersteuerung im Modulator entstehen Verzerrungen
-* Führt zu Nebenaussendungen &rarr; Splatter
+* Führt zu Nebenaussendungen $\rightarrow$ Splatter
 * Bandbreite steigt
 * Kann benachbarte Aussendungen stören
 

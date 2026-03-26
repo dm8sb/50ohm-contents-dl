@@ -13,7 +13,7 @@
 <right>
 * AM-Signale werden mit einem Hüllkurvendemodulator verarbeitet  
 * HF-Signal wird über einen Schwingkreis selektiert und gleichgerichtet  
-* Kondensator lädt auf &rarr; Widerstand entlädt mit definierter Zeitkonstante
+* Kondensator lädt auf $\rightarrow$ Widerstand entlädt mit definierter Zeitkonstante
 </right>
 
 ---
@@ -23,7 +23,8 @@
 ---
 
 <left>
-[picture:607:demodulator_huellkurvendemodulator_am_2:Hüllkurvendemodulator mit ZF-Eingangssignal]<br/>
+[picture:607:demodulator_huellkurvendemodulator_am_2:Hüllkurvendemodulator mit ZF-Eingangssignal]
+
 [picture:146:demodulator_huellkurvendemodulator_am_abbx:Demoduliertes Signal am Punkt X]
 </left>
 <right>
@@ -41,7 +42,8 @@
 ### FM-Demodulation
 
 <left>
-[picture:841:demodulator_flankendiskriminator:Schwingkreis als Flankendiskriminator]<br>
+[picture:841:demodulator_flankendiskriminator:Schwingkreis als Flankendiskriminator]
+
 [picture:149:demodulator_flankendiskriminator_schaltung:FM-Flankendiskriminator]
 </left>
 <right>

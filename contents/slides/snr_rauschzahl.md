@@ -12,7 +12,7 @@
 * Verschlechterung des SNR bei Durchgang des Signals durch den Verstärker
 * Verhältnis von eingehendem SNR zu ausgehendem SNR
 * Rauschmaß: Angabe der Rauschzahl in $\unit{\dB}$
-* Rauschzahl $\num{2}$ &rarr; Rauschmaß $\qty{3}{\dB}$
+* Rauschzahl $\num{2}\rightarrow$ Rauschmaß $\qty{3}{\dB}$
 
 ---
 [question:AF228]

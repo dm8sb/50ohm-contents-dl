@@ -1,4 +1,4 @@
-* Hört sich in SSB die Gegenstation zu hoch oder tief an &rarr; *Empfangsfrequenz* korrigieren
+* Hört sich in SSB die Gegenstation zu hoch oder tief an $\rightarrow$ *Empfangsfrequenz* korrigieren
 * Dazu den Regler *RIT* (Receiver Incremental Tuning) verwenden
 * Beim Verstellen der *Sendefrequenz* versteht mich die Gegenstation schlecht
 * Ändern beide Stationen jedes Mal die Sendefrequenz entsteht "über das Band wandern"

@@ -30,8 +30,8 @@ Wird später im Kapitel Sender nochmal betrachtet
 ### Hub
 
 * Bestimmt, um welchen Betrag sich die Frequenz des Oszillators je nach Amplitude des modulierten Signals ändert
-* Größere Amplitude im NF-Signal &harr; größere Auslenkung im Träger
-* Größerer Hub &rarr; größere Lautstärke im demodulierten Signal
+* Größere Amplitude im NF-Signal $\leftrightarrow$ größere Auslenkung im Träger
+* Größerer Hub $\rightarrow$ größere Lautstärke im demodulierten Signal
 
 ---
 [question:AE305]
@@ -44,8 +44,8 @@ $B \approx 2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}}\right)$
 </left>
 <right>
 * Belegte Bandbreite: Hub und maximale Modulationsfrequenz
-* Bei kleinem Hub und niedriger Modulationsfrequenz &rarr; *Carson-Formel*
-* Höhere Modulationsfrequenz oder größerer Hub &rarr; größere Bandbreite
+* Bei kleinem Hub und niedriger Modulationsfrequenz $\rightarrow$ *Carson-Formel*
+* Höhere Modulationsfrequenz oder größerer Hub $\rightarrow$ größere Bandbreite
 * Nachbarkanalstörungen sind möglich
 </right>
 

@@ -1,7 +1,7 @@
 * Starke Signale werden reduziert
 * Leise Signale werden erhöht
 * Amplitude des demodulierten Signals wird konstant gehalten
-* &rarr; NF-Signal hat konstant gleiche Lautstärke
+* $\rightarrow$ NF-Signal hat konstant gleiche Lautstärke
 
 ---
 ### Ohne AGC

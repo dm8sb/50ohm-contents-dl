@@ -5,9 +5,9 @@
 </left>
 <right>
 * Noise Reduction (*NR*)
-* &rarr; Aktive Differenzierung von Nutzsignal und Rauschen
+* $\rightarrow$ Aktive Differenzierung von Nutzsignal und Rauschen
 * Noise Blanker (*NB*)
-* &rarr; Tastet impulsförmige Störungen aus
+* $\rightarrow$ Tastet impulsförmige Störungen aus
 </right>
 
 ---

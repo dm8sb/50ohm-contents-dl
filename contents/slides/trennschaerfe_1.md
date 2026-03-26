@@ -3,7 +3,7 @@
 * Bei gleichzeitiger Unterdrückung von naheliegenden, unerwünschten Signalen
 </left>
 <right>
-* Hohe Trennschärfe &rarr; geringe Bandbreite notwendig
+* Hohe Trennschärfe $\rightarrow$ geringe Bandbreite notwendig
 * Idealerweise nur so breit wie das zu empfangene Signal
 </right>
 

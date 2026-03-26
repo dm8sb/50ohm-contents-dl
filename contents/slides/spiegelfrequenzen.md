@@ -17,13 +17,17 @@ Im Mischprozess zur $f_\text{ZF}$ werden prinzipbedingt immer zwei Empfangsfrequ
 </right>
 ---
 <left>
-Oszillator schwingt oberhalb der Empfangsfrequenz<br/>
-&darr;<br/>
+Oszillator schwingt oberhalb der Empfangsfrequenz
+
+$\downarrow$
+
 Spiegelfrequenz bei ${2 \cdot f_\text{ZF}}$ oberhalb der Empfangsfrequenz
 </left>
 <right>
-Oszillator schwingt unterhalb der Empfangsfrequenz<br/>
-&darr;<br/>
+Oszillator schwingt unterhalb der Empfangsfrequenz
+
+$\downarrow$
+
 Spiegelfrequenz bei ${2 \cdot f_\text{ZF}}$ unterhalb der Empfangsfrequenz
 </right>
 
