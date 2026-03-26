@@ -4,7 +4,7 @@ Die Angabe ist freiwillig. Kann aber für die Gegenstelle interessant sein, fall
 </note>
 --- style="font-size: 0.7em;"
 | l: Zusatz | l: Gesprochen | l: Bedeutung |
-| am | aeronautisch mobil | An Bord eines Luftfahrzeugst, das sich im Flug befindet |
+| am | aeronautisch mobil | An Bord eines Luftfahrzeugs, das sich im Flug befindet |
 | mm | maritim mobil | An Bord eines Schiffs auf See |
 | m | mobil | Von einem Landfahrzeug oder einem Schiff auf Binnengewässern aus |
 | p | portabel | Zu Fuß unterwegs oder vorübergehend ortsfest |
