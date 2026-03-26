@@ -38,7 +38,7 @@ $X_L = 6,28 \cdot \qty{100e6}{\hertz} \cdot \qty{3e-6}{\henry}$
 Die Zehnerpotenzen  $10^6 \cdot 10^{-6}$ ergeben $1$. Im letzten Schritt werden die verbliebenen Zahlen multipliziert.
 $X_L = 6,28 \cdot \qty{(100 \cdot 3)}{\ohm} = \qty{1884}{\ohm}$
 [question:AC204]
-Mit einem vektoriellen Network Analyzer (VNA) läßt sich die Veränderung des induktiven Blindwiderstandes $X_L$ in Abhängigkeit von der Frequenz darstellen. Wir sprechen auch hier von einem Blindwiderstand, da eine verlustfreie Spule keine Wirkenergie aufnimmt. Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitz sie Verluste, die diese Erwärmung bewirken.
+Mit einem vektoriellen Network Analyzer (VNA) lässt sich die Veränderung des induktiven Blindwiderstandes $X_L$ in Abhängigkeit von der Frequenz darstellen. Wir sprechen auch hier von einem Blindwiderstand, da eine verlustfreie Spule keine Wirkenergie aufnimmt. Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitz sie Verluste, die diese Erwärmung bewirken.
 Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert.
 % todo BILD XL in Abhängigkeit der Frequenz
 [photo:265:a_XL Verlauf V2:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von $\qty{500}{\kilo\hertz}$ bis $\qty{10}{\mega\hertz}$]
@@ -92,7 +92,7 @@ Man wird 90 Windungen aufbringen.
 [question:AC208]
 
 <indepth>
-Wenn sich innerhalb der Spule ein magnetisch leitfähiges Material befindet (z.B. Eisen, Ferrit) dann wird das Magnetfeld verstärkt. Die dann wirksame magnetische Flussdichte B läßt sich mit folgender Formel berechnen:
+Wenn sich innerhalb der Spule ein magnetisch leitfähiges Material befindet (z.B. Eisen, Ferrit) dann wird das Magnetfeld verstärkt. Die dann wirksame magnetische Flussdichte B lässt sich mit folgender Formel berechnen:
 $B = \mu_0 \cdot \mu_r \cdot H$
 (siehe Formelsammlung Seite 236 oben rechts -  Stichwort: Magnetische Flussdichte)
 Dabei enspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$

@@ -32,7 +32,7 @@ Ein Anpassungsübertrager hat die Aufgabe, eine Impedanz an eine andere anzupass
 Als Beispiel betrachten wir eine endgespeiste Antenne, deren Eingangsimpedanz ca. $\qty{2450}{\ohm}$ beträgt.
 Sie soll an einen Sender für $\qty{50}{\ohm}$ Lastimpedanz angepasst werden soll.
 
-Die Berechnung der Impedanzübertragung läßt sich aus den TRAFO-Grundformeln ermitteln.
+Die Berechnung der Impedanzübertragung lässt sich aus den TRAFO-Grundformeln ermitteln.
 Die Formel für die Impedanzübertragung lautet:
 $ \frac {Z_p}{Z_s} = ü^2 = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
 Merke: Das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses.
