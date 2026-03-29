@@ -133,3 +133,7 @@ Kommentare gehen weiterhin per %-Zeichen, aber nur am Anfang der Zeile! TODO als
 ## Links
 
 Hyperlinks sollten immer über den 50ohm.de-URL-Shortener abgebildet werden. 
+
+## Index
+
+Indexeinträge werden mit `[index:Begriff]` bzw. `[index:Hauptbegriff:Unterbegriff]` gesetzt. Ein optionales Leerzeichen vor dem Befehl wird beim Konvertieren entfernt.
