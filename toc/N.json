@@ -660,6 +660,13 @@
                     "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2839s"
                 },
                 {
+                    "title": "Blitzschutz",
+                    "ident": "n_blitzschutz",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": null
+                },
+                {
                     "title": "Potentialausgleich",
                     "ident": "blitzschutz",
                     "status": "prod",
