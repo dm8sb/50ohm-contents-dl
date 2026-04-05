@@ -1,0 +1,209 @@
+<h1>Fragensuche</h1>
+
+<div class="card mb-4">
+	<div class="card-body">
+		<div class="row g-3 align-items-end">
+			<div class="col-12 col-md-6 col-lg-4">
+				<label for="question-search-input" class="form-label">Suche nach einer Fragennummer:</label>
+				<input
+					id="question-search-input"
+					class="form-control"
+					type="text"
+					placeholder="VD102"
+					autocomplete="off"
+					disabled
+				>
+			</div>
+		</div>
+		<div id="question-search-error" class="alert alert-danger mt-3 mb-0 d-none" role="alert"></div>
+	</div>
+</div>
+
+<div id="question-search-results" class="d-none"></div>
+
+<script>
+	(() => {
+		const searchInput = document.getElementById("question-search-input");
+		const errorBox = document.getElementById("question-search-error");
+		const resultsBox = document.getElementById("question-search-results");
+		let questionIndex = {};
+
+		const targetClassByEdition = {
+			N: "N",
+			E: "E",
+			NE: "E",
+			A: "A",
+			EA: "A",
+			NEA: "A",
+		};
+
+		const targetColorByClass = {
+			N: "#47ABE8",
+			E: "#FE756C",
+			A: "#3BB583",
+		};
+
+		const editionOrder = ["N", "NE", "NEA", "E", "EA", "A"];
+
+		const editionLabelByEdition = {
+			N: "N",
+			NE: "N+E",
+			NEA: "N+E+A",
+			E: "N -> E",
+			EA: "N -> A",
+			A: "E -> A",
+		};
+
+		function escapeHtml(value) {
+			return String(value)
+				.replaceAll("&", "&amp;")
+				.replaceAll("<", "&lt;")
+				.replaceAll(">", "&gt;")
+				.replaceAll('"', "&quot;")
+				.replaceAll("'", "&#39;");
+		}
+
+		function normalizeQuery(value) {
+			return (value || "").trim().toUpperCase();
+		}
+
+		function getTargetClass(edition) {
+			return targetClassByEdition[(edition || "").toUpperCase()] || null;
+		}
+
+		function getEditionLabel(edition) {
+			return editionLabelByEdition[(edition || "").toUpperCase()] || edition;
+		}
+
+		function sortEditions(editions) {
+			return [...editions].sort((a, b) => {
+				const aUpper = (a || "").toUpperCase();
+				const bUpper = (b || "").toUpperCase();
+				const indexA = editionOrder.indexOf(aUpper);
+				const indexB = editionOrder.indexOf(bUpper);
+
+				if (indexA === -1 && indexB === -1) {
+					return aUpper.localeCompare(bUpper);
+				}
+				if (indexA === -1) {
+					return 1;
+				}
+				if (indexB === -1) {
+					return -1;
+				}
+
+				return indexA - indexB;
+			});
+		}
+
+		function renderSearchResults() {
+			const query = normalizeQuery(searchInput.value);
+			const questionIds = Object.keys(questionIndex);
+
+			resultsBox.classList.remove("d-none");
+
+			if (query.length === 0) {
+				resultsBox.innerHTML =
+					'<div class="alert alert-light border" role="status">Bitte gib eine Frage-ID ein, z. B. <strong>AB123</strong>.</div>';
+				return;
+			}
+
+			const exactMatches = questionIds.filter((questionId) => questionId === query);
+			const startsWithMatches = questionIds.filter((questionId) => questionId.startsWith(query) && questionId !== query);
+			const includesMatches = questionIds.filter(
+				(questionId) => questionId.includes(query) && !questionId.startsWith(query)
+			);
+
+			const matches = [...exactMatches, ...startsWithMatches, ...includesMatches].slice(0, 50);
+
+			if (matches.length === 0) {
+				resultsBox.innerHTML =
+					'<div class="alert alert-warning" role="status">Keine passende Frage gefunden.</div>';
+				return;
+			}
+
+			const cards = matches.flatMap((questionId) => {
+				const entries = Array.isArray(questionIndex[questionId]) ? questionIndex[questionId] : [];
+				return entries
+					.map((entry) => {
+						const sectionIdentRaw = entry.section || "";
+						const chapterTitle = escapeHtml(entry.chapter_title || "Unbekanntes Kapitel");
+						const sectionTitle = escapeHtml(entry.section_title || entry.section || "Unbekannte Sektion");
+						const editions = sortEditions(Array.isArray(entry.editions) ? entry.editions : []);
+						const editionLinks = editions
+							.map((edition) => {
+								const editionSafe = escapeHtml(edition);
+								const editionLabel = escapeHtml(getEditionLabel(edition));
+								const targetClass = getTargetClass(edition);
+								const targetColor = targetColorByClass[targetClass] || "#6c757d";
+								const targetTitle = targetClass ? `Zielklasse ${targetClass}` : "Zielklasse unbekannt";
+								const href = `${encodeURIComponent(edition)}_${encodeURIComponent(sectionIdentRaw)}.html#${encodeURIComponent(questionId)}`;
+								return `<a class="badge text-white text-decoration-none" style="background-color: ${targetColor};" href="${href}" title="${escapeHtml(targetTitle)}" aria-label="${editionSafe}: ${editionLabel}">${editionLabel}</a>`;
+							})
+							.join("");
+						return `
+							<div class="card mb-3">
+								<div class="card-header">
+									<nav aria-label="breadcrumb" class="mt-1">
+										<ol class="breadcrumb mb-0 small">
+											<li class="breadcrumb-item">
+									            <div class="fw-semibold">${escapeHtml(questionId)}</div>
+                                            </li>
+											<li class="breadcrumb-item">${chapterTitle}</li>
+											<li class="breadcrumb-item">${sectionTitle}</li>
+										</ol>
+									</nav>
+								</div>
+								<div class="card-body py-3">
+									<div class="d-flex flex-wrap gap-2">${editionLinks || '<span class="badge text-bg-secondary">-</span>'}</div>
+								</div>
+							</div>
+						`;
+					});
+			});
+
+			resultsBox.innerHTML = `
+				<p class="text-muted mb-3">${cards.length} Treffer</p>
+				${cards.join("")}
+			`;
+		}
+
+		async function loadQuestionIndex() {
+			try {
+				const response = await fetch("/question_index.json", {
+					cache: "no-cache",
+					headers: {
+						Accept: "application/json",
+					},
+				});
+
+				if (!response.ok) {
+					throw new Error("HTTP " + response.status);
+				}
+
+				const indexData = await response.json();
+
+				questionIndex = indexData || {};
+
+				searchInput.disabled = false;
+
+				searchInput.addEventListener("input", renderSearchResults);
+				searchInput.addEventListener("keydown", (event) => {
+					if (event.key === "Enter") {
+						event.preventDefault();
+						renderSearchResults();
+					}
+				});
+
+				renderSearchResults();
+			} catch (error) {
+				errorBox.classList.remove("d-none");
+				errorBox.textContent =
+					"Suchindex konnte nicht geladen werden: " + error.message;
+				console.error("Failed to load /question_index.json", error);
+			}
+		}
+
+		loadQuestionIndex();
+	})();
+</script>
