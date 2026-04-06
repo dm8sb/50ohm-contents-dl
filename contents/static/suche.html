@@ -113,7 +113,7 @@
       const hasSolution = Boolean(entry.has_solution);
       const editionLinks = renderEditionButtons(entry.editions, sectionIdentRaw, questionId);
       const solutionLink = hasSolution
-        ? `<a class="btn btn-sm text-dark d-inline-flex align-items-center gap-2 px-3 py-2 text-nowrap" style="background-color: #ffc107; border-color: #ffc107;" href="${encodeURIComponent(questionId)}.html" aria-label="Loesungsweg zu ${escapeHtml(questionId)}"><svg class="solution-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" aria-hidden="true" focusable="false" style="width: 1rem; height: 1rem;"><path d="M420.9 448C428.2 425.7 442.8 405.5 459.3 388.1C492 353.7 512 307.2 512 256C512 150 426 64 320 64C214 64 128 150 128 256C128 307.2 148 353.7 180.7 388.1C197.2 405.5 211.9 425.7 219.1 448L420.8 448zM416 496L224 496L224 512C224 556.2 259.8 592 304 592L336 592C380.2 592 416 556.2 416 512L416 496zM312 176C272.2 176 240 208.2 240 248C240 261.3 229.3 272 216 272C202.7 272 192 261.3 192 248C192 181.7 245.7 128 312 128C325.3 128 336 138.7 336 152C336 165.3 325.3 176 312 176z"></path></svg>Loesungsweg</a>`
+        ? `<a class="btn btn-sm text-dark d-inline-flex align-items-center gap-2 px-3 py-2 text-nowrap" style="background-color: #ffc107; border-color: #ffc107;" href="${encodeURIComponent(questionId)}.html" aria-label="Lösungsweg zu ${escapeHtml(questionId)}"><svg class="solution-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="currentColor" aria-hidden="true" focusable="false" style="width: 1rem; height: 1rem;"><path d="M420.9 448C428.2 425.7 442.8 405.5 459.3 388.1C492 353.7 512 307.2 512 256C512 150 426 64 320 64C214 64 128 150 128 256C128 307.2 148 353.7 180.7 388.1C197.2 405.5 211.9 425.7 219.1 448L420.8 448zM416 496L224 496L224 512C224 556.2 259.8 592 304 592L336 592C380.2 592 416 556.2 416 512L416 496zM312 176C272.2 176 240 208.2 240 248C240 261.3 229.3 272 216 272C202.7 272 192 261.3 192 248C192 181.7 245.7 128 312 128C325.3 128 336 138.7 336 152C336 165.3 325.3 176 312 176z"></path></svg>Lösungsweg</a>`
         : "";
 
       return `
@@ -151,7 +151,7 @@
       return `
         <div class="card mb-3">
           <div class="card-header d-flex flex-nowrap align-items-center gap-2 overflow-auto">
-            <div class="fw-semibold">Index: ${term}${subterm ? ` / ${subterm}` : ""}</div>
+            <div class="fw-semibold">${term}${subterm ? ` / ${subterm}` : ""}</div>
             <nav aria-label="breadcrumb" class="mb-0 d-flex align-items-center text-nowrap">
               <ol class="breadcrumb mb-0 align-items-center flex-nowrap">
                 <li class="breadcrumb-item">${chapterTitle}</li>
