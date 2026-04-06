@@ -29,11 +29,7 @@ Diese Beziehungen gelten für den Idealfall eines unbelasteten Transformators, a
 
 Wir rechnen: 
 
-$ü = \frac{15}{1} = 15 = \frac{\qty{230}{\volt}}{U_S} \quad\quad\quad |~\cdot~U_S$
-
-$15 \cdot U_S = \qty{230}{\volt} \quad\quad\quad |~:~15$
-
-$U_S = \frac{\qty{230}{\volt}}{15} = \qty{15,33}{\volt}$ 
+$\begin{align*}ü = \frac{15}{1} = 15 &= \frac{\qty{230}{\volt}}{U_S} &\quad\quad\quad &|~\cdot~U_S\\[1.5ex]15 \cdot U_S &= \qty{230}{\volt} &\quad\quad\quad &|~:~15\\[1.5ex]U_S &= \frac{\qty{230}{\volt}}{15} = \qty{15,33}{\volt}\end{align*}$
 
 [question:EC402]
 
@@ -61,7 +57,7 @@ Das vereinfacht sich zu:
 
 $\frac{600}{N_S} = 20$ 
 
-Wir multiplizieren auf beiden Seiten mit $N_S$ und teilen auf beiden Seiten durch 20.
+Wir multiplizieren auf beiden Seiten mit $N_S$ und teilen auf beiden Seiten durch $20$.
 
 $N_S = \frac{600}{20} = 30$
 

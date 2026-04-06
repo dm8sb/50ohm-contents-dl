@@ -1,4 +1,4 @@
-Funkverbindungen finden meist wechselseitig auf einer Frequenz statt. D. h. eine Station sendet, während die andere Station hört. Wenn beide gleichzeitig senden, hört keine von beiden. Daher ist es wichtig, dass eine gewisse Ordnung beim Ablauf einer Funkverbindung, der sogenannten Betriebsabwicklung, herrscht.
+Funkverbindungen [index:Funkverbindung] finden meist wechselseitig auf einer Frequenz statt. D. h. eine Station sendet, während die andere Station hört. Wenn beide gleichzeitig senden, hört keine von beiden. Daher ist es wichtig, dass eine gewisse Ordnung beim Ablauf einer Funkverbindung, der sogenannten Betriebsabwicklung [index:Betriebsabwicklung], herrscht.
 
 Bei vielen Funkdiensten ist die Betriebsabwicklung ganz genau vorgeschrieben, z. B. im Flugfunk, bei der Polizei, der Feuerwehr oder den Rettungsdiensten. Im Amateurfunk gibt es keine verpflichtenden Vorgaben zur Betriebsabwicklung. Es muss nur das Rufzeichen ordnungsgemäß genannt werden. Aber auch im Amateurfunk ergibt es Sinn, wenn man sich an der üblichen Betriebsabwicklung orientiert und die geläufigen Abkürzungen kennt. Daher gibt es auch einen eigenen Prüfungsteil "Betriebliche Kenntnisse".
 
@@ -13,10 +13,10 @@ CQ CQ hier ist DL1PZ mit einem allgemeinen Anruf, hier ist DL1PZ und hört.
 > DL1PZ hier ist DL9MJ bitte kommen
 </qso>
 
-Wenn darauf keine Antwort folgt, kann davon ausgegangen werden, dass die Frequenz nicht belegt ist. Jetzt kann man selber eine Funkverbindung beginnen. Wie beim Telefon nennt sich das Anruf. Grundsätzlich gibt es zwei Möglichkeiten, den allgemeinen Anruf und den gezielten Anruf:
+Wenn darauf keine Antwort folgt, kann davon ausgegangen werden, dass die Frequenz nicht belegt ist. Jetzt kann man selber eine Funkverbindung beginnen. Wie beim Telefon nennt sich das Anruf [index:Anruf]. Grundsätzlich gibt es zwei Möglichkeiten, den allgemeinen Anruf und den gezielten Anruf:
 
-* Mit einem *allgemeinen* Anruf fordert man *alle* Stationen, die einen hören können, zur Antwort auf. Die internationale betriebliche Abkürzung für den allgemeinen Anruf ist CQ. Wird CQ englisch ausgesprochen (etwa "si-kju"), dann klingt es genauso wie "seek you" (etwa "sik-ju"), also "suche dich". Im deutschsprachigen Funkverkehr wird anstelle von CQ auch die Floskel "Allgemeiner Anruf" verwendet.
-* Bei einem *gezielten* Anruf hingegen möchte man die Antwort *einer bestimmten* Station.
+* Mit einem *allgemeinen* Anruf [index:Anruf:Allgemein] fordert man *alle* Stationen, die einen hören können, zur Antwort auf. Die internationale betriebliche Abkürzung für den allgemeinen Anruf ist CQ. Wird CQ englisch ausgesprochen (etwa "si-kju"), dann klingt es genauso wie "seek you" (etwa "sik-ju"), also "suche dich". Im deutschsprachigen Funkverkehr wird anstelle von CQ auch die Floskel "Allgemeiner Anruf" verwendet.
+* Bei einem *gezielten* Anruf [index:Anruf:Gezielt] hingegen möchte man die Antwort *einer bestimmten* Station.
 
 ---
 

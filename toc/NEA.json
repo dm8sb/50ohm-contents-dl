@@ -1872,6 +1872,20 @@
                     "video_url": null
                 },
                 {
+                    "title": "Digital Voice (DV)",
+                    "ident": "digital_voice",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=QRq0uPzdPZY&t=715s"
+                },
+                {
+                    "title": "Paketvermittelte Netzwerke",
+                    "ident": "paketvermittelte_netzwerke",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
                     "title": "Amplituden- und Frequenzumtastung (ASK, FSK)",
                     "ident": "ask_fsk_afsk",
                     "status": "prod",

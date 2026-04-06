@@ -7,7 +7,7 @@ Wie wir bereits gelernt haben, kann ein Halbwellendipol auch an einem Ende gespe
 Eine andere Möglichkeit ist ein Transformator mit einem Übersetzungsverhältnis von $ü = 1:7$. Da sowohl Spannung als auch Strom um den Faktor $\num{7}$ multipliziert bzw. dividiert werden, ergibt sich für den Widerstand eine Transformation von $1:7^2 = 1:49$ entsprechend $(1 \cdot \qty{50}{\ohm}) : (49 \cdot \qty{50}{\ohm}) = \qty{50}{\ohm} : \qty{2450}{\ohm}$.
 
 <attention>
-Hinsichtlich der *Impedanztransformation* (Transformation des Widerstands) geht das Windungsverhältnis eines Transformators im Quadrat ein, d.h. ein Transformator mit einem Windungsverhältnis von 1:7 sorgt für eine 1:49-Impedanztransformation. Bei Baluns und Un-Uns ist oft ist nicht angegeben, ob es sich um das Windungs- oder das Impedanzverhältnis handelt. Es besteht also die Möglichkeit der Verwechselung. Üblich ist die Angabe des Impedanzverhältnisses. Bei einem Transformator mit einem Windungsverhältnis ($ü$) von 1:7 spricht man dann z. B. von einem 1:49-Un-Un.
+Hinsichtlich der *Impedanztransformation* (Transformation des Widerstands) geht das Windungsverhältnis eines Transformators im Quadrat ein, d.h. ein Transformator mit einem Windungsverhältnis von 1:7 sorgt für eine 1:49-Impedanztransformation. Bei Baluns und Un-Uns ist oft nicht angegeben, ob es sich um das Windungs- oder das Impedanzverhältnis handelt. Es besteht also die Möglichkeit der Verwechselung. Üblich ist die Angabe des Impedanzverhältnisses. Bei einem Transformator mit einem Windungsverhältnis ($ü$) von 1:7 spricht man dann z. B. von einem 1:49-Un-Un.
 </attention>
 
 Als Gegengewicht wird oft ein kurzes Drahtende (mindestens ein zwanzigstel der Wellenlänge) oder ein Teil der koaxialen Zuleitung verwendet. Eine Mantelwellensperre (Abkürzung MWS) verhindert, dass das weitere Zuleitungskabel zum Teil der Antenne wird.
@@ -28,7 +28,7 @@ Ebenso wie bei einem endgespeisten Halbwellendipol kann auch bei anderen Antenne
 [question:AG117]
 
 <indepth>
-Der optimale Wert für den Wellenwiderstand einer $\lambda / 4$-Speiseleitung, die zur Anpassung verwendet wird, errechnet sich aus dem *geometrischen Mittel* der beiden Impedanzen (z. B. $\qty{50}{\ohm}$ und $\qty{100}{\ohm}$ entsprechend $\sqrt{\qty{50}{\ohm} \cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm}$.
+Der optimale Wert für den Wellenwiderstand einer $\lambda / 4$-Speiseleitung, die zur Anpassung verwendet wird, errechnet sich aus dem *geometrischen Mittel* der beiden Impedanzen, z. B. $\qty{50}{\ohm}$ und $\qty{100}{\ohm}$ entsprechend $\sqrt{\qty{50}{\ohm} \cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm}$.
 </indepth>
 
 Führt man die Ganzwellenschleife als Quadrat aus, dann muss die Länge jeder Seite entsprechend ein Viertel der Wellenlänge betragen.

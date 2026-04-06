@@ -15,8 +15,8 @@ $L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 Betrachtet man den Aufbau einer Spule, dann findet man also folgende Größen:
 1. $\mu_0$ ist die magnetische Feldkonstante, eine Naturkonstante mit dem Wert $\qty{1,2566e-6}{\henry\per\meter}$. Den Wert kann man immer in der Formelsammlung nachschlagen.
 2. $\mu_r$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
-3. Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht 
-4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an $A$
+3. Die Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht.
+4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an.
 5. Spulenlänge $l$
 
 [question:EA102]
@@ -33,10 +33,10 @@ Eine Spule besitzt die Induktivität $L$ mit der Einheit $\qty{1}{\volt\second\p
 
 Mithilfe der Formel und den folgenden qualitativen Zusammenhängen kann man bereits eine Reihe von Prüfungsfragen lösen:
 
-1. Die Induktivität steigt quadratisch mit der Windungszahl. Wenn die Windungszahl verdoppelt wird, dann steigt die Induktivität auf das Vierfache
-2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität $L$
-3. Wenn die Querschnittsfläche vergrößert wird, dann steigt die Induktivität $L$
-4. Wenn das Magnetfeld in der Spule durch ein geeignetes, magnetisch leitfähiges Material (z.B. Eisen) verstärkt wird, dann steigt die Induktivität $L$
+1. Die Induktivität steigt quadratisch mit der Windungszahl. Wenn die Windungszahl verdoppelt wird, dann steigt die Induktivität auf das Vierfache.
+2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität $L$.
+3. Wenn die Querschnittsfläche vergrößert wird, dann steigt die Induktivität $L$.
+4. Wenn das Magnetfeld in der Spule durch ein geeignetes, magnetisch leitfähiges Material (z.B. Eisen) verstärkt wird, dann steigt die Induktivität $L$.
 
 [question:EC305]
 
@@ -50,11 +50,18 @@ Wenn man die Spulenlänge $l$ verdoppelt, dann muss sich die Induktivität $L$ h
 
 Wenn die Anzahl der Windungen $N$ verdoppelt wird, dann vervierfacht sich die Induktivität $L$.
 
-Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst bei einer halben oder Viertelwindung  und sogar bei einem geraden Stück Draht ist noch eine geringe parasitäre Induktivität vorhanden.
+Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst bei einer halben oder Viertelwindung und sogar bei einem geraden Stück Draht ist noch eine geringe parasitäre Induktivität vorhanden.
 
 [question:EC304]
 
-Als *ferromagnetisch* bezeichnen wir eine bestimmte Klasse an Materialien, die auf atomarer Ebene kleine Elementarmagnete enthalten, die sich unter dem Einfluss eines äußeren magnetischen Felds ausrichten und so die *magnetische Flussdichte* sehr erhöhen (mit der wir uns an dieser Stelle aber noch nicht beschäftigen). Unter den reinen chemischen Elementen sind nur Eisen, Kobalt und Nickel ferromagnetisch.
+---
+
+Als *ferromagnetisch* bezeichnen wir eine bestimmte Klasse an Materialien, die auf atomarer Ebene kleine Elementarmagnete enthalten, die sich unter dem Einfluss eines äußeren magnetischen Felds ausrichten und so die *magnetische Flussdichte* stark erhöhen (mit der wir uns an dieser Stelle aber noch nicht beschäftigen). Unter den reinen chemischen Elementen sind nur Eisen, Kobalt und Nickel ferromagnetisch.
+
+<indepth>
+$\mu_r$, man sagt auch relative Permeabilität, ist bei ferromagnetischen Materialien sehr groß (bei Eisen zum Beispiel im Bereich von $300\dots\num{10000}$).
+</indepth>
+
 
 [question:EB204]
 
@@ -85,7 +92,7 @@ Ist der stationäre Zustand erreicht, verhält sich die Spule bei Gleichstrom n�
 
 ---
 
-Im Ausschaltmoment will die Selbstinduktionsspannung den Stromfluss aufrechterhalten. Die Spule wirkt dann als Generator, dessen Induktionsspannung entgegengesetzt zur vorherigen Polarität entsteht. Damit verhält sich die Spule exat gegenteilig zum Kondensator. Diese Vorgänge kann man gut mithilfe eines Oszilloskops wie in Abbildung [ref:e_Spulenstrom] beobachten.
+Im Ausschaltmoment will die Selbstinduktionsspannung den Stromfluss aufrechterhalten. Die Spule wirkt dann als Generator, dessen Induktionsspannung entgegengesetzt zur vorherigen Polarität entsteht. Damit verhält sich die Spule exakt gegenteilig zum Kondensator. Diese Vorgänge kann man gut mithilfe eines Oszilloskops wie in Abbildung [ref:e_Spulenstrom] beobachten.
 
 <margin>
 [photo:257:e_Spulenstrom:Ein-und Ausschaltverhalten der Spulenspannung und des Spulenstroms]

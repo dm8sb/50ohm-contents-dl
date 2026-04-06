@@ -1,18 +1,18 @@
-Die Qualität von Funkverbindungen hängt von mehreren Faktoren ab: Sendeleistungen, verwendete Antenne, Entfernung und nicht zuletzt die aktuellen Ausbreitungsbedingungen. Daher ist es oft interessant, zu erfahren, wie gut das eigene Signal bei der Empfangsstation ankommt. Um die Empfangsqualität zu beurteilen, gibt man einen Empfangsbericht, den sogenannten Rapport. Im Amateurfunk wird dafür in aller Regel das RST-System verwendet.
+Die Qualität von Funkverbindungen hängt von mehreren Faktoren ab: Sendeleistungen, verwendete Antenne, Entfernung und nicht zuletzt die aktuellen Ausbreitungsbedingungen. Daher ist es oft interessant, zu erfahren, wie gut das eigene Signal bei der Empfangsstation ankommt. Um die Empfangsqualität zu beurteilen, gibt man einen Empfangsbericht, den sogenannten Rapport [index:Rapport]. Im Amateurfunk wird dafür in aller Regel das RST-System [index:RST-System] verwendet.
 
 [question:BE201]
 
 <margin>
-[photo:123:n_rst_s-meter:Display eines IC9700-Transceivers, hervorgehoben ist das S-Meter, das den aktuellen Empfangspegel anzeigt]
+[photo:123:n_rst_s-meter:Display eines IC9700-Transceivers, hervorgehoben ist das S-Meter, das den aktuellen Empfangspegel anzeigt][index:S-Meter]
 </margin>
 
 ---
 
 Ein Rapport nach dem RST-System besteht aus den folgenden drei Werten:
 
-* R (Readability): Diese Zahl gibt die *Lesbarkeit* des Signals an und reicht von 1 bis 5. Unter der Lesbarkeit wird die Verständlichkeit verstanden. Eine höhere Zahl bedeutet eine bessere Verständlichkeit. Die Lesbarkeit wird subjektiv anhand von Faktoren wie Lautstärke, Klarheit, Störungen und Verzerrungen beurteilt. Anhaltspunkte für die Beurteilung finden sich in der Tabelle [ref:n_rst_r].
-* S (Signal Strength): Diese Zahl gibt die *Stärke des Signals* an und reicht von 1 bis 9. Eine höhere Zahl bedeutet eine höhere Signalstärke. Die Signalstärke wird normalerweise von der Empfangspegelanzeige (S-Meter) des Funkgeräts abgelesen. Viele S-Meter können auch Werte über 9 anzeigen. Die Anzeige solcher Werte erfolgt allerdings abweichend in Dezibel (dB) über Stufe 9. Der S-Wert im Rapport wird dann z. B. so angegeben: 9+20dB. An dieser Besonderheit ist auch das S-Meter am Funkgerät gut zu erkennen. Wie im Bild [ref:n_rst_s-meter] zu sehen ist, wird das S-Meter meist mit Werten von 1 bis 9 gefolgt von dB-Werten beschriftet.
-* T (Tone): Diese Zahl wird nur bei der Morsetelegrafie verwendet und gibt die *Qualität des Tons* an. Bei Sprechfunk wird dieser Wert weggelassen.
+* R (Readability)[index:RST-System:Lesbarkeit]: Diese Zahl gibt die *Lesbarkeit* des Signals an und reicht von 1 bis 5. Unter der Lesbarkeit wird die Verständlichkeit verstanden. Eine höhere Zahl bedeutet eine bessere Verständlichkeit. Die Lesbarkeit wird subjektiv anhand von Faktoren wie Lautstärke, Klarheit, Störungen und Verzerrungen beurteilt. Anhaltspunkte für die Beurteilung finden sich in der Tabelle [ref:n_rst_r].
+* S (Signal Strength)[index:RST-System:Signalstärke]: Diese Zahl gibt die *Stärke des Signals* an und reicht von 1 bis 9. Eine höhere Zahl bedeutet eine höhere Signalstärke. Die Signalstärke wird normalerweise von der Empfangspegelanzeige (S-Meter) des Funkgeräts abgelesen. Viele S-Meter können auch Werte über 9 anzeigen. Die Anzeige solcher Werte erfolgt allerdings abweichend in Dezibel (dB) über Stufe 9. Der S-Wert im Rapport wird dann z. B. so angegeben: 9+20dB. An dieser Besonderheit ist auch das S-Meter am Funkgerät gut zu erkennen. Wie im Bild [ref:n_rst_s-meter] zu sehen ist, wird das S-Meter meist mit Werten von 1 bis 9 gefolgt von dB-Werten beschriftet.
+* T (Tone)[index:RST-System:Tonqualität]: Diese Zahl wird nur bei der Morsetelegrafie verwendet und gibt die *Qualität des Tons* an. Bei Sprechfunk wird dieser Wert weggelassen.
 
 Einige Beispiele für mögliche Rapporte finden sich in Tabelle [ref:n_rst_beispiele].
 

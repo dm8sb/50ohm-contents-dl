@@ -8,7 +8,7 @@ Der *Bipolartransistor* wird im Englischen auch BJT: Bipolar Junction Transistor
 
 Die ideale Funktion aller Transistortypen, und auch der Elektronenröhre, ist die einer *spannungsgesteuerten Stromquelle*: mit einer möglichst kleinen Spannungsänderung am Eingang soll eine möglichst große Stromänderung am Ausgang bewirkt werden.
 
-Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis -- beim npn-Bipolartransistor sind das *Elektronen*, beim pnp-Bipolartransistor Defektelekronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
+Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim npn-Bipolartransistor sind das *Elektronen*, beim pnp-Bipolartransistor Defektelekronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
 
 ---
 
@@ -26,7 +26,7 @@ Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Tr
 
 ---
 
-Bipolartransistoren sind aus zwei Dioden zusammengesetzt -- der Emitter-Basis- und Basis-Kollektor-Diode.
+Bipolartransistoren sind aus zwei Dioden zusammengesetzt - der Emitter-Basis- und Basis-Kollektor-Diode.
 Im aktiven Betrieb ist die Emitter-Basis-Diode stets in Flussrichtung geschaltet. Beim NPN-Transistor muss dabei das Potential an der Basis positiver sein als das des Emitters, beim PNP-Transistor negativer. Die Basis-Kollektor-Diode ist in Sperrrichtung gepolt. Dazu ist das Kollektorpotential beim NPN-Transistor positiver als die Basis zu wählen, beim PNP-Transistor negativer.
 
 <tip>
@@ -74,7 +74,7 @@ Zunächst fließt kein Wasser im kleinen Kanal. Das Wehr im großen Kanal ist ge
   
 [picture:837:e_transistor_wehr_halb_offen:Steuerkanal öffnet Wehr halb]
 
-Dann beginnt Wasser im kleinen Kanal zu fließen, dem Steuerkanal. Das Wasser hebt die Klappe an, die wiederum das Wehr betätigt -- auch im Hauptkanal beginnt, Wasser zu fließen.
+Dann beginnt Wasser im kleinen Kanal zu fließen, dem Steuerkanal. Das Wasser hebt die Klappe an, die wiederum das Wehr betätigt - auch im Hauptkanal beginnt, Wasser zu fließen.
   
 [picture:836:e_transistor_wehr_geoeffnet:Steuerkanal öffnet Wehr komplett]
 

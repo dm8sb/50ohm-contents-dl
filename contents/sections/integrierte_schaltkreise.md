@@ -1,6 +1,6 @@
 Integrierte Schaltungen sind komplexe Schaltungen, die auf einem Halbleitersubstrat realisiert sind. Sie sind damit eine wesentliche Erleichterung für den Aufbau von elektronischen Schaltungen.
 
-Als spezielle Klasse der Integrierten Schaltkreise gibt es die  Monolithic Microwave Integrated Circuits (MMIC). Sie vereinen dabei sowohl aktive wie auch passive Bauelemente auf dem gleichen Substrat. Diese werden typischerweise für eine Ein- und Ausgangsimpedanz von $\qty{50}{\ohm}$ ausgelegt. Mit ihnen ist eine hohe breitbandige Verstärkung mit wenigen Bauteilen möglich.
+Als spezielle Klasse der integrierten Schaltkreise gibt es die Monolithic Microwave Integrated Circuits (MMIC). Sie vereinen dabei sowohl aktive wie auch passive Bauelemente auf dem gleichen Substrat. Diese werden typischerweise für eine Ein- und Ausgangsimpedanz von $\qty{50}{\ohm}$ ausgelegt. Mit ihnen ist eine hohe breitbandige Verstärkung mit wenigen Bauteilen möglich.
 
 [question:AC601]
 [question:AC602]
@@ -11,7 +11,7 @@ Als spezielle Klasse der Integrierten Schaltkreise gibt es die  Monolithic Micro
 
 Zur Berechnung der Aufgaben aus der Prüfung ist es wichtig, die bestehende Schaltung aus Abbildung [ref:a_mmic] ein bisschen zu analysieren. 
 
-Der optimale Arbeitspunkt eines MMICs wie in dieser Schaltung, wird über die Einstellung eines Vorwiederstandes $R_\text{BIAS}$ realisiert, der mit einer Betriebsspannung $U_\text{CC}$ versorgt wird. Aus Sicht der Betriebsspannung (einer Gleichspannung), können die Kondensatoren $C_1$, $C_2$ und $C_3$ als Isolatoren betrachtet werden. Über ihnen fällt keine Spannung ab.
+Der optimale Arbeitspunkt eines MMICs wie in dieser Schaltung, wird über die Einstellung eines Vorwiderstandes $R_\text{BIAS}$ realisiert, der mit einer Betriebsspannung $U_\text{CC}$ versorgt wird. Aus Sicht der Betriebsspannung (einer Gleichspannung), können die Kondensatoren $C_1$, $C_2$ und $C_3$ als Isolatoren betrachtet werden. Über ihnen fällt keine Spannung ab.
 
 Das bedeutet, dass aus Sicht der Betriebsspannung der Anschluss 2 und Anschluss 4 des MMICs auf Masse liegt, der Anschluss 1 ist offen.
 
@@ -23,7 +23,7 @@ Das bedeutet, dass aus Sicht der Betriebsspannung der Anschluss 2 und Anschluss 
 
 Daraus wiederum lässt sich ableiten, dass die Betriebsspannung vollständig über den beiden Bauelementen des Vorwiderstands $R_\text{BIAS}$ und des MMICs abfällt.
 
-Abhängig von der Aufgabenstellung kann man bei dem gegebenen Spannungsabfall über dem MMIC den Spannungsabfall über dem Vorwiderstand $R_\text{BIAS}$ berechnen. Damit lässt sich dann, bei gegebenem Widerstand, der Strom berechnen, der durch die Schaltung fließt. Der selbe Strom fließt auch durch den MMIC. Damit lässt sich dort dann zum Beispiel auch die thermische Verlustleistung berechnen.
+Abhängig von der Aufgabenstellung kann man bei dem gegebenen Spannungsabfall über dem MMIC den Spannungsabfall über dem Vorwiderstand $R_\text{BIAS}$ berechnen. Damit lässt sich dann, bei gegebenem Widerstand, der Strom berechnen, der durch die Schaltung fließt. Derselbe Strom fließt auch durch den MMIC. Damit lässt sich dort dann zum Beispiel auch die thermische Verlustleistung berechnen.
 
 [question:AF425]
 [question:AF426]

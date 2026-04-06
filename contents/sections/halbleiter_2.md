@@ -7,11 +7,11 @@ Der Grundstoff unserer modernen Welt sind Halbleiternaterialien. Grund genug, si
 [picture:854:a_silizium_halbleiter:Silizium Halbleiterkristall]
 </margin>
 
-Allen Halbleitermaterialien haben zwei Eigenschaften gemeinsam:
+Alle Halbleitermaterialien haben zwei Eigenschaften gemeinsam:
 
 ---
 
-Es existiert eine *Energiebandlücke*, die eine Folge der periodischen Struktur ist. Das bedeutet, dass  Elektronen im Kristall bestimmte Energien nicht einnehmen können. Die höchste Energie, die an Atome gebundene Elektronen haben, nennen wir *Valenzbandenergie*. Da die Elektronen aber alle an Gitteratome gebunden sind, können sie nicht zum Stromfluss beitragen. Es gibt noch weitere Energiezustände, die die Elektronen erreichen können -- sie liegen im *Leitungsband*, das um den Betrag der Bandlücke oberhalb der Valenzbandkante liegt. Elektronen im Leitungsband können zum Stromfluss beitragen, wenn wir eine Spannung an die Halbleiterprobe anlegen. Sie brauchen dazu eine Energie, die größer ist als die Energiebandlücke. Diese Energie können sie in Form von thermischer Energie aufnehmen, weshalb hochreine Halbleiter bei niedrigen Temperaturen sehr gute Isolatoren sind.
+Es existiert eine *Energiebandlücke*, die eine Folge der periodischen Struktur ist. Das bedeutet, dass Elektronen im Kristall bestimmte Energien nicht einnehmen können. Die höchste Energie, die an Atome gebundene Elektronen haben, nennen wir *Valenzbandenergie*. Da die Elektronen aber alle an Gitteratome gebunden sind, können sie nicht zum Stromfluss beitragen. Es gibt noch weitere Energiezustände, die die Elektronen erreichen können - sie liegen im *Leitungsband*, das um den Betrag der Bandlücke oberhalb der Valenzbandkante liegt. Elektronen im Leitungsband können zum Stromfluss beitragen, wenn wir eine Spannung an die Halbleiterprobe anlegen. Sie brauchen dazu eine Energie, die größer ist als die Energiebandlücke. Diese Energie können sie in Form von thermischer Energie aufnehmen, weshalb hochreine Halbleiter bei niedrigen Temperaturen sehr gute Isolatoren sind.
 
 [question:AB104]
 
@@ -19,7 +19,7 @@ Es existiert eine *Energiebandlücke*, die eine Folge der periodischen Struktur 
 Die Bandlückenenergie wird durch die chemische Zusammensetzung des Halbleiters bestimmt. Verglichen mit Si hat Ge eine deutlich kleinere, GaAs und InP eine etwas größere und GaN eine viel größere Bandlückenenergie.
 </margin>
 
-Silizium (Si) und Germanium (Ge) sind *Elementhalbleiter* (wie übrigens auch Diamant, der kristalliner Kohlenstoff ist. Es gibt aber auch chemische Verbindungen, die Halbleiter sind (*Verbindungshalbleiter*), wie Gallium-Arsenid (GaAs),Indium-Phosphid (InP) oder auch Gallium-Nitrid (GaN). 
+Silizium (Si) und Germanium (Ge) sind *Elementhalbleiter* (wie übrigens auch Diamant, der kristalliner Kohlenstoff ist). Es gibt aber auch chemische Verbindungen, die Halbleiter sind (*Verbindungshalbleiter*), wie Gallium-Arsenid (GaAs), Indium-Phosphid (InP) oder auch Gallium-Nitrid (GaN). 
 
 ---
 
