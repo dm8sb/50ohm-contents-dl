@@ -64,7 +64,7 @@ $\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac
 ---
 ## Temperaturkoeffizient
 
-* Widerstand von Metallen steigt bei zunehemender Temperatur
+* Widerstand von Metallen steigt bei zunehmender Temperatur
 * Atome bewegen sich bei höherer Temperatur mehr, wodurch es zu mehr Kollisionen mit Elektronen kommt
 
 ---
