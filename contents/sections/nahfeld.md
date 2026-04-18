@@ -1,4 +1,4 @@
-Das Nahfeld teilt sich in das reaktive und das strahlende Nahfeld auf. In den meisten Fällen kann das strahlende Nahfeld wie das Fernfeid behandelt werden.
+Das Nahfeld teilt sich in das reaktive und das strahlende Nahfeld auf. In den meisten Fällen kann das strahlende Nahfeld wie das Fernfeld behandelt werden.
 
 Im (reaktiven) Nahfeld einer Antenne weisen die elektrische Feldstärke und die magnetische Feldstärke keine konstante Phasenbeziehung zueinander auf. 
 

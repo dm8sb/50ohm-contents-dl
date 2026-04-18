@@ -1,5 +1,5 @@
 <margin>
-[picture:1019:e_frequenzabhängiger_widerstand:Frequenzabhängikeit von Kondensator und Spule im Vergleich zu einem klassischen Widerstand]
+[picture:1019:e_frequenzabhängiger_widerstand:Frequenzabhängigkeit von Kondensator und Spule im Vergleich zu einem klassischen Widerstand]
 [picture:1020:e_herleitung_tiefpass:Herleitung der Tiefpassschaltung ausgehend von einem Spannungsteiler]
 </margin>
 

@@ -3,7 +3,7 @@ Im VHF-Bereich führt manchmal ein besonderer Effekt zu sogenannten Überreichwe
 Am Übergang zwischen warmen und kalten Luftschichten bilden sich die sogenannten *troposphärischen Inversionsschichten*. An diesen werden die Funkwellen zur Erde hin reflektiert (Abbildung [ref:n_tropo]).
 
 <margin>
-[picture:734:n_tropo:Troposhärische Inversionsbildung, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]
+[picture:734:n_tropo:Troposphärische Inversionsbildung, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]
 </margin>
 
 Die auftretenden Überreichweiten ermöglichen Funkverbindungen mit Stationen in rund $\num{800}$ bis $\qty{1000}{\kilo\meter}$ Entfernung. Im VHF-Bereich ist dies ein häufiger Ausbreitungsweg für Weitverbindungen. Troposphärische Inversionsbildung tritt hauptsächlich im Frühjahr und Herbst auf.

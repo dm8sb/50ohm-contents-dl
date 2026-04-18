@@ -3,7 +3,7 @@
 [picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
 </left>
 <right>
-* Sporadic E ist ein besonders stark ionisiertert Bereich in der E-Region
+* Sporadic E ist ein besonders stark ionisiert Bereich in der E-Region
 * Reflexion von hohen Kurzwellenbändern und VHF
 * Tausende Kilometer sind möglich
 * Die Tote Zone wird reduziert

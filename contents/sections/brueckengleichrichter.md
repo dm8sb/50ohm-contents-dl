@@ -6,7 +6,7 @@ Durch den geringen Aufwand ist der Brückengleichrichter eine häufig verwendete
 
 ---
 
-In dem nebenstehenden Applet kann man bei dargestellter Polarität der Trafospannung $U_a$ bzw. $U_s$ den Laststrom in seinem Stromverlauf verfolgen und erkennen, dass der dieser stets in gleicher Richtung durch den Lastwiderstand $R$ fließt. Der Spannungsabfall am Lastwiderstand $R_L$ ist eine pulsierende Gleichspannung (DC), die aus positiven sinusföhrmigen Halbwellen besteht. Diese Spannung hat eine Frequenz $f=\qty{100}{\hertz}$.
+In dem nebenstehenden Applet kann man bei dargestellter Polarität der Trafospannung $U_a$ bzw. $U_s$ den Laststrom in seinem Stromverlauf verfolgen und erkennen, dass der dieser stets in gleicher Richtung durch den Lastwiderstand $R$ fließt. Der Spannungsabfall am Lastwiderstand $R_L$ ist eine pulsierende Gleichspannung (DC), die aus positiven sinusförmigen Halbwellen besteht. Diese Spannung hat eine Frequenz $f=\qty{100}{\hertz}$.
 
 <margin>
 [include:applet_gleichrichter_2]

@@ -13,7 +13,7 @@
 ---
 [question:AC301]
 --- style="font-size: 0.7em;"
-Das Verhältnis der Windungen zwischen Primär- und Sekundärseite ist wie das Verhältins der Spannung zwischen Primär- zu Sekundärseite, aber wie das Verhältnis der Ströme zwischen Sekundär- zu Primärseite:
+Das Verhältnis der Windungen zwischen Primär- und Sekundärseite ist wie das Verhältnis der Spannung zwischen Primär- zu Sekundärseite, aber wie das Verhältnis der Ströme zwischen Sekundär- zu Primärseite:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
 

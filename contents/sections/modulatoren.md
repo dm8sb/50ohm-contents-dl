@@ -42,7 +42,7 @@ Genau zu dieser Ausbalancierung gehört eine Justierung der Amplituden (Poti) un
 
 [question:AF303]
 
-Hinter dem Balacemodulator folgt die zweite Stufe eines SSB-Modulators.
+Hinter dem Balancemodulator folgt die zweite Stufe eines SSB-Modulators.
 
 [question:AF305]
 

@@ -7,7 +7,7 @@ Ein sehr wichtiges und häufig verwendetes Bauteil in der Funktechnik und Elektr
 
 Die geometrischen Abmessungen bestimmen eine wichtige Eigenschaft eines Kondensators, es ist die Fähigkeit, Ladungen zu speichern. Diese Fähigkeit wird als Kapazität bezeichnet und hierfür wird der Formelbuchstabe $C$ verwendet. Je größer die Kapazität ist, umso mehr elektrische Ladungen $Q$ können gespeichert werden. Wenn die angelegte Spannung erhöht wird, werden auch mehr Ladungen gespeichert.
 
-Die Folgende Fomel zeigt den Zusammenhang. 
+Die folgende Formel zeigt den Zusammenhang. 
 
 $Q = C \cdot U $ 
 
@@ -139,7 +139,7 @@ Für Folien-Wickelkondensatoren werden Kunststoffe in speziellen Verfahren zu ex
 [picture:49:e_aufbau_wickel_c:Folien-Wickelkondensator]
 </margin>
 
-Drehkondensatoren werden häufig in Endstufen und Anpassnetzwerken eingesetzt. Bei ihnen lässt sich die Kapazität einstellen, indem ein Teil der Kondensatorplatten auf einer isolierten Achse montiert ist und zwischen feststehenden Platten rotiert. Dadurch ändert sich die wirksame Überlappungsfläche der Platten und somit die Kapazität, wie in Abbildung [ref:e_drehkondensator] dargestellt. Trimmkondensatoren arbeiten nach einem ähnlichen Prinzip, sind jedoch nicht für eine regelmäßige Verstellung vorgesehen. Sie dienen vielmehr zum einmaligen oder gelegentlichen Abgleich von Schaltungen, etwa bei der Inbetriebnahme oder Kalibierung.
+Drehkondensatoren werden häufig in Endstufen und Anpassnetzwerken eingesetzt. Bei ihnen lässt sich die Kapazität einstellen, indem ein Teil der Kondensatorplatten auf einer isolierten Achse montiert ist und zwischen feststehenden Platten rotiert. Dadurch ändert sich die wirksame Überlappungsfläche der Platten und somit die Kapazität, wie in Abbildung [ref:e_drehkondensator] dargestellt. Trimmkondensatoren arbeiten nach einem ähnlichen Prinzip, sind jedoch nicht für eine regelmäßige Verstellung vorgesehen. Sie dienen vielmehr zum einmaligen oder gelegentlichen Abgleich von Schaltungen, etwa bei der Inbetriebnahme oder Kalibrierung.
 
 [question:EC206]
 
