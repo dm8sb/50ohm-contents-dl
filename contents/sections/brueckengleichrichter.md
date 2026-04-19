@@ -39,7 +39,7 @@ Wenn man nach dem Brückengleichrichter einen Ladekondensator $C_L$ und ein LC-S
 [picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]
 </margin>
 
-Um jetzt die Spannung am Siebkondensator $C_S$ zu bestimmen, sollten wir wissen, dass die Kondensatoren sich auf die Spitzenspannung $\hat{U}$ der Sekundärespannung $U_{\mathrm{sek}}$ des Trafos aufladen.
+Um jetzt die Spannung am Siebkondensator $C_S$ zu bestimmen, sollten wir wissen, dass die Kondensatoren sich auf die Spitzenspannung $\hat{U}$ der Sekundärspannung $U_{\mathrm{sek}}$ des Trafos aufladen.
 
 $\hat{U}=U_{\mathrm{eff}}\cdot\sqrt{2}$
 

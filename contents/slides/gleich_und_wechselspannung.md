@@ -40,7 +40,7 @@ Außer, man bekommt "einen gewischt".
 ## Spannungsquelle
 
 * Der positiv geladene Anschluss heißt Pluspol
-* Der negativ geladene Anchluss heißt Minuspol
+* Der negativ geladene Anschluss heißt Minuspol
 * Die Spannung kann unterschiedlich groß sein
 * Spannungsquellen, bei denen die Pole ständig zwischen positiver und negativer Spannung schwingen, erzeugen Wechselspannung
   

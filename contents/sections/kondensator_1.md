@@ -126,7 +126,7 @@ Je nach Aufbau unterscheidet man außerdem:
 </margin>
 
 *Elektrolytkondensatoren* (kurz ELKO) enthalten eine dünne, aufgerauhte ALU-Folie, die in einen Elektrolyten (z.B. Borax) eingetaucht ist. Dabei verursacht der Elektrolyt eine chemische Oxidation der Aluminiumoberfläche. Die entstehende Oxidschicht ist sehr dünn und deshalb steigt die Kapazität bei geringer Baugröße sehr stark an. Allerdings hat die dünne Schicht nur eine begrenzte Spannungsfestigkeit, die auf dem ELKO anggeben wird.
-Elektrolytkondensatoren dürfen nur an Gleichspannung betrieben werden. Die Polung ist deshalb zu beachten, da sich sonst die Oxidschicht abbaut und somit die Spannungsfestigkeit sinkt. Der Kondesator wird zerstört. Alle anderen Kondensatoren können auch an Wechselspannung angeschlossen werden.
+Elektrolytkondensatoren dürfen nur an Gleichspannung betrieben werden. Die Polung ist deshalb zu beachten, da sich sonst die Oxidschicht abbaut und somit die Spannungsfestigkeit sinkt. Der Kondensator wird zerstört. Alle anderen Kondensatoren können auch an Wechselspannung angeschlossen werden.
 [question:EC207]
 
 %<margin>

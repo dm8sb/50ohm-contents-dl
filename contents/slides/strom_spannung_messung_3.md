@@ -34,7 +34,7 @@ $\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Ab
 ---
 ## Strom durch Multimeter
 
-* Auch bei einer Spannungsmessung fließt ein Strom durch ein Messegerät
+* Auch bei einer Spannungsmessung fließt ein Strom durch ein Messgerät
 * Es findet eine Stromteilung statt
 * Durch den hohen Innenwiderstand ist der abfließende Strom verhältnismäßig klein
 

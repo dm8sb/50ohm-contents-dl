@@ -1,4 +1,4 @@
-Durch Änderung der Kapazität des frequenzbestimmenden Kondensators, innerhalb eines Oszillators, kann Frequenzmodulation erzeugt werden. Bei einem Quarzoszillator kann z.B. mittels einer Kapazitätsdiode, die in Serie zum Quarz liegt, Frequenzmodulation erzeugt werden. Die Amplitude des modulierenden Signals (z.B. Mikrofon), die an der Kapazizätsdiode anliegt, bestimmt hierbei direkt die Frequenzänderung des Oszillators.
+Durch Änderung der Kapazität des frequenzbestimmenden Kondensators, innerhalb eines Oszillators, kann Frequenzmodulation erzeugt werden. Bei einem Quarzoszillator kann z.B. mittels einer Kapazitätsdiode, die in Serie zum Quarz liegt, Frequenzmodulation erzeugt werden. Die Amplitude des modulierenden Signals (z.B. Mikrofon), die an der Kapazitätsdiode anliegt, bestimmt hierbei direkt die Frequenzänderung des Oszillators.
 [question:AE303]
 
 Die Modulationsfrequenz beeinflusst hierbei, wie häufig sich die Frequenz des Oszillators ändert.
