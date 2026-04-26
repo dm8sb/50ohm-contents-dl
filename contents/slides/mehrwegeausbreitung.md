@@ -5,9 +5,19 @@
 * Führt zu Interferenz mit Verstärkung oder Auslöschung des Signals
 </left>
 <right>
-<fragment>
+[picture:1064:a_mehrwegeausbreitung_reflexion:Mehrwegeausbreitung durch Reflexion]
+</right>
+
+---
+
+<left>
+* Funksignal gelangt auf mehr als einem Weg vom Sender zum Empfänger
+* Reflexion an Gebäude, Gelände, Flugzeuge etc.
+* Refraktion an Ionossphäre bei Kurzwelle
+* Führt zu Interferenz mit Verstärkung oder Auslöschung des Signals
+</left>
+<right>
 [include:applet_interferenz]
-</fragment>
 </right>
 
 ---
