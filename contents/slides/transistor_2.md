@@ -38,9 +38,6 @@ Höherer Faktor benötigt kleineren Basistrom zur Steuerung eines größeren Kol
 ---
 [question:AC505]
 ---
-### Rechnungen
-
----
 [question:AC515]
 ---
 #### Lösungsweg
@@ -237,9 +234,6 @@ MOSFET: metal oxide semiconductor FET
 [question:AC510]
 ---
 [question:AC511]
----
-### Rechnungen
-
 ---
 [question:AC521]
 ---
