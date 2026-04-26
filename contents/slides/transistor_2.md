@@ -223,7 +223,7 @@ MOSFET: metal oxide semiconductor FET
 </left>
 <right>
 * *selbstleitend*/*selbstsperrend*: Gate durchgehend/gestrichelt
-* *n-*/*p-Kanal*: Pfeil zeigt weg von/hin zu Kanal
+* *p-*/*n-Kanal*: Pfeil zeigt weg vom/hin zum Kanal
 * *Isolierschicht* (MOSFET): Gate und Kanal als Kondensator
 </right>
 
