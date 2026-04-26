@@ -20,7 +20,7 @@ $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
 <fragment>
 Das Verhältnis der Primär- zur Sekundärimpedanz ist wie die obigen Verhältnisse zum Quadrat:
 
-$ü = \frac{Z_P}{Z_S} = \left(\frac{N_P}{N_S}\right)^2 = \left(\frac{U_P}{U_S}\right)^2 = \left(\frac{I_S}{I_P}\right)^2$
+$ü^2 = \frac{Z_P}{Z_S} = \left(\frac{N_P}{N_S}\right)^2 = \left(\frac{U_P}{U_S}\right)^2 = \left(\frac{I_S}{I_P}\right)^2$
 </fragment>
 
 <fragment>
