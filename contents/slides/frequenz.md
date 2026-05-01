@@ -30,7 +30,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 * Im Funk wird mit viel höheren Schwingungen gearbeitet
 * z.B. $\qty{144000000}{\hertz}$
 * Abkürzung: $\qty{144}{\mega\hertz}$ (Megahertz)
-* Einheitenvorzeichen "$\unit{\mega}$" vor "$\unit{\hertz}$" gesetzt
+* Einheitenvorzeichen "$\unit{\mega\,}$" vor "$\unit{\hertz}$" gesetzt
 * Der Wert wird mit einer Million multipliziert
 
 ---

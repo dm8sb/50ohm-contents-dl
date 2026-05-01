@@ -44,7 +44,7 @@ Auflösen nach $ü$ ergibt $ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \fra
  Ableitung der Formel zur Impedanzübertragung:
  $ P_p = P_s$
   $U_p \cdot I_p = U_s \cdot I_s$
-  Für $U$ das Ohmsche Gestz einsetzen: $U = I \cdot R$;
+  Für $U$ das Ohmsche Gesetz einsetzen: $U = I \cdot R$;
   $R$ wird durch $Z$ ersetzt
 $(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
  Das Impedanzverhältnis auf einer Seite bilden:

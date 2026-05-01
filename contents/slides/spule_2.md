@@ -173,7 +173,7 @@ $Z = \sqrt{R^2 + X^2}$
 [question:AA101]
 
 ---
-### Abschirmung von elektrischen Feldern
+### Abschirmung von magnetischen Feldern
 
 Ein Gehäuse aus einem magnetisch gut leitfähigem Material.
 
