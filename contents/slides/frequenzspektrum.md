@@ -1,3 +1,5 @@
+--- style="font-size: 0.5em;"
+
 [picture:471:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
 
 <note>
