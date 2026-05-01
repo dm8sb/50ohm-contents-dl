@@ -31,7 +31,7 @@ Im Rapport beschreibt die empfangende Station die Qualität der Verbindung
 * Alles wird in den nächsten Folien genauer erklärt
 * R: Subjektiv
 * S: Ablesen vom S-Meter
-* T: Nur bei Morsetelgrafie und digitalen Übertragungen
+* T: Nur bei Morsetelegrafie und digitalen Übertragungen
 </note>
 
 --- style="font-size: 0.8em;"

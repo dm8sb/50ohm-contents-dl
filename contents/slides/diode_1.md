@@ -155,7 +155,7 @@
 [picture:753:e_z_diode_spannungsstabilisierung:Z-Diode zur Spannungsstabilisierung]
 </left>
 <right>
-* $U_Z$ ist die Spannung, auf die die Z-Diode stabiliert
+* $U_Z$ ist die Spannung, auf die die Z-Diode stabilisiert
 * $U_V = U_1 - U_Z = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
 * $R_V = \frac{U_V}{I} = \frac{\qty{8,8}{\volt}}{\qty{30}{\milli\ampere}} \approx \qty{293}{\ohm}$
 </right>

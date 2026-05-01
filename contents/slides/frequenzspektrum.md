@@ -4,7 +4,7 @@
 
 <note>
 * Funkwellen nutzen nur ein Teil dieses Spektrums
-* Überlicherweise zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$
+* Üblicherweise zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$
 * Es werden Abkürzungen verwendet
 * Für Prüfung $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ mit Bezeichnungen wichtig
 </note>

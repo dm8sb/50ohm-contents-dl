@@ -1,7 +1,7 @@
 <left>
 * Funksignal gelangt auf mehr als einem Weg vom Sender zum Empfänger
 * Reflexion an Gebäude, Gelände, Flugzeuge etc.
-* Refraktion an Ionossphäre bei Kurzwelle
+* Refraktion an Ionosphäre bei Kurzwelle
 * Führt zu Interferenz mit Verstärkung oder Auslöschung des Signals
 </left>
 <right>
