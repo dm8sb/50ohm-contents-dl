@@ -140,7 +140,7 @@ $Q_{\mathrm{ges}} = Q \cdot 1 = \qty{10}{\ampere\hour}$
 ---
 #### Lösungsweg
 * gegeben: $Q_{\mathrm{max}} = \qty{60}{\ampere\hour}$
-* gegeben: $Q_{10\\%} = 0,1 \cdot Q_{\mathrm{max}} = \qty{6}{\ampere\hour}$
+* gegeben: $Q_{10\%} = 0,1 \cdot Q_{\mathrm{max}} = \qty{6}{\ampere\hour}$
 * gegeben: $I = \qty{0,8}{\ampere}$
 * gesucht: $t$
 

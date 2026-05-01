@@ -13,18 +13,18 @@
 ---
 [question:AC301]
 --- style="font-size: 0.7em;"
-Das Verhältnis der Windungen zwischen Primär- und Sekundärseite ist wie das Verhältins der Spannung zwischen Primär- zu Sekundärseite, aber wie das Verhältnis der Ströme zwischen Sekundär- zu Primärseite:
+Das Verhältnis der Windungen zwischen Primär- und Sekundärseite ist wie das Verhältnis der Spannung zwischen Primär- zu Sekundärseite, aber wie das Verhältnis der Ströme zwischen Sekundär- zu Primärseite:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
 
 <fragment>
 Das Verhältnis der Primär- zur Sekundärimpedanz ist wie die obigen Verhältnisse zum Quadrat:
 
-$ü = \frac{Z_P}{Z_S} = \left(\frac{N_P}{N_S}\right)^2 = \left(\frac{U_P}{U_S}\right)^2 = \left(\frac{I_S}{I_P}\right)^2$
+$ü^2 = \frac{Z_P}{Z_S} = \left(\frac{N_P}{N_S}\right)^2 = \left(\frac{U_P}{U_S}\right)^2 = \left(\frac{I_S}{I_P}\right)^2$
 </fragment>
 
 <fragment>
-Oder nach Ziehung der Wurzel:
+Oder nach ziehen der Wurzel:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P} = \sqrt{\frac{Z_P}{Z_S}}$
 </fragment>
@@ -53,7 +53,7 @@ $\begin{split} \frac{U_P}{U_S} &= \frac{I_S}{I_P} \\ \Rightarrow I_P &= \frac{I_
 * gesucht: $Z_P$
 
 <fragment>
-$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \Rightarrow Z_P &= ü^2 \cdot Z_S = \frac{1^2}{4^2} \cdot 16k\Omega \\ &= \frac{\qty{16}{\kilo\ohm}}{16} = \qty{1}{\kilo\ohm} \end{split}$
+$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \Rightarrow Z_P &= ü^2 \cdot Z_S = \frac{1^2}{4^2} \cdot \qty{16}{\kilo\ohm} \\ &= \frac{\qty{16}{\kilo\ohm}}{16} = \qty{1}{\kilo\ohm} \end{split}$
 </fragment>
 
 ---

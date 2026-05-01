@@ -51,8 +51,6 @@ Wir sprechen deshalb auch bei einer verlustfreien Spule von Blindleistung und Bl
 [question:AC201]
 
 % entfernt [photo:266:a_Blindleistung_einer_Spule:Blindleistung in einer Spule]
-Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitzt sie Verluste, die diese Erwärmung bewirken.
-Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert.
 [question:AC209]
 
 Grundsätzlich steigt die Induktivität wenn die Windungszahl erhöht wird, die Spulenlänge verkürzt wird, die Querschnittsfläche der Spule vergrößert wird und ein magnetisch leitfähigeres Material als Spulenkern verwendet wird. Zur Erhöhung der Induktivität, ohne die Windungszahl drastisch zu steigern, wird die Wicklung auf einen Ferritringkern gewickelt. Drosselspulen mit hoher Induktivität werden zur Verringerung hochfrequenter Ströme eingesetzt.
@@ -88,7 +86,7 @@ Man wird 90 Windungen aufbringen.
 <indepth>
 Wenn sich innerhalb der Spule ein magnetisch leitfähiges Material befindet (z.B. Eisen, Ferrit) dann wird das Magnetfeld verstärkt. Die dann wirksame magnetische Flussdichte $B$ lässt sich mit der Formel (siehe Formelsammlung - Stichwort: Magnetische Flussdichte)
 $B = \mu_0 \cdot \mu_r \cdot H$
-berechnen. Dabei enspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ und $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor $1$ eingesetzt (siehe Formelsammlung - Stichwort: Magnetische Feldkonstante; relative Permeabilität).
+berechnen. Dabei entspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ und $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor $1$ eingesetzt (siehe Formelsammlung - Stichwort: Magnetische Feldkonstante; relative Permeabilität).
 </indepth>
 
 <margin>
