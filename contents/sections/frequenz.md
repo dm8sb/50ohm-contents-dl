@@ -12,7 +12,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 
 ---
 
-Im Funk benutzen wir auch elektrische Schwingungen, allerdings mit sehr viel höheren Frequenzen als das Stromnetz, z. B. $\qty{144000000}{\hertz}$. Bei so vielen Ziffern wird es schnell unübersichtlich. Daher verwenden wir den Ausdruck Megahertz ($\unit{\mega\hertz}$) für eine Million Hertz und sagen "144 Megahertz". Wir haben das *Einheitenvorzeichen* "$\unit{\mega}$" verwendet und es vor die eigentliche Einheit "$\unit{\hertz}$" gesetzt. Damit drücken wir aus, dass der angegebene Wert mit einer Million multipliziert wird. Weitere Beispiele für Frequenzen mit Einheitenvorzeichen sind in der Tabelle [ref:n_frequenz_einheitenvorzeichen] [index:Einheitenvorzeichen] zusammengestellt.
+Im Funk benutzen wir auch elektrische Schwingungen, allerdings mit sehr viel höheren Frequenzen als das Stromnetz, z. B. $\qty{144000000}{\hertz}$. Bei so vielen Ziffern wird es schnell unübersichtlich. Daher verwenden wir den Ausdruck Megahertz ($\unit{\mega\hertz}$) für eine Million Hertz und sagen "144 Megahertz". Wir haben das *Einheitenvorzeichen* "$\unit{\mega\,}$" verwendet und es vor die eigentliche Einheit "$\unit{\hertz}$" gesetzt. Damit drücken wir aus, dass der angegebene Wert mit einer Million multipliziert wird. Weitere Beispiele für Frequenzen mit Einheitenvorzeichen sind in der Tabelle [ref:n_frequenz_einheitenvorzeichen] [index:Einheitenvorzeichen] zusammengestellt.
 
 <webmargin>
 | X: Bezeichnung | r: Abkürzung | r: Wert |

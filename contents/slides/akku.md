@@ -139,13 +139,13 @@ $Q_{\mathrm{ges}} = Q \cdot 1 = \qty{10}{\ampere\hour}$
 [question:AB211]
 ---
 #### Lösungsweg
-* gegeben: $Q_{max} = \qty{60}{\ampere\hour}$
-* gegeben: $Q_{10\\%} = 0,1 \cdot Q_{max} = \qty{6}{\ampere\hour}$
+* gegeben: $Q_\text{max} = \qty{60}{\ampere\hour}$
+* gegeben: $Q_\text{10\%} = 0,1 \cdot Q_{\text{max}} = \qty{6}{\ampere\hour}$
 * gegeben: $I = \qty{0,8}{\ampere}$
 * gesucht: $t$
 
 <fragment>
-$Q = I \cdot t \Rightarrow t = \frac{Q}{I} = \frac{Q_{max} - Q_{10\%}}{I} = \frac{\qty{54}{\ampere\hour}}{\qty{0,8}{\ampere}} = \qty{67,5}{\hour}$
+$Q = I \cdot t \Rightarrow t = \frac{Q}{I} = \frac{Q_{\text{max}} - Q_{10\%}}{I} = \frac{\qty{54}{\ampere\hour}}{\qty{0,8}{\ampere}} = \qty{67,5}{\hour}$
 </fragment>
 
 ---

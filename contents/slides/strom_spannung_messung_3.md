@@ -1,7 +1,12 @@
 ## Strom- und Spannungsmessung
 
+<left>
 * Spannung wird parallel zum Bauteil gemessen
 * Strom wird in Reihe mit dem Bauteil gemessen
+</left>
+<right>
+[picture:1003:a_strom_spannung_messung:Messen der Leistung eines Verstärkers (PA)]
+</right>
 
 ---
 [question:AI101]
@@ -16,6 +21,16 @@ Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
 * Anzeige verändert sich erst nach Änderung um die kleinste Auflösung
 * Hersteller ermittelt die Abweichung
 * Abweichung wird im Datenblatt angegeben
+
+---
+
+<left>
+[picture:1004:a_reale_spannungsmessung:Ersatzschaltbild reales Spannungsmessgerät]
+</left>
+
+<right>
+[picture:1007:a_reale_strommessung:Ersatzschaltbild reales Strommessgerät]
+</right>
 
 ---
 [question:AI103]

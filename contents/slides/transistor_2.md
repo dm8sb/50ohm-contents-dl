@@ -38,9 +38,6 @@ Höherer Faktor benötigt kleineren Basistrom zur Steuerung eines größeren Kol
 ---
 [question:AC505]
 ---
-### Rechnungen
-
----
 [question:AC515]
 ---
 #### Lösungsweg
@@ -238,9 +235,6 @@ MOSFET: metal oxide semiconductor FET
 ---
 [question:AC511]
 ---
-### Rechnungen
-
----
 [question:AC521]
 ---
 #### Lösungsweg
@@ -255,7 +249,7 @@ MOSFET: metal oxide semiconductor FET
 </left>
 <right>
 <fragment>
-$\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{G}}\\ &= \frac{\qty{1}{\kilo\ohm}}{\qty{10}{\kilo\ohm}+\qty{1}{\kilo\ohm}} \cdot \qty{44}{\volt}\\ &= \frac{1}{11} \cdot \qty{44}{\volt} = \qty{4}{\volt} \end{split}$
+$\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{B}}\\ &= \frac{\qty{1}{\kilo\ohm}}{\qty{10}{\kilo\ohm}+\qty{1}{\kilo\ohm}} \cdot \qty{44}{\volt}\\ &= \frac{1}{11} \cdot \qty{44}{\volt} = \qty{4}{\volt} \end{split}$
 </fragment>
 </right>
 
