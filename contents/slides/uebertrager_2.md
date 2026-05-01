@@ -124,11 +124,11 @@ nach VDE
 #### Lösungsweg
 * gegeben: $d = \qty{0,5}{\milli\meter}$
 * gegeben: Stromdichte $\frac{I}{A} = \frac{\qty{2,5}{\ampere}}{\qty{1}{\milli\meter\squared}}$
-* gesucht: $I_{max}$
+* gesucht: $I_{\mathrm{max}}$
 
 <fragment>
 $A_{Dr} = \frac{d^2 \cdot \pi}{4} = \frac{(\qty{0,5}{\milli\meter})^2 \cdot \pi}{4} \approx \qty{0,196}{\milli\meter\squared}$
 </fragment>
 <fragment>
-$I_{max} = \frac{I}{A} \cdot A_{Dr} = \frac{\qty{2,5}{\ampere}}{\qty{1}{\milli\meter\squared}} \cdot \qty{0,196}{\milli\meter\squared} = \qty{0,49}{\ampere}$
+$I_{\mathrm{max}} = \frac{I}{A} \cdot A_{Dr} = \frac{\qty{2,5}{\ampere}}{\qty{1}{\milli\meter\squared}} \cdot \qty{0,196}{\milli\meter\squared} = \qty{0,49}{\ampere}$
 </fragment>
