@@ -10,11 +10,7 @@ Bei Frequenzmodulation befindet sich die Information des modulierenden Signals n
 Der Hub eines FM-Signals bestimmt um welchen Betrag sich die Frequenz des Oszillators im Sender, je nach Amplitude des modulierenden Signals, ändert. Eine größere Auslenkung der Frequenz entspricht hierbei, nach Demodulation im FM-Empfänger, wieder einer größeren Amplitude des demodulierten Signals. Daher hat ein größerer Hub eines frequenzmodulierten Senders direkten Einfluss auf die Lautstärke des demodulierten Signals in einem FM-Empfänger.
 [question:AE305]
 
-<<<<<<< content-fixes
-Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die Carson-Formel angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{90}{\percent}$ der Sendeleistung befinden.
-=======
-Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die Carson-Formel angewendet werden. Sie gibt an in welcher Bandberite sich $\qty{99}{\percent}$ der Sendeleistung befinden.
->>>>>>> main
+Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die Carson-Formel angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{99}{\percent}$ der Sendeleistung befinden.
 
 **Carson-Formel**
 
