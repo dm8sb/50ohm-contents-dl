@@ -103,9 +103,9 @@
 </right>
 
 ---
-* Berechnung: $R = \dfrac{U_q - U_{LED}}{I_D}$
+* Berechnung: $R = \dfrac{U_q - U_{\mathrm{LED}}}{I_D}$
 * $U_q$: Spannungsquelle
-* $U_{LED}$: Schwellenspannung LED
+* $U_{\mathrm{LED}}$: Schwellenspannung LED
 * $I_D$: Durchlassstrom
 
 ---
