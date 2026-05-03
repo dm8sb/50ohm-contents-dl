@@ -13,7 +13,7 @@ $X_L = j\omega L$
 
 lautet. Dabei steht $j$ wieder für die imaginäre Einheit $\sqrt{-1}$.
 
-Daraus wird ersichtlich, dass der kapazitive Blindwiderstand nicht nur negativ, sondern auch komplex ist. Das negative Vorzeichen beschreibt dabei die Phasenlage zwischen Strom und Spannung am Kondensator welche wir in diesem Kapitel noch genauer betrachten.
+Daraus wird ersichtlich, dass der induktive Blindwiderstand nicht nur positiv, sondern auch komplex ist. Das positive Vorzeichen beschreibt dabei die Phasenlage zwischen Strom und Spannung an der Spule welche wir in diesem Kapitel noch genauer betrachten.
 </indepth>
 
 [question:AC202]
