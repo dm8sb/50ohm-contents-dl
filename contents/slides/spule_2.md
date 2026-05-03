@@ -43,7 +43,7 @@ Spule dreht an Wechselspannung angeschlossen ständig das magnetische Feld $\rig
 2. Wenn die Induktivität der Spule erhöht wird, dann verringert sich auch der Strom, d.h. der Blindwiderstand wird auch größer.
 
 <fragment>
-$X_{\textrm{L}} = \omega \cdot L = 2\pi \cdot f \cdot L$
+$|X_{\textrm{L}}| = \omega \cdot L = 2\pi \cdot f \cdot L$
 </fragment>
 
 ---
@@ -57,7 +57,7 @@ $X_{\textrm{L}} = \omega \cdot L = 2\pi \cdot f \cdot L$
 * gesucht: $X_{\textrm{L}}$
 
 <fragment>
-$\begin{split} X_{\textrm{L}} &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{3}{\micro\henry}\\ &\approx \qty{1885}{\ohm} \end{split}$
+$\begin{split} |X_{\textrm{L}}| &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot \qty{100}{\mega\hertz} \cdot \qty{3}{\micro\henry}\\ &\approx \qty{1885}{\ohm} \end{split}$
 </fragment>
 
 ---

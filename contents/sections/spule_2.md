@@ -1,6 +1,6 @@
 In der Klasse E haben wir uns auch schon mit der Spule beschäftigt. Bei Gleichstrom hat die Spule im eingeschwungenen Zustand einen sehr kleinen Widerstand. Die Spule wirkt dann wie ein Stück Draht. Beim Wechselstrom jedoch, zeigt die Spule, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
 
-$X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
+$|X_{L}| = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
 Aus der Formel lässt sich erkennen, dass der Wechselstromwiderstand mit zunehmender Frequenz ansteigt und mit abnehmender Frequenz sinkt. Im gegensatz zum Kondensator ist der Wechelstromwiderstand einer Spule positiv. 
 
