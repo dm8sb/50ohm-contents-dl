@@ -44,6 +44,29 @@ Die letzte Formel steht so in der Formelsammlung
 <fragment>
 $\begin{split} \frac{U_P}{U_S} &= \frac{I_S}{I_P} \\ \Rightarrow I_P &= \frac{I_S \cdot U_S}{U_P} = \frac{\qty{1,15}{\ampere} \cdot \qty{6}{\volt}}{\qty{230}{\volt}} \\ &= \qty{30}{\milli\ampere} \end{split}$
 </fragment>
+
+---
+## Impedanzanpassung
+
+<left>
+[picture:260:a_impedanzanpassung:Anpassung von $\qty{2450}{\ohm}$ an $\qty{50}{\ohm}$ mit einem Übertrager mit einem Windungsverhältnis von 1 zu 7]
+</left>
+<right>
+[photo:332:a_unun:Beispiel für einen Unun-Übertrager mit einem Windungsverhältnis von 2 zu 14, wobei die Primärseite und Sekundärseite zusammen bifilar (verdrillt) gewickelt sind]
+</right>
+
+---
+[question:AC306]
+---
+#### Lösungsweg
+* gegeben: $Z_P = \qty{50}{\ohm}$
+* gegeben: $Z_S = \qty{2,5}{\kilo\ohm}$
+* gesucht: $ü$
+
+<fragment>
+$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{\qty{50}{\ohm}}{\qty{2,5}{\kilo\ohm}}} \\ &= \sqrt{\frac{1}{50}} \approx \frac{1}{7} \end{split}$
+</fragment>
+
 ---
 [question:AC303]
 ---
@@ -80,17 +103,6 @@ $\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} \\ \Rightarrow Z_P &= ü^2 \cdot Z_S
 $\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{\qty{450}{\ohm}}{\qty{50}{\ohm}}} \\ &= \sqrt{\frac{9}{1}} = \frac{3}{1} \end{split}$
 </fragment>
 
----
-[question:AC306]
----
-#### Lösungsweg
-* gegeben: $Z_P = \qty{50}{\ohm}$
-* gegeben: $Z_S = \qty{2,5}{\kilo\ohm}$
-* gesucht: $ü$
-
-<fragment>
-$\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{\qty{50}{\ohm}}{\qty{2,5}{\kilo\ohm}}} \\ &= \sqrt{\frac{1}{50}} \approx \frac{1}{7} \end{split}$
-</fragment>
 
 ---
 ### Maximaler Strom
