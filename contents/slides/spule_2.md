@@ -159,7 +159,7 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 
 ---
 <left>
-[photo:269:a_Widerstandsdreieck_R_L:Geometrische Addition von $R$ und $X_L$ und Phasenverschiebung zwischen $Z$ und $R$]
+[picture:1067:a_impedanzdreieck:Impedanz $Z$ als geometrische Addition von $R$ und $X$]
   
 $Z = \sqrt{R^2 + X^2}$
 </left>
@@ -175,7 +175,15 @@ $Z = \sqrt{R^2 + X^2}$
 ---
 ### Abschirmung von magnetischen Feldern
 
-Ein Gehäuse aus einem magnetisch gut leitfähigem Material.
+<left>
+* Zur Abschirmung: Ein Gehäuse aus einem gut leitfähigem Material.
+* Beispiel: Abschirmbecher aus Stahl oder Eisen.
+* Verstellbaren Ferritkern um die Induktivität zu verändern.
+</left>
+<right>
+[photo:333:a_abschirmbecher:Beispiel für Spulen mit Abschirmbecher zur Abschirmung von magnetischen Feldern]
+</right>
+
 
 ---
 [question:AC210]

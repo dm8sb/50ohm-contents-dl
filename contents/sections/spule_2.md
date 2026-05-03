@@ -119,6 +119,10 @@ $B = \mu_0 \cdot \mu_r \cdot H$
 berechnen. Dabei entspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ und $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor $1$ eingesetzt (siehe Formelsammlung - Stichwort: Magnetische Feldkonstante; relative Permeabilität).
 </indepth>
 
-Zur Abschirmung eines Magnetfeldes benötigt man ein magnetisch gut leitfähiges Material, zum Beispiel Weißblech.
+Zur Abschirmung eines Magnetfeldes benötigt man ein magnetisch gut leitfähiges Material, zum Beispiel Weißblech. Die Abbildung [ref:a_abschirmbecher] zeigt ein Beispiel für Spulen mit Abschirmbecher. Die metallischen Abschirmbecher enthalten Spulen mit einem verstellbaren Ferritkern, der über die Öffnung von oben mit einem Schraubendreher hinein- oder herausgedreht wird. Dadurch ändert sich die Induktivität der Spule.
 
 [question:AC210]
+
+<margin>
+[photo:333:a_abschirmbecher:Beispiel für Spulen mit Abschirmbecher zur Abschirmung von magnetischen Feldern]
+</margin>
