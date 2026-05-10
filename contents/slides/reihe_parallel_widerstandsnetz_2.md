@@ -87,7 +87,7 @@ $R_{\mathrm{ges}} = \qty{200}{\ohm} + \frac{\qty{100}{\ohm} \cdot (\qty{200}{\oh
 * gesucht: $R_{\mathrm{ges}}$
 
 <fragment>
-$\begin{split} R_{\mathrm{ges}} &= \frac{(R_1 + R_2) \cdot (R_3 + R_4)}{(R_1 + R_2) + (R_3 + R_4)}\\ &= \frac{(\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm}) \cdot (\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm})}{\qty{2,2}{\kilo\ohm} + \qty{220}{\ohm} + \qty{2,2}{\kilo\ohm} + \qty{220}\ohm}\\ &= \qty{1210}{\ohm}\end{split}$
+$R_1 || R_3 + R_2 || R_4 = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$
 </fragment>
 ---
 [question:AD114]
