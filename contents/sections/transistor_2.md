@@ -1,9 +1,22 @@
-Den Bipolartransistor hatten wir bereits in den Ausbildungsunterlagen zur Klasse E ausführlich diskutiert. Er besteht aus drei Halbleiterzonen, die abwechselnd n- und p-dotiert sind. Die Zonen bezeichnet man als Emitter, Basis und Kollektor. Beim *npn-Transistor* ist der Emitter n-, die Basis p- und der Kollektor n-dotiert. Beim pnp-Transistor ist es entsprechend ein p-Emitter, eine n-Basis und ein p-Kollektor. 
+Den Bipolartransistor hatten wir bereits in den Ausbildungsunterlagen zur Klasse E diskutiert. In der Klasse A werden wir das Thema weiter vertiefen und auch noch einen weiteren Transistor betrachten.
+
+Der Bipolartransistor besteht aus drei Halbleiterzonen, die abwechselnd n- und p-dotiert sind. Die Zonen bezeichnet man als Emitter, Basis und Kollektor. Beim *npn-Transistor* ist der Emitter n-, die Basis p- und der Kollektor n-dotiert. Beim pnp-Transistor ist es entsprechend ein p-Emitter, eine n-Basis und ein p-Kollektor. 
+
+Die Abbildung [ref:a_bipolartransistor_aus] zeigt einen npn-Transistor im ausgeschalteten Zustand.
+Sobald die Basis-Emitter-Spannung $U_\mathrm{BE}$ durch Einschalten des Schalters angelegt wird (typisch $\approx \qtyrange{0,6}{0,7}{\volt}$ bei Silizium), wird die Basis-Emitter-Diode leitend. Dadurch fließt ein kleiner Basisstrom $I_\mathrm{B}$ (vgl. Abbildung [ref:a_bipolartransistor_ein]).
+
+Dieser kleine Basisstrom bewirkt, dass aus dem Emitter viele Elektronen in die dünne Basis eingebracht werden. Da die Basis sehr schmal ist, gelangen die meisten dieser Ladungsträger weiter zum Kollektor. Dort werden sie durch die anliegende Kollektor-Emitter-Spannung $U_\mathrm{CE}$ "abgesaugt", der Kollektorstrom $I_\mathrm{C}$ fließt. Er ist um den Faktor $B$ größer als der Basisstrom, wobei $B$ die sogenannte Stromverstärkung des Transistors ist. Typische Werte für $B$ liegen im Bereich von $\num{20}$ bis $\num{500}$.
+
+<margin>
+[picture:1071:a_bipolartransistor_aus:NPN Bipolartransistor im augeschaltenen Zustand]
+[picture:1072:a_bipolartransistor_ein:NPN Bipolartransistor im eingesschalteten Zustand]
+</margin>
 
 [question:AC503]
-[question:AC504]
 
-[question:AC501]
+Es empfiehl sich z.B. den NPN-Transistor zu merken. Bei PNP ist dann alles umgekehrt.
+
+[question:AC504]
 
 Physikalisch steuert die Basis-Emitter-Spannung $U_{BE}$ den Kollektorstrom $I_C$ und zwar exponentiell. Beim npn-Transistor gilt zum Beispiel:
 
@@ -19,57 +32,15 @@ Der Faktor $B$ ist also der Quotient aus Kollektor- und Basisstrom:
 
 $B = \frac{I_C}{I_B}$
 
-Es ist deshalb praktisch, sich den Bipolartransistor als *stromgesteuert* vorzustellen. Dies ist die gewünschte Antwort auf die obige Frage, auch wenn es physikalisch nicht ganz korrekt ist.
+Auch wenn der Bipolartransistor physikalisch über $U_\mathrm{BE}$ gesteuert wird, bezeichnet man ihn als *stromgesteuert*, weil er nur dann leitet, wenn ein Basisstrom fließt.
+
+[question:AC501]
+
+Ein Transistor wird als "leitend" in "Durchlassrichtung" bezeichnet, wenn ein signifikanter Kollektorstrom fließt. Dazu muss die Basis-Emitter-Diode stets in Flussrichtung geschaltet sein, also $U_{BE}$ positiv bei npn- und negativ bei pnp-Transistoren. Die Kollektor-Basis-Diode dagegen muss sperren, denn es sollen keine Ladungsträger aus dem Kollektor in die Basis injiziert werden.
 
 [question:AC505]
 
-Ein Transistor wird hier als "leitend" bezeichnet, wenn ein signifikanter Kollektorstrom fließt. Dazu muss die Basis-Emitter-Diode stets in Flussrichtung geschaltet sein, also $U_{BE}$ positiv bei npn- und negativ bei pnp-Transistoren. Die Kollektor-Basis-Diode dagegen muss sperren, denn es sollen keine Ladungsträger aus dem Kollektor in die Basis injiziert werden.
-
-[question:AC502]
-
-Feldeffekt-Transistoren haben ein ganz anderes Steuerprinzip als Bipolartransistoren. Während bei Bipolartransistoren sowohl Elektronen also auch Defektelektronen ("Löcher") betrachtet werden müssen (daher "bipolar"), ist beim Feldeffekt-Transistor nur eine Ladungsträgersorte beteiligt ("unipolar"). Dies können entweder Elektronen (*n-Kanal-Feldeffekt-Transistor*) oder Löcher (*p-Kanal-Feldeffekt-Transistor*) sein.
-
-Allen Feldeffekt-Transistoren (oder *FETs*) gemein ist, dass im normalen Betrieb kein Strom im Eingang, der Gate-Elektrode, fließt. Die Steuerung der Ladung im Kanal (dem Bereich zwischen *Source* und *Drain*) ist ausschließlich von der Gate-Source-Spannung abhängig.
-
-[question:AC512]
-
-Die Elektroden des FET werden wie folgt bezeichnet:
-
-* *Source*: dies ist die "Quelle" (engl. source) für die Ladungsträger im Kanal. Nicht verwirren lassen: die sogenannte technische Stromrichtung ist entgegen der Ladungsträger-Flussrichtung definiert!
-* *Drain*: dies ist der Abfluss (engl. drain) für die Ladungsträger im Kanal.
-* *Gate*: Das Gate (englisch für Gatter) steuert den Fluss der Ladungsträger im Kanal.
-
-Die hier zur Verwirrung eingestreuten Begriffe Emitter, Basis, Kollektor beziehen sich auf den Bipolartransistor.
-
-[question:AC513]
-
-[question:AC514]
-
-Wie wir bereits festgestellt hatten, ist der FET ein *spannungsgesteuertes* Bauelement, in dem kein Gate-Strom fließt. Die gewünschte Antwort ist die, dass die Gate-Source-Spannung den *Kanalwiderstand* steuert. Allerdings kann das Verhalten des Kanals nur für sehr kleine Drain-Source-Spannungen als Widerstand beschrieben werden, in sofern ist die Antwort etwas unglücklich formuliert. Besser wäre: die Gate-Source-Spannung steuert den Kanalstrom.
-
-[question:AC506]
-
-Die senkrechte Linie symbolisiert den Kanal, die oben (Drain) und unten (Source) kontaktiert wird. Links ist das Gate zu sehen - der Pfeil erinnert zusammen mit dem senkrechten Strich an eine Diode. Es handelt sich also um einen FET, genau genommen einen Sperrschicht-FET.
-
-Bei den folgenden Fragen geht es darum, bestimmte FET-Typen ihrem Schaltsymbol zuzuordnen. Dazu ein paar Grundregeln:
-
-* Der Strom im Kanal kann entweder von Elektronen oder von Löchern getragen werden. Wir sprechen im ersten Fall von einem *n-Kanal-FET*, im zweiten Fall von einem *p-Kanal-FET*.
-* Wir können FETs auch danach unterscheiden, ob für eine Gate-Source-Spannung $U_{GS}=0$ ein Strom im Kanal fließt oder nicht. Sie heißen dann entweder *selbstleitend* oder *selbstsperrend*. 
-* Schließlich können wir FETs danach unterscheiden, ob die Gate-Elektrode eine Diode ist, oder eine Kondensator-Struktur. Ist Gate eine Diode, sprechen wir von einem Sperrschicht-FET. Beispiele sind der JFET (junction field effect transistor) und der MESFET (metal semiconductor field effect transistor). Beim MESFET ist die Gate-Diode eine Schottky-Diode. Bei einem *Isolierschicht-FET* ist die Gate-Elektrode durch einen Isolator (ein Dielektrikum) vom Kanal getrennt. Die anliegende Spannung steuert die Dichte von Ladungsträgern im Kanal. Ist der Isolator ein Oxid, zum Beispiel Siliziumdioxid, sprechen wir auch von einem MOSFET (metal oxide semiconductor FET). Wegen ihrer Verwendung in Digitalschaltkreisen sind MOSFETs mit sehr weitem Abstand die häufigsten Transistortypen.
-
-Der Pfeil zeigt an, ob es sich um einen n- oder p-Kanal-FET handelt. Wie bei der Diode zeigt der Pfeil auf die Kathode, also den n-dotierten Bereich. Zeigt also der Pfeil auf den Kanal, handelt es sich um einen n-Kanal-FET. Beim Sperrschicht-FET trägt das Gate den Kanal, beim Isolierschicht-FET ist der Pfeil zwischen Kanal und der sogenannten Bulk-Schicht zu sehen, die unter dem Kanal liegt und meist intern mit der Source-Elektrode verbunden ist.
-
-Im Isolierschicht-FET bilden Gate und Kanal auch grafisch einen Kondensator.
-
-Beim selbstleitenden FET geht die Linie zwischen Source und Drain durch, während sie beim selbstsperrenden FET unterbrochen ist.
-
-[question:AC507]
-[question:AC508]
-[question:AC509]
-[question:AC510]
-[question:AC511]
-
-Im Folgenden betrachten wir noch ein paar einfache Transistor-Schaltungen.
+Im Folgenden betrachten wir noch ein paar einfache Transistor-Schaltungen auf Basis des Bipolartransistors.
 
 [question:AC515]
 
@@ -107,6 +78,71 @@ Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ kei
 
 Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ mit der Betriebsspannung verbunden. Über diesen Pfad wird ein Basisstrom injiziert. Bei der üblichen Dimensionierung (Querstrom ist der zehnfache reguläre Basisstrom) ist der Basisstrom 11-fach höher als der reguläre Basisstrom - der Kollektorstrom wird sehr stark ansteigen, der Spannungsabfall an $R_C$ steigt stark an, die Kollektor-Emitter-Spannung sinkt auf den Sättigungswert von etwa $\qty{0,1}{\volt}$ ab. Der Kollektorstrom wird nur durch $R_C$ begrenzt.
 
+In der nächsten Aufgabe geht es um ein Relais, das über den in Serie dargestellten npn-Transistor geschaltet wird. Nehmen wir an, dass der Transistor zunächst durchgeschaltet ist, es fließt ein Strom durch die Relaisspule, das Relais hat angezogen.
+
+Nun schaltet der Transistor ab, der Stromfluss bricht zusammen. Die starke Änderung des Stroms induziert allerdings kurzzeitig in der Spule des Relais eine hohe negative Spannung, die zur Zerstörung des Transistors führen kann.
+
+Um dies zu verhindern, schalten wir eine Freilaufdiode *parallel*. Sie ist so geschaltet, dass sie im Regelbetrieb (Transistor durchgeschaltet) keinen Strom führt - sie muss also in Sperrrichtung eingebaut werden. Die negative Spannung, die beim Zusammenbruch des Stroms kurzzeitig auftritt, schaltet die Diode in Flussrichtung, die entstehende Spannung wird (bei Siliziumdioden) auf $\qty{-0,7}{\volt} \ldots \qty{-0,8}{\volt}$ begrenzt.
+
+[question:AC524]
+
+---
+
+Feldeffekt-Transistoren haben ein ganz anderes Steuerprinzip als Bipolartransistoren. Während bei Bipolartransistoren sowohl Elektronen also auch Defektelektronen ("Löcher") betrachtet werden müssen (daher "bipolar"), ist beim Feldeffekt-Transistor nur eine Ladungsträgersorte beteiligt ("unipolar"). Dies können entweder Elektronen (*n-Kanal-Feldeffekt-Transistor*) oder Löcher (*p-Kanal-Feldeffekt-Transistor*) sein.
+
+Die Elektroden des FET, welche in Abbildung [ref:a_fet_schnitt_aus] dargestellt sind, werden wie folgt bezeichnet:
+
+* *Source*: dies ist die "Quelle" (engl. source) für die Ladungsträger im Kanal. Nicht verwirren lassen: die sogenannte technische Stromrichtung ist entgegen der Ladungsträger-Flussrichtung definiert!
+* *Drain*: dies ist der Abfluss (engl. drain) für die Ladungsträger im Kanal.
+* *Gate*: Das Gate (englisch für Gatter) steuert den Fluss der Ladungsträger im Kanal.
+
+[question:AC512]
+
+Allen Feldeffekt-Transistoren (oder *FETs*) gemein ist, dass im normalen Betrieb kein Strom im Eingang, der Gate-Elektrode, fließt. Die Steuerung der Ladung im Kanal (dem Bereich zwischen *Source* und *Drain*) ist ausschließlich von der Gate-Source-Spannung abhängig.
+
+<margin>
+[picture:1073:a_fet_schnitt_aus:FET im Querschnitt, nicht leitend]
+[picture:1074:a_fet_schnitt_ein:FET im Querschnitt, leitend]
+</margin>
+
+Die Abbildungen [ref:a_fet_schnitt_aus] und [ref:a_fet_schnitt_ein] zeigen den Querschnitt eines n-Kanal-MOSFETs im gesperrten und im leitenden Zustand. Im oberen Bild ist keine ausreichende Gate-Source-Spannung $U_{GS}$ angelegt. Zwischen den n-dotierten Bereichen von Source und Drain befindet sich das p-dotierte Substrat, sodass kein leitfähiger Kanal vorhanden ist. Der Transistor sperrt, und zwischen Source und Drain kann kein Strom fließen.
+
+Wird am Gate eine positive Spannung gegenüber Source angelegt (vgl. Abbildung [ref:a_fet_schnitt_ein]), entsteht durch die isolierende SiO$_2$-Schicht hindurch ein elektrisches Feld. Dieses Feld zieht Elektronen an die Oberfläche des p-dotierten Substrats direkt unterhalb des Gates. Dadurch bildet sich dort ein leitfähiger n-Kanal, der Source und Drain miteinander verbindet. Der MOSFET wird leitend, und es kann ein Strom zwischen Drain und Source fließen.
+
+Wichtig ist dabei, dass das Gate durch die Oxidschicht elektrisch isoliert ist. Im Idealfall fließt daher kein Gate-Strom; der MOSFET wird nicht durch einen Steuerstrom, sondern durch das elektrische Feld am Gate gesteuert. Deshalb wird er auch als *spannungsgesteuertes* Bauelement bezeichnet.
+
+[question:AC502]
+
+[question:AC513]
+
+[question:AC514]
+
+Wie wir bereits festgestellt hatten, ist der FET ein *spannungsgesteuertes* Bauelement, in dem kein Gate-Strom fließt. Die gewünschte Antwort ist die, dass die Gate-Source-Spannung den *Kanalwiderstand* steuert. Allerdings kann das Verhalten des Kanals nur für sehr kleine Drain-Source-Spannungen als Widerstand beschrieben werden, in sofern ist die Antwort etwas unglücklich formuliert. Besser wäre: die Gate-Source-Spannung steuert den Kanalstrom.
+
+[question:AC506]
+
+Die senkrechte Linie symbolisiert den Kanal, die oben (Drain) und unten (Source) kontaktiert wird. Links ist das Gate zu sehen - der Pfeil erinnert zusammen mit dem senkrechten Strich an eine Diode. Es handelt sich also um einen FET, genau genommen einen Sperrschicht-FET.
+
+Bei den folgenden Fragen geht es darum, bestimmte FET-Typen ihrem Schaltsymbol zuzuordnen. Dazu ein paar Grundregeln:
+
+* Der Strom im Kanal kann entweder von Elektronen oder von Löchern getragen werden. Wir sprechen im ersten Fall von einem *n-Kanal-FET*, im zweiten Fall von einem *p-Kanal-FET*.
+* Wir können FETs auch danach unterscheiden, ob für eine Gate-Source-Spannung $U_{GS}=0$ ein Strom im Kanal fließt oder nicht. Sie heißen dann entweder *selbstleitend* oder *selbstsperrend*. 
+* Schließlich können wir FETs danach unterscheiden, ob die Gate-Elektrode eine Diode ist, oder eine Kondensator-Struktur. Ist Gate eine Diode, sprechen wir von einem Sperrschicht-FET. Beispiele sind der JFET (junction field effect transistor) und der MESFET (metal semiconductor field effect transistor). Beim MESFET ist die Gate-Diode eine Schottky-Diode. Bei einem *Isolierschicht-FET* ist die Gate-Elektrode durch einen Isolator (ein Dielektrikum) vom Kanal getrennt. Die anliegende Spannung steuert die Dichte von Ladungsträgern im Kanal. Ist der Isolator ein Oxid, zum Beispiel Siliziumdioxid, sprechen wir auch von einem MOSFET (metal oxide semiconductor FET). Wegen ihrer Verwendung in Digitalschaltkreisen sind MOSFETs mit sehr weitem Abstand die häufigsten Transistortypen.
+
+Der Pfeil zeigt an, ob es sich um einen n- oder p-Kanal-FET handelt. Wie bei der Diode zeigt der Pfeil auf die Kathode, also den n-dotierten Bereich. Zeigt also der Pfeil auf den Kanal, handelt es sich um einen n-Kanal-FET. Beim Sperrschicht-FET trägt das Gate den Kanal, beim Isolierschicht-FET ist der Pfeil zwischen Kanal und der sogenannten Bulk-Schicht zu sehen, die unter dem Kanal liegt und meist intern mit der Source-Elektrode verbunden ist.
+
+Im Isolierschicht-FET bilden Gate und Kanal auch grafisch einen Kondensator.
+
+Beim selbstleitenden FET geht die Linie zwischen Source und Drain durch, während sie beim selbstsperrenden FET unterbrochen ist.
+
+[question:AC507]
+[question:AC508]
+[question:AC509]
+[question:AC510]
+[question:AC511]
+
+Im folgenden wollen wir auch ein paar MOSFET-Schaltungen betrachten, die auf den vorherigen Fragen aufbauen.
+
 [question:AC521]
 
 In den Gate-Anschluss eines MOSFETs fließt kein Gleichstrom. Daher handelt es sich im einen *unbelasteten* Spannungsteiler und es gilt:
@@ -124,11 +160,3 @@ $\frac{R_2}{R_1} = \frac{\qty{2,8}{\volt}}{\qty{44}{\volt} - \qty{2,8}{\volt}} \
 Der Leistungs-MOSFET ist hier vollständig durchgeschaltet, der Kanal lässt sich als ein ohmscher Widerstand von (lt. Aufgabenstellung) $R_{ch} = \qty{4}{\milli\ohm}$ darstellen. Es fließt ein Strom von $\qty{25}{\ampere}$. Die Verlustleistung berechnen wir nach der Formel
 
 $P_V = I^2 \cdot R_{ch} = \qty{2,5}{\watt}$
-
-[question:AC524]
-
-In dieser Aufgabe geht es um ein Relais, das über den in Serie dargestellten npn-Transistor geschaltet wird. Nehmen wir an, dass der Transistor zunächst durchgeschaltet ist, es fließt ein Strom durch die Relaisspule, das Relais hat angezogen.
-
-Nun schaltet der Transistor ab, der Stromfluss bricht zusammen. Die starke Änderung des Stroms induziert allerdings kurzzeitig in der Spule des Relais eine hohe negative Spannung, die zur Zerstörung des Transistors führen kann.
-
-Um dies zu verhindern, schalten wir eine Freilaufdiode *parallel*. Sie ist so geschaltet, dass sie im Regelbetrieb (Transistor durchgeschaltet) keinen Strom führt - sie muss also in Sperrrichtung eingebaut werden. Die negative Spannung, die beim Zusammenbruch des Stroms kurzzeitig auftritt, schaltet die Diode in Flussrichtung, die entstehende Spannung wird (bei Siliziumdioden) auf $\qty{-0,7}{\volt} \ldots \qty{-0,8}{\volt}$ begrenzt.
