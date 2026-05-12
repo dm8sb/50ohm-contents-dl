@@ -52,7 +52,7 @@ Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{\mathrm{in}} - 
 
 ------
 [question:AD319]
-Die Verlustleistung $P_V$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spanungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel lässt sich der Wirkungsgrad berechnen:
+Die Verlustleistung $P_V$ bestimmt auch den Wirkungsgrad eines Spannungsreglers. Bei linearen Spannungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Mit der folgenden Formel lässt sich der Wirkungsgrad berechnen:
 Wirkungsgrad = abgegebene Leistung auf der Lastseite : gesamte Eingangsleistung
 $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$
 
