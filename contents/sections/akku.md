@@ -29,7 +29,7 @@ Bei einem 4S2P sind insgesamt 8 Zellen verbaut. 4 in Serie und das 2 mal paralle
 
 Bei dem Beispiel-Akku sind $\qty{4200}{\milli\ampere\hour}$ angegeben. Dies entspricht $\qty{4,2}{\ampere\hour}$. Das würde theoretisch bedeuten, wir können unseren Akku $\qty{1}{\hour}$ lang mit $\qty{4,2}{\ampere}$ oder $\qty{2}{\hour}$ lang mit $\qty{2,1}{\ampere}$ usw. belasten.
 $t=\frac{Q}{I}$
-$t=\frac{\qty{4,2}{\ampere\hour}}{\qty{1}{\ampere}} = \qty{1}{\hour}$
+$t=\frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
 Wenn die Kapazität $Q$ in $\unit{\ampere\second}$ zu berechnen ist, dann erfolgt die Umrechnung  dadurch, dass die Angabe Stunden ($\unit{\hour}$) durch $\qty{3600}{\second}$ ersetzt wird. Daraus ergibt sich $\qty{4,2}{\ampere} \cdot \qty{3600}{\second} = \qty{15120}{\ampere\second}$.
 Nun wollen wir aber auch wissen, wie viel elektrische Energie in dem Akku gespeichert ist. Energie ($\unit{\watt\hour}$) ist die Ladung $Q$ ($\unit{\ampere\hour}$) des Akkus multipliziert mit der Gesamtspannung $U$ in Volt.
 

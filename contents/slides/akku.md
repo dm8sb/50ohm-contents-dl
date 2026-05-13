@@ -41,7 +41,7 @@ $\rightarrow$ 1 Stunde mit $\qty{4,2}{\ampere}$ oder 2 Stunden mit $\qty{2,1}{\a
 $t = \frac{Q}{I}$
 </fragment>
 <fragment>
-$t = \frac{\qty{4,2}{\ampere\hour}}{\qty{1}{\ampere}} = \qty{1}{\hour}$
+$t = \frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
 </fragment>
 <note>
 ggf. Stunden in Sekunden mit $\qty{1}{\hour} = \qty{3600}{\second}$ umrechnen
