@@ -99,17 +99,13 @@ $R_1 || R_3 + R_2 || R_4 = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}
 </fragment>
 ---
 [question:AD114]
----
+--- style="font-size: 0.7em;"
 #### Lösungsweg
-<left>
 * gegeben: $R_1 = \qty{10}{\kilo\ohm}$
 * gegeben: $R_2 = \qty{2,2}{\kilo\ohm}$
 * gegeben: $R_L = \qty{8,2}{\kilo\ohm}$
-</left>
-<right>
 * gegeben: $U_B = \qty{12}{\volt}$
 * gesucht: $U_2$
-</right>
 
 <fragment>
 $\frac{U_2}{U_B} = \frac{R_2 \parallel R_L}{R_{\mathrm{ges}}}$
